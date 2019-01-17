@@ -1,0 +1,9 @@
+.title KiCad schematic
+.op
+.model NPN npn (is=6.7e-15 bf=416.4 nf=1 vaf=74.03 ikf=0.06678 ise=6.7e-15 ne=1.259 br=0.7371 nr=1 rb=10 rc=1)
+V1 /nor-2/A 0 dc 5
+R3 /nor-2/A /nor-2/Q 1K
+*R1 /nor-2/A /nor-2/AorB 10K
+*R2 /nor-2/A /nor-2/AorB 10K
+Q1 /nor-2/Q /nor-2/AorB 0 NPN
+.end

@@ -1,0 +1,124 @@
+EESchema Schematic File Version 4
+LIBS:flip-flop-d-test-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L pspice:0 #GND0101
+U 1 1 5C3FF203
+P 3400 3150
+F 0 "#GND0101" H 3400 3050 50  0001 C CNN
+F 1 "0" H 3400 3237 50  0000 C CNN
+F 2 "" H 3400 3150 50  0001 C CNN
+F 3 "~" H 3400 3150 50  0001 C CNN
+	1    3400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:VSOURCE V1
+U 1 1 5C3FF233
+P 3400 2300
+F 0 "V1" H 3628 2346 50  0000 L CNN
+F 1 "dc 5" H 3628 2255 50  0000 L CNN
+F 2 "" H 3400 2300 50  0001 C CNN
+F 3 "~" H 3400 2300 50  0001 C CNN
+	1    3400 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2600 3400 3150
+$Sheet
+S 4450 1950 700  450 
+U 5C3FF380
+F0 "flip-flop-d" 50
+F1 "flip-flop-d.sch" 50
+F2 "Vcc" I L 4450 2000 50 
+F3 "Gnd" I L 4450 2100 50 
+F4 "D" I L 4450 2250 50 
+F5 "CLK" I L 4450 2350 50 
+F6 "Q" I R 5150 2350 50 
+F7 "NQ" I R 5150 2000 50 
+$EndSheet
+Wire Wire Line
+	4450 2000 3400 2000
+Wire Wire Line
+	4450 2100 4050 2100
+Wire Wire Line
+	4050 2100 4050 2600
+Wire Wire Line
+	4050 2600 3400 2600
+Connection ~ 3400 2600
+$Comp
+L pspice:0 #GND0102
+U 1 1 5C3FF6A2
+P 3850 3700
+F 0 "#GND0102" H 3850 3600 50  0001 C CNN
+F 1 "0" H 3850 3787 50  0000 C CNN
+F 2 "" H 3850 3700 50  0001 C CNN
+F 3 "~" H 3850 3700 50  0001 C CNN
+	1    3850 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:VSOURCE V2
+U 1 1 5C3FF6F4
+P 3850 3250
+F 0 "V2" H 4078 3296 50  0000 L CNN
+F 1 "dc 5" H 4078 3205 50  0000 L CNN
+F 2 "" H 3850 3250 50  0001 C CNN
+F 3 "~" H 3850 3250 50  0001 C CNN
+	1    3850 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3550 3850 3700
+$Comp
+L pspice:0 #GND0103
+U 1 1 5C3FF939
+P 4600 3700
+F 0 "#GND0103" H 4600 3600 50  0001 C CNN
+F 1 "0" H 4600 3787 50  0000 C CNN
+F 2 "" H 4600 3700 50  0001 C CNN
+F 3 "~" H 4600 3700 50  0001 C CNN
+	1    4600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:VSOURCE V3
+U 1 1 5C3FF93F
+P 4600 3250
+F 0 "V3" H 4828 3296 50  0000 L CNN
+F 1 "dc 5" H 4828 3205 50  0000 L CNN
+F 2 "" H 4600 3250 50  0001 C CNN
+F 3 "~" H 4600 3250 50  0001 C CNN
+	1    4600 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3550 4600 3700
+Wire Wire Line
+	4450 2250 4100 2250
+Wire Wire Line
+	4100 2250 4100 2650
+Wire Wire Line
+	4100 2650 3850 2650
+Wire Wire Line
+	3850 2650 3850 2950
+Wire Wire Line
+	4450 2350 4400 2350
+Wire Wire Line
+	4400 2350 4400 2950
+Wire Wire Line
+	4400 2950 4600 2950
+$EndSCHEMATC

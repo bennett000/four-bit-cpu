@@ -1,0 +1,17 @@
+.title KiCad schematic
+.model NPN npn (is=6.7e-15 bf=416.4 nf=1 vaf=74.03 ikf=0.06678 ise=6.7e-15 ne=1.259 br=0.7371 nr=1 rb=10 rc=1)
+V1 latchsrR 0 dc 5
+V2 S 0 dc 5
+V3 R 0 dc 0
+R3 latchsrR latchsrQ 1K
+R1 R latchsrlatchsrnor1AorB 10K
+R2 latchsrNQ latchsrlatchsrnor1AorB 10K
+Q1 latchsrQ latchsrlatchsrnor1AorB 0 NPN
+R6 latchsrR latchsrNQ 1K
+R4 latchsrQ latchsrlatchsrnor2AorB 10K
+R5 S latchsrlatchsrnor2AorB 10K
+Q2 latchsrNQ latchsrlatchsrnor2AorB 0 NPN
+.dc V2 5 0 5
+.dc V3 0 5 1
+.print dc v(latchsrQ)
+.end

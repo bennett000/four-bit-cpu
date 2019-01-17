@@ -1,0 +1,15 @@
+.title KiCad schematic
+.op
+.model NPN npn (is=6.7e-15 bf=416.4 nf=1 vaf=74.03 ikf=0.06678 ise=6.7e-15 ne=1.259 br=0.7371 nr=1 rb=10 rc=1)
+V1 /and-2/A 0 dc 5
+R3 /and-2/A /and-2/Q 1K
+R1 /and-2/sheet5C364DB7/A /and-2/sheet5C364DB7/AorB 10K
+R2 /and-2/sheet5C364DB7/B /and-2/sheet5C364DB7/AorB 10K
+Q1 /and-2/Q /and-2/sheet5C364DB7/AorB 0 NPN
+R5 /and-2/A /and-2/sheet5C364DB7/A 1K
+R4 /and-2/A /and-2/Sheet5C3654CC/Qr 10K
+Q2 /and-2/sheet5C364DB7/A /and-2/Sheet5C3654CC/Qr 0 NPN
+R7 /and-2/A /and-2/sheet5C364DB7/B 1K
+R6 /and-2/A /and-2/sheet5C366192/Qr 10K
+Q3 /and-2/sheet5C364DB7/B /and-2/sheet5C366192/Qr 0 NPN
+.end
