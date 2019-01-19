@@ -1,0 +1,51 @@
+.title KiCad schematic
+V3 and-4-2Vcc 0 dc 5
+V1 A1 0 dc 5
+V2 A2 0 dc 5
+V4 A3 0 dc 5
+V5 A4 0 dc 5
+V6 B1 0 dc 5
+V7 and-4-2B2 0 dc 5
+V8 B3 0 dc 5
+V9 B4 0 dc 5
+R3 and-4-2Vcc and-4-2Q1 1K
+R1 and-4-2gate-and-4-2-and-1sheet5C364DB7A and-4-2gate-and-4-2-and-1sheet5C364DB7AorB 10K
+R2 and-4-2gate-and-4-2-and-1sheet5C364DB7B and-4-2gate-and-4-2-and-1sheet5C364DB7AorB 10K
+Q1 and-4-2Q1 and-4-2gate-and-4-2-and-1sheet5C364DB7AorB 0 NPN
+R5 and-4-2Vcc and-4-2gate-and-4-2-and-1sheet5C364DB7A 1K
+R4 A1 and-4-2gate-and-4-2-and-1Sheet5C3654CCQr 10K
+Q2 and-4-2gate-and-4-2-and-1sheet5C364DB7A and-4-2gate-and-4-2-and-1Sheet5C3654CCQr 0 NPN
+R7 and-4-2Vcc and-4-2gate-and-4-2-and-1sheet5C364DB7B 1K
+R6 B1 and-4-2gate-and-4-2-and-1sheet5C366192Qr 10K
+Q3 and-4-2gate-and-4-2-and-1sheet5C364DB7B and-4-2gate-and-4-2-and-1sheet5C366192Qr 0 NPN
+R10 and-4-2Vcc and-4-2Q2 1K
+R8 and-4-2gate-and-4-2-and-2sheet5C364DB7A and-4-2gate-and-4-2-and-2sheet5C364DB7AorB 10K
+R9 and-4-2gate-and-4-2-and-2sheet5C364DB7B and-4-2gate-and-4-2-and-2sheet5C364DB7AorB 10K
+Q4 and-4-2Q2 and-4-2gate-and-4-2-and-2sheet5C364DB7AorB 0 NPN
+R12 and-4-2Vcc and-4-2gate-and-4-2-and-2sheet5C364DB7A 1K
+R11 A2 and-4-2gate-and-4-2-and-2Sheet5C3654CCQr 10K
+Q5 and-4-2gate-and-4-2-and-2sheet5C364DB7A and-4-2gate-and-4-2-and-2Sheet5C3654CCQr 0 NPN
+R14 and-4-2Vcc and-4-2gate-and-4-2-and-2sheet5C364DB7B 1K
+R13 and-4-2B2 and-4-2gate-and-4-2-and-2sheet5C366192Qr 10K
+Q6 and-4-2gate-and-4-2-and-2sheet5C364DB7B and-4-2gate-and-4-2-and-2sheet5C366192Qr 0 NPN
+R17 and-4-2Vcc and-4-2Q3 1K
+R15 and-4-2gate-and-4-2-and-3sheet5C364DB7A and-4-2gate-and-4-2-and-3sheet5C364DB7AorB 10K
+R16 and-4-2gate-and-4-2-and-3sheet5C364DB7B and-4-2gate-and-4-2-and-3sheet5C364DB7AorB 10K
+Q7 and-4-2Q3 and-4-2gate-and-4-2-and-3sheet5C364DB7AorB 0 NPN
+R19 and-4-2Vcc and-4-2gate-and-4-2-and-3sheet5C364DB7A 1K
+R18 A3 and-4-2gate-and-4-2-and-3Sheet5C3654CCQr 10K
+Q8 and-4-2gate-and-4-2-and-3sheet5C364DB7A and-4-2gate-and-4-2-and-3Sheet5C3654CCQr 0 NPN
+R21 and-4-2Vcc and-4-2gate-and-4-2-and-3sheet5C364DB7B 1K
+R20 B3 and-4-2gate-and-4-2-and-3sheet5C366192Qr 10K
+Q9 and-4-2gate-and-4-2-and-3sheet5C364DB7B and-4-2gate-and-4-2-and-3sheet5C366192Qr 0 NPN
+R24 and-4-2Vcc and-4-2Q4 1K
+R22 and-4-2gate-and-4-2-and-4sheet5C364DB7A and-4-2gate-and-4-2-and-4sheet5C364DB7AorB 10K
+R23 and-4-2gate-and-4-2-and-4sheet5C364DB7B and-4-2gate-and-4-2-and-4sheet5C364DB7AorB 10K
+Q10 and-4-2Q4 and-4-2gate-and-4-2-and-4sheet5C364DB7AorB 0 NPN
+R26 and-4-2Vcc and-4-2gate-and-4-2-and-4sheet5C364DB7A 1K
+R25 A4 and-4-2gate-and-4-2-and-4Sheet5C3654CCQr 10K
+Q11 and-4-2gate-and-4-2-and-4sheet5C364DB7A and-4-2gate-and-4-2-and-4Sheet5C3654CCQr 0 NPN
+R28 and-4-2Vcc and-4-2gate-and-4-2-and-4sheet5C364DB7B 1K
+R27 B4 and-4-2gate-and-4-2-and-4sheet5C366192Qr 10K
+Q12 and-4-2gate-and-4-2-and-4sheet5C364DB7B and-4-2gate-and-4-2-and-4sheet5C366192Qr 0 NPN
+.end
