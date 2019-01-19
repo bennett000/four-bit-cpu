@@ -1,0 +1,12 @@
+.title KiCad schematic
+.op
+.model NPN npn (is=6.7e-15 bf=416.4 nf=1 vaf=74.03 ikf=0.06678 ise=6.7e-15 ne=1.259 br=0.7371 nr=1 rb=10 rc=1)
+V1 bufferVcc 0 dc 5
+V2 Qin 0 dc 0
+R2 bufferVcc bufferbuffernot1NQ 1K
+R1 Qin bufferbuffernot1Qr 10K
+Q1 bufferbuffernot1NQ bufferbuffernot1Qr 0 NPN
+R4 bufferVcc bufferQQ 1K
+R3 bufferbuffernot1NQ bufferbuffernot2Qr 10K
+Q2 bufferQQ bufferbuffernot2Qr 0 NPN
+.end

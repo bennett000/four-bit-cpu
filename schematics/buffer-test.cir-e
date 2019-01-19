@@ -1,0 +1,10 @@
+.title KiCad schematic
+V1 bufferVcc 0 dc 5
+V2 Qin 0 dc 5
+R2 bufferVcc bufferbuffer-not-1NQ 1K
+R1 Qin bufferbuffer-not-1Qr 10K
+Q1 bufferbuffer-not-1NQ bufferbuffer-not-1Qr 0 NPN
+R4 bufferVcc bufferQQ 1K
+R3 bufferbuffer-not-1NQ bufferbuffer-not-2Qr 10K
+Q2 bufferQQ bufferbuffer-not-2Qr 0 NPN
+.end
