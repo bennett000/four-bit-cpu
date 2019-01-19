@@ -1,0 +1,30 @@
+.title KiCad schematic
+.op
+.model NPN npn (is=6.7e-15 bf=416.4 nf=1 vaf=74.03 ikf=0.06678 ise=6.7e-15 ne=1.259 br=0.7371 nr=1 rb=10 rc=1)
+V1 replicate14Vcc 0 dc 5
+V2 Ain 0 dc 0
+R2 replicate14Vcc replicate14replicate14buffer1buffernot1NQ 1K
+R1 Ain replicate14replicate14buffer1buffernot1Qr 10K
+Q1 replicate14replicate14buffer1buffernot1NQ replicate14replicate14buffer1buffernot1Qr 0 NPN
+R4 replicate14Vcc replicate14Z1 1K
+R3 replicate14replicate14buffer1buffernot1NQ replicate14replicate14buffer1buffernot2Qr 10K
+Q2 replicate14Z1 replicate14replicate14buffer1buffernot2Qr 0 NPN
+R6 replicate14Vcc replicate14replicate14buffer2buffernot1NQ 1K
+R5 Ain replicate14replicate14buffer2buffernot1Qr 10K
+Q3 replicate14replicate14buffer2buffernot1NQ replicate14replicate14buffer2buffernot1Qr 0 NPN
+R8 replicate14Vcc replicate14Z2 1K
+R7 replicate14replicate14buffer2buffernot1NQ replicate14replicate14buffer2buffernot2Qr 10K
+Q4 replicate14Z2 replicate14replicate14buffer2buffernot2Qr 0 NPN
+R10 replicate14Vcc replicate14replicate14buffer3buffernot1NQ 1K
+R9 Ain replicate14replicate14buffer3buffernot1Qr 10K
+Q5 replicate14replicate14buffer3buffernot1NQ replicate14replicate14buffer3buffernot1Qr 0 NPN
+R12 replicate14Vcc replicate14Z3 1K
+R11 replicate14replicate14buffer3buffernot1NQ replicate14replicate14buffer3buffernot2Qr 10K
+Q6 replicate14Z3 replicate14replicate14buffer3buffernot2Qr 0 NPN
+R14 replicate14Vcc replicate14replicate14buffer4buffernot1NQ 1K
+R13 Ain replicate14replicate14buffer4buffernot1Qr 10K
+Q7 replicate14replicate14buffer4buffernot1NQ replicate14replicate14buffer4buffernot1Qr 0 NPN
+R16 replicate14Vcc replicate14Z4 1K
+R15 replicate14replicate14buffer4buffernot1NQ replicate14replicate14buffer4buffernot2Qr 10K
+Q8 replicate14Z4 replicate14replicate14buffer4buffernot2Qr 0 NPN
+.end
