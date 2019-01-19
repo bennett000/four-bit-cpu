@@ -1,0 +1,80 @@
+.title KiCad schematic
+V2 bitwise-inv-4-4Vcc 0 dc 5
+V1 En 0 dc 5
+V3 A1 0 dc 5
+V4 A2 0 dc 5
+V5 A3 0 dc 5
+V6 A4 0 dc 5
+R3 bitwise-inv-4-4Vcc bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-nor-2B 1K
+R1 En bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-nor-1AorB 10K
+R2 A1 bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-nor-1AorB 10K
+Q1 bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-nor-2B bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-nor-1AorB 0 NPN
+R6 bitwise-inv-4-4Vcc bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-nor-2A 1K
+R4 bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-and-1sheet5C364DB7A bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-and-1sheet5C364DB7AorB 10K
+R5 bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-and-1sheet5C364DB7B bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-and-1sheet5C364DB7AorB 10K
+Q2 bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-nor-2A bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-and-1sheet5C364DB7AorB 0 NPN
+R8 bitwise-inv-4-4Vcc bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-and-1sheet5C364DB7A 1K
+R7 En bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-and-1Sheet5C3654CCQr 10K
+Q3 bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-and-1sheet5C364DB7A bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-and-1Sheet5C3654CCQr 0 NPN
+R10 bitwise-inv-4-4Vcc bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-and-1sheet5C364DB7B 1K
+R9 A1 bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-and-1sheet5C366192Qr 10K
+Q4 bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-and-1sheet5C364DB7B bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-and-1sheet5C366192Qr 0 NPN
+R13 bitwise-inv-4-4Vcc bitwise-inv-4-4Z1 1K
+R11 bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-nor-2A bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-nor-2AorB 10K
+R12 bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-nor-2B bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-nor-2AorB 10K
+Q5 bitwise-inv-4-4Z1 bitwise-inv-4-4bitwise-inv-xor-2-1xor-2-nor-2AorB 0 NPN
+R16 bitwise-inv-4-4Vcc bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-nor-2B 1K
+R14 En bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-nor-1AorB 10K
+R15 A2 bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-nor-1AorB 10K
+Q6 bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-nor-2B bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-nor-1AorB 0 NPN
+R19 bitwise-inv-4-4Vcc bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-nor-2A 1K
+R17 bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-and-1sheet5C364DB7A bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-and-1sheet5C364DB7AorB 10K
+R18 bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-and-1sheet5C364DB7B bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-and-1sheet5C364DB7AorB 10K
+Q7 bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-nor-2A bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-and-1sheet5C364DB7AorB 0 NPN
+R21 bitwise-inv-4-4Vcc bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-and-1sheet5C364DB7A 1K
+R20 En bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-and-1Sheet5C3654CCQr 10K
+Q8 bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-and-1sheet5C364DB7A bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-and-1Sheet5C3654CCQr 0 NPN
+R23 bitwise-inv-4-4Vcc bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-and-1sheet5C364DB7B 1K
+R22 A2 bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-and-1sheet5C366192Qr 10K
+Q9 bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-and-1sheet5C364DB7B bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-and-1sheet5C366192Qr 0 NPN
+R26 bitwise-inv-4-4Vcc bitwise-inv-4-4Z2 1K
+R24 bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-nor-2A bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-nor-2AorB 10K
+R25 bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-nor-2B bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-nor-2AorB 10K
+Q10 bitwise-inv-4-4Z2 bitwise-inv-4-4bitwise-inv-xor-2-2xor-2-nor-2AorB 0 NPN
+R29 bitwise-inv-4-4Vcc bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-nor-2B 1K
+R27 En bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-nor-1AorB 10K
+R28 A3 bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-nor-1AorB 10K
+Q11 bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-nor-2B bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-nor-1AorB 0 NPN
+R32 bitwise-inv-4-4Vcc bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-nor-2A 1K
+R30 bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-and-1sheet5C364DB7A bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-and-1sheet5C364DB7AorB 10K
+R31 bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-and-1sheet5C364DB7B bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-and-1sheet5C364DB7AorB 10K
+Q12 bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-nor-2A bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-and-1sheet5C364DB7AorB 0 NPN
+R34 bitwise-inv-4-4Vcc bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-and-1sheet5C364DB7A 1K
+R33 En bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-and-1Sheet5C3654CCQr 10K
+Q13 bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-and-1sheet5C364DB7A bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-and-1Sheet5C3654CCQr 0 NPN
+R36 bitwise-inv-4-4Vcc bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-and-1sheet5C364DB7B 1K
+R35 A3 bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-and-1sheet5C366192Qr 10K
+Q14 bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-and-1sheet5C364DB7B bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-and-1sheet5C366192Qr 0 NPN
+R39 bitwise-inv-4-4Vcc bitwise-inv-4-4Z3 1K
+R37 bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-nor-2A bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-nor-2AorB 10K
+R38 bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-nor-2B bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-nor-2AorB 10K
+Q15 bitwise-inv-4-4Z3 bitwise-inv-4-4bitwise-inv-xor-2-3xor-2-nor-2AorB 0 NPN
+R42 bitwise-inv-4-4Vcc bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-nor-2B 1K
+R40 En bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-nor-1AorB 10K
+R41 A4 bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-nor-1AorB 10K
+Q16 bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-nor-2B bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-nor-1AorB 0 NPN
+R45 bitwise-inv-4-4Vcc bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-nor-2A 1K
+R43 bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-and-1sheet5C364DB7A bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-and-1sheet5C364DB7AorB 10K
+R44 bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-and-1sheet5C364DB7B bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-and-1sheet5C364DB7AorB 10K
+Q17 bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-nor-2A bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-and-1sheet5C364DB7AorB 0 NPN
+R47 bitwise-inv-4-4Vcc bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-and-1sheet5C364DB7A 1K
+R46 En bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-and-1Sheet5C3654CCQr 10K
+Q18 bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-and-1sheet5C364DB7A bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-and-1Sheet5C3654CCQr 0 NPN
+R49 bitwise-inv-4-4Vcc bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-and-1sheet5C364DB7B 1K
+R48 A4 bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-and-1sheet5C366192Qr 10K
+Q19 bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-and-1sheet5C364DB7B bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-and-1sheet5C366192Qr 0 NPN
+R52 bitwise-inv-4-4Vcc bitwise-inv-4-4Z4 1K
+R50 bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-nor-2A bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-nor-2AorB 10K
+R51 bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-nor-2B bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-nor-2AorB 10K
+Q20 bitwise-inv-4-4Z4 bitwise-inv-4-4bitwise-inv-xor-2-4xor-2-nor-2AorB 0 NPN
+.end
