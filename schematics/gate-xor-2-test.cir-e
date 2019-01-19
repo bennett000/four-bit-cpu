@@ -1,0 +1,23 @@
+.title KiCad schematic
+V1 xor-2Vcc 0 dc 5
+V2 Ain 0 dc 5
+V3 Bin 0 dc 5
+R3 xor-2Vcc xor-2xor-2-nor-2B 1K
+R1 Ain xor-2xor-2-nor-1AorB 10K
+R2 Bin xor-2xor-2-nor-1AorB 10K
+Q1 xor-2xor-2-nor-2B xor-2xor-2-nor-1AorB 0 NPN
+R6 xor-2Vcc xor-2xor-2-nor-2A 1K
+R4 xor-2xor-2-and-1sheet5C364DB7A xor-2xor-2-and-1sheet5C364DB7AorB 10K
+R5 xor-2xor-2-and-1sheet5C364DB7B xor-2xor-2-and-1sheet5C364DB7AorB 10K
+Q2 xor-2xor-2-nor-2A xor-2xor-2-and-1sheet5C364DB7AorB 0 NPN
+R8 xor-2Vcc xor-2xor-2-and-1sheet5C364DB7A 1K
+R7 Ain xor-2xor-2-and-1Sheet5C3654CCQr 10K
+Q3 xor-2xor-2-and-1sheet5C364DB7A xor-2xor-2-and-1Sheet5C3654CCQr 0 NPN
+R10 xor-2Vcc xor-2xor-2-and-1sheet5C364DB7B 1K
+R9 Bin xor-2xor-2-and-1sheet5C366192Qr 10K
+Q4 xor-2xor-2-and-1sheet5C364DB7B xor-2xor-2-and-1sheet5C366192Qr 0 NPN
+R13 xor-2Vcc xor-2Q 1K
+R11 xor-2xor-2-nor-2A xor-2xor-2-nor-2AorB 10K
+R12 xor-2xor-2-nor-2B xor-2xor-2-nor-2AorB 10K
+Q5 xor-2Q xor-2xor-2-nor-2AorB 0 NPN
+.end
