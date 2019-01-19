@@ -1,0 +1,154 @@
+.title KiCad schematic
+V2 register-4Vcc 0 dc 5
+V1 D1In 0 dc 5
+V6 ClkIn 0 PULSE(0 5 2NS 2NS 2NS 50NS 100NS)
+V7 ClrIn 0 dc 5
+V8 CEIn 0 dc 5
+V3 D2In 0 dc 5
+V4 D3In 0 dc 5
+V5 D4In 0 dc 5
+R3 register-4Vcc register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2A 1K
+R1 register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1A register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1AorB 10K
+R2 register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1AorB 10K
+Q1 register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2A register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1AorB 0 NPN
+R6 register-4Vcc register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A 1K
+R4 register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2A register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2AorB 10K
+R5 register-4register-4-flip-flop-1CEandClk register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2AorB 10K
+Q2 register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2AorB 0 NPN
+R10 register-4Vcc register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4A 1K
+R7 register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 10K
+R8 register-4register-4-flip-flop-1CEandClk register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 10K
+Q3 register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4A register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 0 NPN
+R9 register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1A register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 10K
+R13 register-4Vcc register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1A 1K
+R11 register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4A register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4AorB 10K
+R12 D1In register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4AorB 10K
+Q4 register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1A register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4AorB 0 NPN
+R17 register-4Vcc register-4Q1 1K
+R14 ClrIn register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 10K
+R15 register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 10K
+Q5 register-4Q1 register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 0 NPN
+R16 register-4NQ1 register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 10K
+R20 register-4Vcc register-4NQ1 1K
+R18 register-4Q1 register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-6AorB 10K
+R19 register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4A register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-6AorB 10K
+Q6 register-4NQ1 register-4register-4-flip-flop-1flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-6AorB 0 NPN
+R23 register-4Vcc register-4register-4-flip-flop-1CEandClk 1K
+R21 register-4register-4-flip-flop-1flip-flop-d-clr-ce-and-1sheet5C364DB7A register-4register-4-flip-flop-1flip-flop-d-clr-ce-and-1sheet5C364DB7AorB 10K
+R22 register-4register-4-flip-flop-1flip-flop-d-clr-ce-and-1sheet5C364DB7B register-4register-4-flip-flop-1flip-flop-d-clr-ce-and-1sheet5C364DB7AorB 10K
+Q7 register-4register-4-flip-flop-1CEandClk register-4register-4-flip-flop-1flip-flop-d-clr-ce-and-1sheet5C364DB7AorB 0 NPN
+R25 register-4Vcc register-4register-4-flip-flop-1flip-flop-d-clr-ce-and-1sheet5C364DB7A 1K
+R24 ClkIn register-4register-4-flip-flop-1flip-flop-d-clr-ce-and-1Sheet5C3654CCQr 10K
+Q8 register-4register-4-flip-flop-1flip-flop-d-clr-ce-and-1sheet5C364DB7A register-4register-4-flip-flop-1flip-flop-d-clr-ce-and-1Sheet5C3654CCQr 0 NPN
+R27 register-4Vcc register-4register-4-flip-flop-1flip-flop-d-clr-ce-and-1sheet5C364DB7B 1K
+R26 CEIn register-4register-4-flip-flop-1flip-flop-d-clr-ce-and-1sheet5C366192Qr 10K
+Q9 register-4register-4-flip-flop-1flip-flop-d-clr-ce-and-1sheet5C364DB7B register-4register-4-flip-flop-1flip-flop-d-clr-ce-and-1sheet5C366192Qr 0 NPN
+R30 register-4Vcc register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2A 1K
+R28 register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1A register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1AorB 10K
+R29 register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1AorB 10K
+Q10 register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2A register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1AorB 0 NPN
+R33 register-4Vcc register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A 1K
+R31 register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2A register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2AorB 10K
+R32 register-4register-4-flip-flop-2CEandClk register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2AorB 10K
+Q11 register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2AorB 0 NPN
+R37 register-4Vcc register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4A 1K
+R34 register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 10K
+R35 register-4register-4-flip-flop-2CEandClk register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 10K
+Q12 register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4A register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 0 NPN
+R36 register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1A register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 10K
+R40 register-4Vcc register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1A 1K
+R38 register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4A register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4AorB 10K
+R39 D2In register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4AorB 10K
+Q13 register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1A register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4AorB 0 NPN
+R44 register-4Vcc register-4Q2 1K
+R41 ClrIn register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 10K
+R42 register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 10K
+Q14 register-4Q2 register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 0 NPN
+R43 register-4NQ2 register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 10K
+R47 register-4Vcc register-4NQ2 1K
+R45 register-4Q2 register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-6AorB 10K
+R46 register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4A register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-6AorB 10K
+Q15 register-4NQ2 register-4register-4-flip-flop-2flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-6AorB 0 NPN
+R50 register-4Vcc register-4register-4-flip-flop-2CEandClk 1K
+R48 register-4register-4-flip-flop-2flip-flop-d-clr-ce-and-1sheet5C364DB7A register-4register-4-flip-flop-2flip-flop-d-clr-ce-and-1sheet5C364DB7AorB 10K
+R49 register-4register-4-flip-flop-2flip-flop-d-clr-ce-and-1sheet5C364DB7B register-4register-4-flip-flop-2flip-flop-d-clr-ce-and-1sheet5C364DB7AorB 10K
+Q16 register-4register-4-flip-flop-2CEandClk register-4register-4-flip-flop-2flip-flop-d-clr-ce-and-1sheet5C364DB7AorB 0 NPN
+R52 register-4Vcc register-4register-4-flip-flop-2flip-flop-d-clr-ce-and-1sheet5C364DB7A 1K
+R51 ClkIn register-4register-4-flip-flop-2flip-flop-d-clr-ce-and-1Sheet5C3654CCQr 10K
+Q17 register-4register-4-flip-flop-2flip-flop-d-clr-ce-and-1sheet5C364DB7A register-4register-4-flip-flop-2flip-flop-d-clr-ce-and-1Sheet5C3654CCQr 0 NPN
+R54 register-4Vcc register-4register-4-flip-flop-2flip-flop-d-clr-ce-and-1sheet5C364DB7B 1K
+R53 CEIn register-4register-4-flip-flop-2flip-flop-d-clr-ce-and-1sheet5C366192Qr 10K
+Q18 register-4register-4-flip-flop-2flip-flop-d-clr-ce-and-1sheet5C364DB7B register-4register-4-flip-flop-2flip-flop-d-clr-ce-and-1sheet5C366192Qr 0 NPN
+R57 register-4Vcc register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2A 1K
+R55 register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1A register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1AorB 10K
+R56 register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1AorB 10K
+Q19 register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2A register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1AorB 0 NPN
+R60 register-4Vcc register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A 1K
+R58 register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2A register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2AorB 10K
+R59 register-4register-4-flip-flop-3CEandClk register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2AorB 10K
+Q20 register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2AorB 0 NPN
+R64 register-4Vcc register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4A 1K
+R61 register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 10K
+R62 register-4register-4-flip-flop-3CEandClk register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 10K
+Q21 register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4A register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 0 NPN
+R63 register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1A register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 10K
+R67 register-4Vcc register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1A 1K
+R65 register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4A register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4AorB 10K
+R66 D3In register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4AorB 10K
+Q22 register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1A register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4AorB 0 NPN
+R71 register-4Vcc register-4Q3 1K
+R68 ClrIn register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 10K
+R69 register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 10K
+Q23 register-4Q3 register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 0 NPN
+R70 register-4NQ3 register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 10K
+R74 register-4Vcc register-4NQ3 1K
+R72 register-4Q3 register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-6AorB 10K
+R73 register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4A register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-6AorB 10K
+Q24 register-4NQ3 register-4register-4-flip-flop-3flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-6AorB 0 NPN
+R77 register-4Vcc register-4register-4-flip-flop-3CEandClk 1K
+R75 register-4register-4-flip-flop-3flip-flop-d-clr-ce-and-1sheet5C364DB7A register-4register-4-flip-flop-3flip-flop-d-clr-ce-and-1sheet5C364DB7AorB 10K
+R76 register-4register-4-flip-flop-3flip-flop-d-clr-ce-and-1sheet5C364DB7B register-4register-4-flip-flop-3flip-flop-d-clr-ce-and-1sheet5C364DB7AorB 10K
+Q25 register-4register-4-flip-flop-3CEandClk register-4register-4-flip-flop-3flip-flop-d-clr-ce-and-1sheet5C364DB7AorB 0 NPN
+R79 register-4Vcc register-4register-4-flip-flop-3flip-flop-d-clr-ce-and-1sheet5C364DB7A 1K
+R78 ClkIn register-4register-4-flip-flop-3flip-flop-d-clr-ce-and-1Sheet5C3654CCQr 10K
+Q26 register-4register-4-flip-flop-3flip-flop-d-clr-ce-and-1sheet5C364DB7A register-4register-4-flip-flop-3flip-flop-d-clr-ce-and-1Sheet5C3654CCQr 0 NPN
+R81 register-4Vcc register-4register-4-flip-flop-3flip-flop-d-clr-ce-and-1sheet5C364DB7B 1K
+R80 CEIn register-4register-4-flip-flop-3flip-flop-d-clr-ce-and-1sheet5C366192Qr 10K
+Q27 register-4register-4-flip-flop-3flip-flop-d-clr-ce-and-1sheet5C364DB7B register-4register-4-flip-flop-3flip-flop-d-clr-ce-and-1sheet5C366192Qr 0 NPN
+R84 register-4Vcc register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2A 1K
+R82 register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1A register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1AorB 10K
+R83 register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1AorB 10K
+Q28 register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2A register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1AorB 0 NPN
+R87 register-4Vcc register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A 1K
+R85 register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2A register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2AorB 10K
+R86 register-4register-4-flip-flop-4CEandClk register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2AorB 10K
+Q29 register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2AorB 0 NPN
+R91 register-4Vcc register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4A 1K
+R88 register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 10K
+R89 register-4register-4-flip-flop-4CEandClk register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 10K
+Q30 register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4A register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 0 NPN
+R90 register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1A register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 10K
+R94 register-4Vcc register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1A 1K
+R92 register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4A register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4AorB 10K
+R93 D4In register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4AorB 10K
+Q31 register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1A register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4AorB 0 NPN
+R98 register-4Vcc register-4Q4 1K
+R95 ClrIn register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 10K
+R96 register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 10K
+Q32 register-4Q4 register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 0 NPN
+R97 register-4NQ4 register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 10K
+R101 register-4Vcc register-4NQ4 1K
+R99 register-4Q4 register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-6AorB 10K
+R100 register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4A register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-6AorB 10K
+Q33 register-4NQ4 register-4register-4-flip-flop-4flip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-6AorB 0 NPN
+R104 register-4Vcc register-4register-4-flip-flop-4CEandClk 1K
+R102 register-4register-4-flip-flop-4flip-flop-d-clr-ce-and-1sheet5C364DB7A register-4register-4-flip-flop-4flip-flop-d-clr-ce-and-1sheet5C364DB7AorB 10K
+R103 register-4register-4-flip-flop-4flip-flop-d-clr-ce-and-1sheet5C364DB7B register-4register-4-flip-flop-4flip-flop-d-clr-ce-and-1sheet5C364DB7AorB 10K
+Q34 register-4register-4-flip-flop-4CEandClk register-4register-4-flip-flop-4flip-flop-d-clr-ce-and-1sheet5C364DB7AorB 0 NPN
+R106 register-4Vcc register-4register-4-flip-flop-4flip-flop-d-clr-ce-and-1sheet5C364DB7A 1K
+R105 ClkIn register-4register-4-flip-flop-4flip-flop-d-clr-ce-and-1Sheet5C3654CCQr 10K
+Q35 register-4register-4-flip-flop-4flip-flop-d-clr-ce-and-1sheet5C364DB7A register-4register-4-flip-flop-4flip-flop-d-clr-ce-and-1Sheet5C3654CCQr 0 NPN
+R108 register-4Vcc register-4register-4-flip-flop-4flip-flop-d-clr-ce-and-1sheet5C364DB7B 1K
+R107 CEIn register-4register-4-flip-flop-4flip-flop-d-clr-ce-and-1sheet5C366192Qr 10K
+Q36 register-4register-4-flip-flop-4flip-flop-d-clr-ce-and-1sheet5C364DB7B register-4register-4-flip-flop-4flip-flop-d-clr-ce-and-1sheet5C366192Qr 0 NPN
+.end

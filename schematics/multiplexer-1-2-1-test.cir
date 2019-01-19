@@ -1,0 +1,38 @@
+.title KiCad schematic
+.op
+.model NPN npn (is=6.7e-15 bf=416.4 nf=1 vaf=74.03 ikf=0.06678 ise=6.7e-15 ne=1.259 br=0.7371 nr=1 rb=10 rc=1)
+V1 multiplexer21Vcc 0 dc 5
+V2 Ain 0 dc 5
+V3 Bin 0 dc 0
+V4 SelIn 0 dc 0
+R2 multiplexer21Vcc multiplexer21Z 1K
+R1 multiplexer21mux21or1ornor1Q multiplexer21mux21or1ornot1Qr 10K
+Q1 multiplexer21Z multiplexer21mux21or1ornot1Qr 0 NPN
+R5 multiplexer21Vcc multiplexer21mux21or1ornor1Q 1K
+R3 multiplexer21mux21or1A multiplexer21mux21or1ornor1AorB 10K
+R4 multiplexer21mux21or1B multiplexer21mux21or1ornor1AorB 10K
+Q2 multiplexer21mux21or1ornor1Q multiplexer21mux21or1ornor1AorB 0 NPN
+R8 multiplexer21Vcc multiplexer21mux21or1A 1K
+R6 multiplexer21mux21and1sheet5C364DB7A multiplexer21mux21and1sheet5C364DB7AorB 10K
+R7 multiplexer21mux21and1sheet5C364DB7B multiplexer21mux21and1sheet5C364DB7AorB 10K
+Q3 multiplexer21mux21or1A multiplexer21mux21and1sheet5C364DB7AorB 0 NPN
+R10 multiplexer21Vcc multiplexer21mux21and1sheet5C364DB7A 1K
+R9 Ain multiplexer21mux21and1Sheet5C3654CCQr 10K
+Q4 multiplexer21mux21and1sheet5C364DB7A multiplexer21mux21and1Sheet5C3654CCQr 0 NPN
+R12 multiplexer21Vcc multiplexer21mux21and1sheet5C364DB7B 1K
+R11 multiplexer21mux21and1B multiplexer21mux21and1sheet5C366192Qr 10K
+Q5 multiplexer21mux21and1sheet5C364DB7B multiplexer21mux21and1sheet5C366192Qr 0 NPN
+R15 multiplexer21Vcc multiplexer21mux21or1B 1K
+R13 multiplexer21mux21and2sheet5C364DB7A multiplexer21mux21and2sheet5C364DB7AorB 10K
+R14 multiplexer21mux21and2sheet5C364DB7B multiplexer21mux21and2sheet5C364DB7AorB 10K
+Q6 multiplexer21mux21or1B multiplexer21mux21and2sheet5C364DB7AorB 0 NPN
+R17 multiplexer21Vcc multiplexer21mux21and2sheet5C364DB7A 1K
+R16 SelIn multiplexer21mux21and2Sheet5C3654CCQr 10K
+Q7 multiplexer21mux21and2sheet5C364DB7A multiplexer21mux21and2Sheet5C3654CCQr 0 NPN
+R19 multiplexer21Vcc multiplexer21mux21and2sheet5C364DB7B 1K
+R18 Bin multiplexer21mux21and2sheet5C366192Qr 10K
+Q8 multiplexer21mux21and2sheet5C364DB7B multiplexer21mux21and2sheet5C366192Qr 0 NPN
+R21 multiplexer21Vcc multiplexer21mux21and1B 1K
+R20 SelIn multiplexer21mux21not1Qr 10K
+Q9 multiplexer21mux21and1B multiplexer21mux21not1Qr 0 NPN
+.end

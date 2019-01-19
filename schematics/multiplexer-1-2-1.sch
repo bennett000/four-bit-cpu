@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:kicad-scractch-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 14
+Sheet 2 161
 Title ""
 Date ""
 Rev ""
@@ -17,7 +16,7 @@ $EndDescr
 $Sheet
 S 6000 3150 600  500 
 U 5C3FFCCB
-F0 "mux-or-1" 50
+F0 "mux-2-1-or-1" 50
 F1 "gate-or-2.sch" 50
 F2 "Vcc" I L 6000 3200 50 
 F3 "Gnd" I L 6000 3300 50 
@@ -28,7 +27,7 @@ $EndSheet
 $Sheet
 S 4350 2750 600  500 
 U 5C3FFD06
-F0 "mux-and-1" 50
+F0 "mux-2-1-and-1" 50
 F1 "gate-and-2.sch" 50
 F2 "Vcc" I L 4350 2800 50 
 F3 "Gnd" I L 4350 2900 50 
@@ -39,7 +38,7 @@ $EndSheet
 $Sheet
 S 4350 3700 600  500 
 U 5C3FFE07
-F0 "mux-and-2" 50
+F0 "mux-2-1-and-2" 50
 F1 "gate-and-2.sch" 50
 F2 "Vcc" I L 4350 3750 50 
 F3 "Gnd" I L 4350 3850 50 
@@ -50,7 +49,7 @@ $EndSheet
 $Sheet
 S 3050 3300 550  400 
 U 5C3FFE0F
-F0 "mux-not-1" 50
+F0 "mux-2-1-not-1" 50
 F1 "gate-not.sch" 50
 F2 "Q" I L 3050 3600 50 
 F3 "Vcc" I L 3050 3350 50 

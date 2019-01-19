@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:flip-flop-d-test-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 2 16
 Title ""
 Date ""
 Rev ""
@@ -37,7 +36,7 @@ Wire Wire Line
 Text HLabel 1350 5550 0    50   Input ~ 0
 D
 Text HLabel 1350 4050 0    50   Input ~ 0
-CLK
+Clk
 Wire Wire Line
 	3100 5550 1350 5550
 Text HLabel 6700 3800 2    50   Input ~ 0

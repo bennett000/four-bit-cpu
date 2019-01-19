@@ -1,0 +1,43 @@
+.title KiCad schematic
+V1 flip-flop-d-clr-ceVcc 0 dc 5
+V2 Din 0 dc 5
+V3 ClkIn 0 PULSE(0 5 2NS 2NS 2NS 50NS 100NS)
+V4 ClrIn 0 dc 5
+V5 CEIn 0 dc 5
+R3 flip-flop-d-clr-ceVcc flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2A 1K
+R1 flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1A flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1AorB 10K
+R2 flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1AorB 10K
+Q1 flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2A flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1AorB 0 NPN
+R6 flip-flop-d-clr-ceVcc flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A 1K
+R4 flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2A flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2AorB 10K
+R5 flip-flop-d-clr-ceCEandClk flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2AorB 10K
+Q2 flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-2AorB 0 NPN
+R10 flip-flop-d-clr-ceVcc flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4A 1K
+R7 flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 10K
+R8 flip-flop-d-clr-ceCEandClk flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 10K
+Q3 flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4A flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 0 NPN
+R9 flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1A flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 10K
+R13 flip-flop-d-clr-ceVcc flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1A 1K
+R11 flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4A flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4AorB 10K
+R12 Din flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4AorB 10K
+Q4 flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-1A flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4AorB 0 NPN
+R17 flip-flop-d-clr-ceVcc flip-flop-d-clr-ceQ 1K
+R14 ClrIn flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 10K
+R15 flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-3A flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 10K
+Q5 flip-flop-d-clr-ceQ flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 0 NPN
+R16 flip-flop-d-clr-ceNQ flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 10K
+R20 flip-flop-d-clr-ceVcc flip-flop-d-clr-ceNQ 1K
+R18 flip-flop-d-clr-ceQ flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-6AorB 10K
+R19 flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-4A flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-6AorB 10K
+Q6 flip-flop-d-clr-ceNQ flip-flop-d-clr-ceflip-flop-d-clr-ce-flip-flop-d-clrflip-flop-d-clr-nor-6AorB 0 NPN
+R23 flip-flop-d-clr-ceVcc flip-flop-d-clr-ceCEandClk 1K
+R21 flip-flop-d-clr-ceflip-flop-d-clr-ce-and-1sheet5C364DB7A flip-flop-d-clr-ceflip-flop-d-clr-ce-and-1sheet5C364DB7AorB 10K
+R22 flip-flop-d-clr-ceflip-flop-d-clr-ce-and-1sheet5C364DB7B flip-flop-d-clr-ceflip-flop-d-clr-ce-and-1sheet5C364DB7AorB 10K
+Q7 flip-flop-d-clr-ceCEandClk flip-flop-d-clr-ceflip-flop-d-clr-ce-and-1sheet5C364DB7AorB 0 NPN
+R25 flip-flop-d-clr-ceVcc flip-flop-d-clr-ceflip-flop-d-clr-ce-and-1sheet5C364DB7A 1K
+R24 ClkIn flip-flop-d-clr-ceflip-flop-d-clr-ce-and-1Sheet5C3654CCQr 10K
+Q8 flip-flop-d-clr-ceflip-flop-d-clr-ce-and-1sheet5C364DB7A flip-flop-d-clr-ceflip-flop-d-clr-ce-and-1Sheet5C3654CCQr 0 NPN
+R27 flip-flop-d-clr-ceVcc flip-flop-d-clr-ceflip-flop-d-clr-ce-and-1sheet5C364DB7B 1K
+R26 CEIn flip-flop-d-clr-ceflip-flop-d-clr-ce-and-1sheet5C366192Qr 10K
+Q9 flip-flop-d-clr-ceflip-flop-d-clr-ce-and-1sheet5C364DB7B flip-flop-d-clr-ceflip-flop-d-clr-ce-and-1sheet5C366192Qr 0 NPN
+.end

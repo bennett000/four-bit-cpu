@@ -24,6 +24,10 @@ NPN=$(cat ./models/npn-2N3904.cir)
 if grep -q "$NPN" $FILE; then
   echo "$FILE has models; not updating."  
 else
+  # Remove characters that break functions like v() or i()
+  sed -i'' -e 's/\///g' $FILE 
+  sed -i'' -e 's/\-//g' $FILE
+
   # Add the models and tests
   (echo 1a; echo $NPN; echo .; echo w) | ed - $FILE
   (echo 1a; echo '.op'; echo .; echo w) | ed - $FILE

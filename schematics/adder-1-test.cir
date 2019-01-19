@@ -1,0 +1,45 @@
+.title KiCad schematic
+.tran 1ns 2000ns
+.print tran i(v1) v(adder1A) v(adder1B) v(adder1Cin) v(adder1S) v(adder1Cout)
+.model NPN npn (is=6.7e-15 bf=416.4 nf=1 vaf=74.03 ikf=0.06678 ise=6.7e-15 ne=1.259 br=0.7371 nr=1 rb=10 rc=1)
+V1 adder1Vcc 0 dc 5
+V2 adder1A 0 PULSE(5 0 2NS 2NS 2NS 50NS 100NS)
+V3 adder1B 0 PULSE(5 0 2NS 2NS 2NS 100NS 200NS)
+V4 adder1Cin 0 PULSE(5 0 2NS 2NS 2NS 200NS 400NS)
+R3 adder1Vcc adder1sheet5C34B00DA 1K
+R1 adder1A adder1sheet5C34AF27AorB 10K
+R2 adder1B adder1sheet5C34AF27AorB 10K
+Q1 adder1sheet5C34B00DA adder1sheet5C34AF27AorB 0 NPN
+R6 adder1Vcc adder1sheet5C34B027A 1K
+R4 adder1A adder1sheet5C34AFF9AorB 10K
+R5 adder1sheet5C34B00DA adder1sheet5C34AFF9AorB 10K
+Q2 adder1sheet5C34B027A adder1sheet5C34AFF9AorB 0 NPN
+R9 adder1Vcc adder1sheet5C34B027B 1K
+R7 adder1sheet5C34B00DA adder1sheet5C34B00DAorB 10K
+R8 adder1B adder1sheet5C34B00DAorB 10K
+Q3 adder1sheet5C34B027B adder1sheet5C34B00DAorB 0 NPN
+R12 adder1Vcc adder1sheet5C34B047A 1K
+R10 adder1sheet5C34B027A adder1sheet5C34B027AorB 10K
+R11 adder1sheet5C34B027B adder1sheet5C34B027AorB 10K
+Q4 adder1sheet5C34B047A adder1sheet5C34B027AorB 0 NPN
+R15 adder1Vcc adder1sheet5C34B049A 1K
+R13 adder1sheet5C34B047A adder1sheet5C34B047AorB 10K
+R14 adder1Cin adder1sheet5C34B047AorB 10K
+Q5 adder1sheet5C34B049A adder1sheet5C34B047AorB 0 NPN
+R18 adder1Vcc adder1sheet5C34B04AA 1K
+R16 adder1sheet5C34B047A adder1sheet5C34B048AorB 10K
+R17 adder1sheet5C34B049A adder1sheet5C34B048AorB 10K
+Q6 adder1sheet5C34B04AA adder1sheet5C34B048AorB 0 NPN
+R21 adder1Vcc adder1sheet5C34B04AB 1K
+R19 adder1sheet5C34B049A adder1sheet5C34B049AorB 10K
+R20 adder1Cin adder1sheet5C34B049AorB 10K
+Q7 adder1sheet5C34B04AB adder1sheet5C34B049AorB 0 NPN
+R24 adder1Vcc adder1S 1K
+R22 adder1sheet5C34B04AA adder1sheet5C34B04AAorB 10K
+R23 adder1sheet5C34B04AB adder1sheet5C34B04AAorB 10K
+Q8 adder1S adder1sheet5C34B04AAorB 0 NPN
+R27 adder1Vcc adder1Cout 1K
+R25 adder1sheet5C34B049A adder1sheet5C34B0CDAorB 10K
+R26 adder1sheet5C34B00DA adder1sheet5C34B0CDAorB 10K
+Q9 adder1Cout adder1sheet5C34B0CDAorB 0 NPN
+.end

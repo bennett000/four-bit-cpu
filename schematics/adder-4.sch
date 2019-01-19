@@ -3,7 +3,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 225
+Sheet 2 42
 Title ""
 Date ""
 Rev ""
@@ -17,7 +17,7 @@ $Sheet
 S 1200 1650 550  550 
 U 5C3B3FDE
 F0 "adder-4-1" 50
-F1 "adder.sch" 50
+F1 "adder-1.sch" 50
 F2 "Vcc" I L 1200 1700 50 
 F3 "Gnd" I L 1200 1800 50 
 F4 "A" I L 1200 1950 50 
@@ -30,7 +30,7 @@ $Sheet
 S 2700 1650 550  550 
 U 5C3B3FE8
 F0 "adder-4-2" 50
-F1 "adder.sch" 50
+F1 "adder-1.sch" 50
 F2 "Vcc" I L 2700 1700 50 
 F3 "Gnd" I L 2700 1800 50 
 F4 "A" I L 2700 1950 50 
@@ -43,7 +43,7 @@ $Sheet
 S 4200 1650 550  550 
 U 5C3B3FF2
 F0 "adder-4-3" 50
-F1 "adder.sch" 50
+F1 "adder-1.sch" 50
 F2 "Vcc" I L 4200 1700 50 
 F3 "Gnd" I L 4200 1800 50 
 F4 "A" I L 4200 1950 50 
@@ -56,7 +56,7 @@ $Sheet
 S 5700 1650 550  550 
 U 5C3B3FFC
 F0 "adder-4-4" 50
-F1 "adder.sch" 50
+F1 "adder-1.sch" 50
 F2 "Vcc" I L 5700 1700 50 
 F3 "Gnd" I L 5700 1800 50 
 F4 "A" I L 5700 1950 50 

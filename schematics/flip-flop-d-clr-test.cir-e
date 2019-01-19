@@ -1,0 +1,32 @@
+.title KiCad schematic
+V1 flip-flop-d-clrVcc 0 dc 5
+V2 Din 0 dc 5
+V3 ClkIn 0 PULSE(0 5 2NS 2NS 2NS 50NS 100NS)
+V4 ClrIn 0 dc 5
+R3 flip-flop-d-clrVcc flip-flop-d-clrflip-flop-d-clr-nor-2A 1K
+R1 flip-flop-d-clrflip-flop-d-clr-nor-1A flip-flop-d-clrflip-flop-d-clr-nor-1AorB 10K
+R2 flip-flop-d-clrflip-flop-d-clr-nor-3A flip-flop-d-clrflip-flop-d-clr-nor-1AorB 10K
+Q1 flip-flop-d-clrflip-flop-d-clr-nor-2A flip-flop-d-clrflip-flop-d-clr-nor-1AorB 0 NPN
+R6 flip-flop-d-clrVcc flip-flop-d-clrflip-flop-d-clr-nor-3A 1K
+R4 flip-flop-d-clrflip-flop-d-clr-nor-2A flip-flop-d-clrflip-flop-d-clr-nor-2AorB 10K
+R5 ClkIn flip-flop-d-clrflip-flop-d-clr-nor-2AorB 10K
+Q2 flip-flop-d-clrflip-flop-d-clr-nor-3A flip-flop-d-clrflip-flop-d-clr-nor-2AorB 0 NPN
+R10 flip-flop-d-clrVcc flip-flop-d-clrflip-flop-d-clr-nor-4A 1K
+R7 flip-flop-d-clrflip-flop-d-clr-nor-3A flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 10K
+R8 ClkIn flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 10K
+Q3 flip-flop-d-clrflip-flop-d-clr-nor-4A flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 0 NPN
+R9 flip-flop-d-clrflip-flop-d-clr-nor-1A flip-flop-d-clrflip-flop-d-clr-nor-3AorBorC 10K
+R13 flip-flop-d-clrVcc flip-flop-d-clrflip-flop-d-clr-nor-1A 1K
+R11 flip-flop-d-clrflip-flop-d-clr-nor-4A flip-flop-d-clrflip-flop-d-clr-nor-4AorB 10K
+R12 Din flip-flop-d-clrflip-flop-d-clr-nor-4AorB 10K
+Q4 flip-flop-d-clrflip-flop-d-clr-nor-1A flip-flop-d-clrflip-flop-d-clr-nor-4AorB 0 NPN
+R17 flip-flop-d-clrVcc flip-flop-d-clrQ 1K
+R14 ClrIn flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 10K
+R15 flip-flop-d-clrflip-flop-d-clr-nor-3A flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 10K
+Q5 flip-flop-d-clrQ flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 0 NPN
+R16 flip-flop-d-clrNQ flip-flop-d-clrflip-flop-d-clr-nor-5AorBorC 10K
+R20 flip-flop-d-clrVcc flip-flop-d-clrNQ 1K
+R18 flip-flop-d-clrQ flip-flop-d-clrflip-flop-d-clr-nor-6AorB 10K
+R19 flip-flop-d-clrflip-flop-d-clr-nor-4A flip-flop-d-clrflip-flop-d-clr-nor-6AorB 10K
+Q6 flip-flop-d-clrNQ flip-flop-d-clrflip-flop-d-clr-nor-6AorB 0 NPN
+.end

@@ -1,0 +1,35 @@
+.title KiCad schematic
+.tran 1ns 2000ns
+.print tran v(Din) v(ClkIn) v(ClrIn) v(flipflopdclrQ) 
+.model NPN npn (is=6.7e-15 bf=416.4 nf=1 vaf=74.03 ikf=0.06678 ise=6.7e-15 ne=1.259 br=0.7371 nr=1 rb=10 rc=1)
+V1 flipflopdclrVcc 0 dc 5
+V2 Din 0 dc 5
+V3 ClkIn 0 PULSE(0 5 2NS 2NS 2NS 50NS 100NS)
+V4 ClrIn 0 dc 0
+R3 flipflopdclrVcc flipflopdclrflipflopdclrnor2A 1K
+R1 flipflopdclrflipflopdclrnor1A flipflopdclrflipflopdclrnor1AorB 10K
+R2 flipflopdclrflipflopdclrnor3A flipflopdclrflipflopdclrnor1AorB 10K
+Q1 flipflopdclrflipflopdclrnor2A flipflopdclrflipflopdclrnor1AorB 0 NPN
+R6 flipflopdclrVcc flipflopdclrflipflopdclrnor3A 1K
+R4 flipflopdclrflipflopdclrnor2A flipflopdclrflipflopdclrnor2AorB 10K
+R5 ClkIn flipflopdclrflipflopdclrnor2AorB 10K
+Q2 flipflopdclrflipflopdclrnor3A flipflopdclrflipflopdclrnor2AorB 0 NPN
+R10 flipflopdclrVcc flipflopdclrflipflopdclrnor4A 1K
+R7 flipflopdclrflipflopdclrnor3A flipflopdclrflipflopdclrnor3AorBorC 10K
+R8 ClkIn flipflopdclrflipflopdclrnor3AorBorC 10K
+Q3 flipflopdclrflipflopdclrnor4A flipflopdclrflipflopdclrnor3AorBorC 0 NPN
+R9 flipflopdclrflipflopdclrnor1A flipflopdclrflipflopdclrnor3AorBorC 10K
+R13 flipflopdclrVcc flipflopdclrflipflopdclrnor1A 1K
+R11 flipflopdclrflipflopdclrnor4A flipflopdclrflipflopdclrnor4AorB 10K
+R12 Din flipflopdclrflipflopdclrnor4AorB 10K
+Q4 flipflopdclrflipflopdclrnor1A flipflopdclrflipflopdclrnor4AorB 0 NPN
+R17 flipflopdclrVcc flipflopdclrQ 1K
+R14 ClrIn flipflopdclrflipflopdclrnor5AorBorC 10K
+R15 flipflopdclrflipflopdclrnor3A flipflopdclrflipflopdclrnor5AorBorC 10K
+Q5 flipflopdclrQ flipflopdclrflipflopdclrnor5AorBorC 0 NPN
+R16 flipflopdclrNQ flipflopdclrflipflopdclrnor5AorBorC 10K
+R20 flipflopdclrVcc flipflopdclrNQ 1K
+R18 flipflopdclrQ flipflopdclrflipflopdclrnor6AorB 10K
+R19 flipflopdclrflipflopdclrnor4A flipflopdclrflipflopdclrnor6AorB 10K
+Q6 flipflopdclrNQ flipflopdclrflipflopdclrnor6AorB 0 NPN
+.end
