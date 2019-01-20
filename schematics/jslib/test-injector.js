@@ -1,8 +1,6 @@
 const { readFileSync } = require('fs');
 const { join } = require('path');
-
-const HIGH = 5;
-const LOW = 0;
+const { HIGH, LOW } = require('./constants');
 
 module.exports.generateOpTests = generateOpTests;
 
@@ -14,8 +12,11 @@ module.exports.generateOpTests = generateOpTests;
 // ));
 
 function generateOpTests(thing, netlistLines) {
-  const tests = readTests(thing);
-  return generateTestInputs(tests, netlistLines, '.op');
+  const testDesc = readTests(thing);
+  return {
+    netlists: generateTestInputs(testDesc, netlistLines, '.op'),
+    testDescs: testDesc.tests,
+  };
 }
 
 function readTests(thing) {
@@ -29,8 +30,9 @@ function generateTestInputs(testDesc, netlistLines, type) {
     const labels = Object.keys(testDesc.i);
 
     const test = netlistLines.map(createNetlistMapper(testDesc, labels));
+    const tail = test.slice(1);
 
-    return [test[0], type, test.slice(1)];
+    return [test[0], type, ...tail];
   });
 }
 

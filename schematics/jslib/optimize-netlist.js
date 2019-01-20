@@ -1,17 +1,18 @@
 /**
  * Optimizes a netlist for easier more accurate parsing
  */
-const { readFileSync } = require('fs');
 const join = require('path').join;
 module.exports.optimizeNetlist = optimizeNetlist;
 
-// test: console.log(optimizeNetlist(join(__dirname, '..', 'gate-xor-2-test.cir')));
+// test
+// console.log(optimizeNetlist(
+//   require('fs')
+//     .readFileSync(join(__dirname, '..', 'gate-xor-2-test.cir'), { encoding: 'utf8' })
+//   ));
 
-function optimizeNetlist(fullpath) {
-  const list = readFileSync(fullpath, { encoding: 'utf8' });
-
-  const map = tokenMap(list);
-  const optimized = replaceWithMap(list, map, 'origin', 'short');
+function optimizeNetlist(netlist) {
+  const map = tokenMap(netlist);
+  const optimized = replaceWithMap(netlist, map, 'origin', 'short');
 
   return { map, optimized };
 }

@@ -11,5 +11,5 @@ module.exports.injectModels = injectModels;
 // console.log(injectModels(['a', 'b', 'c']));
 
 function injectModels(netlistLines) {
-  return [netlistLines[0], npn, netlistLines.slice(1)];
+  return [netlistLines[0], npn, ...netlistLines.slice(1)];
 }
