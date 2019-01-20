@@ -3,6 +3,7 @@
  */
 const { readFileSync } = require('fs');
 const join = require('path').join;
+module.exports.optimizeNetlist = optimizeNetlist;
 
 // test: console.log(optimizeNetlist(join(__dirname, '..', 'gate-xor-2-test.cir')));
 

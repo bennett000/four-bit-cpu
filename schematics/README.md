@@ -9,7 +9,7 @@ This folder is a series of KiCad projects, it might be possible to nest the fold
 * KiCad 5.x
 * ngspice
 * bash
-* nodejs 8+ (optional)
+* nodejs 8+
 
 ## Naming Convention
 
