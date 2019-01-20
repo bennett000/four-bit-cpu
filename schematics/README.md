@@ -15,7 +15,7 @@ This folder is a series of KiCad projects, it might be possible to nest the fold
 
 Due to having _many_ files in one folder the naming convention is important.
 
-* Names use the format `[thing]-[bits]-[inputs]-[outputs]` (`outputs` is optional and mostly used for multiplexers)
+* Names use the format `[thing]-[bits]-[inputs]-[outputs]` (`outputs` is optional and mostly used for multiplexers) (there are some errors to this convention as I've found :( )
 * The `-test` extension indicates that the project or worksheet is a test harness.  These files _consume_ sheets (and sometimes projects)
 and can be thought of as "unit test" or in the higher order cases "integration tests"
 * The files starting with `four-bit-cpu*` are legacy and will be refactored

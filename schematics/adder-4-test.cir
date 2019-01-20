@@ -3,11 +3,11 @@
 .model NPN npn (is=6.7e-15 bf=416.4 nf=1 vaf=74.03 ikf=0.06678 ise=6.7e-15 ne=1.259 br=0.7371 nr=1 rb=10 rc=1)
 V4 adder4Vcc 0 dc 5
 V1 A1in 0 dc 5
-V2 A2in 0 dc 0
+V2 A2in 0 dc 5
 V3 A3in 0 dc 0
-V5 A4in 0 dc 5
-V6 B1in 0 dc 5
-V7 B2in 0 dc 0
+V5 A4in 0 dc 0
+V6 B1in 0 dc 0
+V7 B2in 0 dc 5
 V8 B3in 0 dc 0
 V9 B4in 0 dc 0
 V10 Cinin 0 dc 0
