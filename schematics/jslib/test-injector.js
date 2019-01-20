@@ -1,8 +1,11 @@
-const { readFileSync } = require('fs');
+const { readdirSync, readFileSync } = require('fs');
 const { join } = require('path');
 const { HIGH, LOW } = require('./constants');
 
 module.exports.generateOpTests = generateOpTests;
+module.exports.listOpTests = listOpTests;
+
+const opDir = join(__dirname, '..', 'tests')
 
 // console.log(generateOpTests(
 //   'gate-xor-2',
@@ -11,17 +14,25 @@ module.exports.generateOpTests = generateOpTests;
 //     .split('\n')
 // ));
 
+function listOpTests() {
+  return readdirSync(opDir).filter(Boolean).map((file) => {
+    const split = file.split('.');
+    split.pop();
+    return split.join('.');
+  });
+}
+
 function generateOpTests(thing, netlistLines) {
-  const testDesc = readTests(thing);
+  const testDesc = readOpTests(thing);
   return {
     netlists: generateTestInputs(testDesc, netlistLines, '.op'),
     testDescs: testDesc.tests,
   };
 }
 
-function readTests(thing) {
+function readOpTests(thing) {
   return JSON.parse(readFileSync(
-    join(__dirname, '..', 'tests', `${thing}.json`), { encoding: 'utf8' }
+    join(opDir, `${thing}.json`), { encoding: 'utf8' }
   ));
 }
 

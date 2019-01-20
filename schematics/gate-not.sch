@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:gate-xor-2-test-cache
+LIBS:gate-not-test-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 76 8
+Sheet 76 2
 Title ""
 Date ""
 Rev ""

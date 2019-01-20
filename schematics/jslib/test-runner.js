@@ -1,14 +1,27 @@
 const { getNetlistLines } = require('./netlist');
-const { generateOpTests } = require('./test-injector');
+const { generateOpTests, listOpTests } = require('./test-injector');
 const { injectModels } = require('./model-injector');
 const { runSpice } = require('./spice-runner');
 const { inspect } = require('util');
 const { COMMAND, HIGH, HIGH_MIN, LOW, LOW_MAX } = require('./constants');
 
 // test
-validateOpTests('gate-xor-2')
+validateAllOpTests()
   .then((results) => console.log(inspect(results, { depth: 10 })))
   .catch(console.log.bind(console, 'ERROR'));
+
+function validateAllOpTests() {
+  const tests = listOpTests();
+
+  return Promise.all(tests.map((thing) => {
+    return validateOpTests(thing);
+  })).then((results) => {
+    return results.reduce((dict, validation, i) => {
+      dict[tests[i]] = validation;
+      return dict;
+    }, {});
+  });
+}
 
 function validateOpTests(thing) {
   const lines = getNetlistLines(thing);
@@ -16,8 +29,7 @@ function validateOpTests(thing) {
 
   return runTests(tests.netlists)
     .then((results) => {
-      return results.map(createResultMapper(tests.testDescs))
-        .filter((result) => Object.keys(result).length > 0);
+      return results.map(createResultMapper(tests.testDescs));
     })
 }
 
@@ -37,9 +49,13 @@ function createResultMapper(testDescs) {
     const resultLines = result.stdout.split('\n');
     
     return resultLines.reduce((outputs, line) => {
-      const parts = line.split('\t').filter(Boolean).map((el) => el.trim()).join(' ').split(' ').filter(Boolean);
+      const parts = line.split('\t').filter(Boolean)
+        .map((el) => el.trim()).join(' ').split(' ').map((el) => el.trim()).filter(Boolean);
+      if (parts.length === 0) {
+        return outputs;
+      }
       keys.forEach((key) => {
-        if (parts[0] === key) {
+        if (parts[0].toLowerCase() === key.toLowerCase()) {
           const value = resultVoltsToBinary(parts[1]);
           if (value === expected[key]) {
           } else {
