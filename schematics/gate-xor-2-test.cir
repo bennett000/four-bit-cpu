@@ -1,25 +1,23 @@
 .title KiCad schematic
-.op
-.model NPN npn (is=6.7e-15 bf=416.4 nf=1 vaf=74.03 ikf=0.06678 ise=6.7e-15 ne=1.259 br=0.7371 nr=1 rb=10 rc=1)
-V1 xor2Vcc 0 dc 5
-V2 Ain 0 dc 5
-V3 Bin 0 dc 0
-R3 xor2Vcc xor2xor2nor2B 1K
-R1 Ain xor2xor2nor1AorB 10K
-R2 Bin xor2xor2nor1AorB 10K
-Q1 xor2xor2nor2B xor2xor2nor1AorB 0 NPN
-R6 xor2Vcc xor2xor2nor2A 1K
-R4 xor2xor2and1sheet5C364DB7A xor2xor2and1sheet5C364DB7AorB 10K
-R5 xor2xor2and1sheet5C364DB7B xor2xor2and1sheet5C364DB7AorB 10K
-Q2 xor2xor2nor2A xor2xor2and1sheet5C364DB7AorB 0 NPN
-R8 xor2Vcc xor2xor2and1sheet5C364DB7A 1K
-R7 Ain xor2xor2and1Sheet5C3654CCQr 10K
-Q3 xor2xor2and1sheet5C364DB7A xor2xor2and1Sheet5C3654CCQr 0 NPN
-R10 xor2Vcc xor2xor2and1sheet5C364DB7B 1K
-R9 Bin xor2xor2and1sheet5C366192Qr 10K
-Q4 xor2xor2and1sheet5C364DB7B xor2xor2and1sheet5C366192Qr 0 NPN
-R13 xor2Vcc xor2Q 1K
-R11 xor2xor2nor2A xor2xor2nor2AorB 10K
-R12 xor2xor2nor2B xor2xor2nor2AorB 10K
-Q5 xor2Q xor2xor2nor2AorB 0 NPN
+V1 /xor-2/Vcc 0 dc 5
+V2 /Ain 0 dc 5
+V3 /Bin 0 dc 5
+R3 /xor-2/Vcc /xor-2/xor-2-nor-2/B 1K
+R1 /Ain /xor-2/xor-2-nor-1/AorB 10K
+R2 /Bin /xor-2/xor-2-nor-1/AorB 10K
+Q1 /xor-2/xor-2-nor-2/B /xor-2/xor-2-nor-1/AorB 0 NPN
+R6 /xor-2/Vcc /xor-2/xor-2-nor-2/A 1K
+R4 /xor-2/xor-2-and-1/sheet5C364DB7/A /xor-2/xor-2-and-1/sheet5C364DB7/AorB 10K
+R5 /xor-2/xor-2-and-1/sheet5C364DB7/B /xor-2/xor-2-and-1/sheet5C364DB7/AorB 10K
+Q2 /xor-2/xor-2-nor-2/A /xor-2/xor-2-and-1/sheet5C364DB7/AorB 0 NPN
+R8 /xor-2/Vcc /xor-2/xor-2-and-1/sheet5C364DB7/A 1K
+R7 /Ain /xor-2/xor-2-and-1/Sheet5C3654CC/Qr 10K
+Q3 /xor-2/xor-2-and-1/sheet5C364DB7/A /xor-2/xor-2-and-1/Sheet5C3654CC/Qr 0 NPN
+R10 /xor-2/Vcc /xor-2/xor-2-and-1/sheet5C364DB7/B 1K
+R9 /Bin /xor-2/xor-2-and-1/sheet5C366192/Qr 10K
+Q4 /xor-2/xor-2-and-1/sheet5C364DB7/B /xor-2/xor-2-and-1/sheet5C366192/Qr 0 NPN
+R13 /xor-2/Vcc /xor-2/Q 1K
+R11 /xor-2/xor-2-nor-2/A /xor-2/xor-2-nor-2/AorB 10K
+R12 /xor-2/xor-2-nor-2/B /xor-2/xor-2-nor-2/AorB 10K
+Q5 /xor-2/Q /xor-2/xor-2-nor-2/AorB 0 NPN
 .end

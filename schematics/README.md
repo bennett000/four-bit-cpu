@@ -22,6 +22,10 @@ and can be thought of as "unit test" or in the higher order cases "integration t
 * I/O names on KiCad sheets use one (`1`) based indexing
 * KiCad names use `ALL CAPS` for acronyms and `CamelCase` for short forms
 
+## SPICE Conventions
+
+* Casing matters.  Even though it doesn't matter to SPICE it matters to some of the tooling
+
 ## Utilities
 
 * `test.sh` this utility takes one argument, the name of a netlist (`*.cir`) file to run.  

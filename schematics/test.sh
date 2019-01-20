@@ -8,6 +8,8 @@ fi
 set -e
 
 FILE="$1-test.cir"
+DASH="escdashesc"
+FSLASH="escfslashesc"
 
 if [ ! -f $FILE ]; then
   $FILE="$1.cir"
@@ -25,8 +27,8 @@ if grep -q "$NPN" $FILE; then
   echo "$FILE has models; not updating."  
 else
   # Remove characters that break functions like v() or i()
-  sed -i'' -e 's/\///g' $FILE 
-  sed -i'' -e 's/\-//g' $FILE
+  sed -i'' -e "s/\//$FSLASH/g" $FILE 
+  sed -i'' -e "s/\-/$DASH/g" $FILE
 
   # Add the models and tests
   (echo 1a; echo $NPN; echo .; echo w) | ed - $FILE
