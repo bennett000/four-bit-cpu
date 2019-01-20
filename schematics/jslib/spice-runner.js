@@ -2,6 +2,7 @@
  * Runs ng spice
  */
 const { spawn } = require('child_process');
+module.exports.runSpice = runSpice;
 
 // test
 // runSpice(

@@ -133,4 +133,10 @@ Text Label 2700 4150 0    50   ~ 0
 Ain
 Text Label 3100 4150 0    50   ~ 0
 Bin
+Text HLabel 4100 3200 2    50   Input ~ 0
+Q
+Wire Wire Line
+	4100 3200 3650 3200
+Text Label 3850 3200 0    50   ~ 0
+Qout
 $EndSCHEMATC
