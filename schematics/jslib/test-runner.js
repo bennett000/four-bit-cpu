@@ -2,13 +2,16 @@ const { getNetlistLines } = require('./netlist');
 const { generateOpTests, listOpTests } = require('./test-injector');
 const { injectModels } = require('./model-injector');
 const { runSpice } = require('./spice-runner');
-const { inspect } = require('util');
 const { COMMAND, HIGH, HIGH_MIN, LOW, LOW_MAX } = require('./constants');
 
 // test
-validateAllOpTests()
-  .then((results) => console.log(inspect(results, { depth: 10 })))
-  .catch(console.log.bind(console, 'ERROR'));
+// validateAllOpTests()
+//   .then((results) => console.log(require('util').inspect(results, { depth: 10 })))
+//   .catch(console.log.bind(console, 'ERROR'));
+
+module.exports.runOpTests = runOpTests;
+module.exports.validateAllOpTests = validateAllOpTests;
+module.exports.validateOpTests = validateOpTests;
 
 function validateAllOpTests() {
   const tests = listOpTests();
@@ -33,6 +36,13 @@ function validateOpTests(thing) {
     })
 }
 
+function runOpTests(thing) {
+  const lines = getNetlistLines(thing);
+  const tests = generateOpTests(thing, injectModels(lines));
+
+  return runTests(tests.netlists);
+}
+
 function runTests(lineArrays) {
   return Promise.all(lineArrays.map((lineArray) => {
     const test = lineArray.join('\n');
@@ -48,7 +58,7 @@ function createResultMapper(testDescs) {
 
     const resultLines = result.stdout.split('\n');
     
-    return resultLines.reduce((outputs, line) => {
+    const resultOutputs = resultLines.reduce((outputs, line) => {
       const parts = line.split('\t').filter(Boolean)
         .map((el) => el.trim()).join(' ').split(' ').map((el) => el.trim()).filter(Boolean);
       if (parts.length === 0) {
@@ -58,6 +68,7 @@ function createResultMapper(testDescs) {
         if (parts[0].toLowerCase() === key.toLowerCase()) {
           const value = resultVoltsToBinary(parts[1]);
           if (value === expected[key]) {
+            outputs[key] = '✓';
           } else {
             outputs[key] = { inputs, expected: expected[key], received: value };
           }
@@ -65,6 +76,14 @@ function createResultMapper(testDescs) {
       });
       return outputs;
     }, {});
+
+    const resultKeys = Object.keys(resultOutputs);
+    if (resultKeys.length !== keys.length) {
+      const missing = keys.filter((key) => resultKeys.indexOf(key) < 0);
+      resultOutputs.error = `Missing output for ${missing.join(', ')}`;
+    }
+
+    return resultOutputs;
   };
 }
 
