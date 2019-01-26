@@ -1,6 +1,4 @@
 .title KiCad schematic
-.model NPN npn
-.op
 V14 /alu/Vcc 0 dc 5
 V1 /B1in 0 dc 5
 V2 /B2in 0 dc 5
@@ -511,150 +509,151 @@ Q147 /alu/alu-mux-4-4-1-1/multiplexer-4-4-1-mux-4-2-1-3/multiplexer-4-2-1-mux-1-
 R348 /alu/Vcc /alu/alu-mux-4-4-1-1/multiplexer-4-4-1-mux-4-2-1-3/multiplexer-4-2-1-mux-1-2-1-4/mux-2-1-and-1/B 1K
 R347 /S2 /alu/alu-mux-4-4-1-1/multiplexer-4-4-1-mux-4-2-1-3/multiplexer-4-2-1-mux-1-2-1-4/mux-2-1-not-1/Qr 10K
 Q148 /alu/alu-mux-4-4-1-1/multiplexer-4-4-1-mux-4-2-1-3/multiplexer-4-2-1-mux-1-2-1-4/mux-2-1-and-1/B /alu/alu-mux-4-4-1-1/multiplexer-4-4-1-mux-4-2-1-3/multiplexer-4-2-1-mux-1-2-1-4/mux-2-1-not-1/Qr 0 NPN
-R351 /alu/Vcc /alu/alu-adder-4-1/adder-4-1/sheet5C34B00D/A 1K
-R349 /A1in /alu/alu-adder-4-1/adder-4-1/sheet5C34AF27/AorB 10K
-R350 /alu/AdderB1in /alu/alu-adder-4-1/adder-4-1/sheet5C34AF27/AorB 10K
-Q149 /alu/alu-adder-4-1/adder-4-1/sheet5C34B00D/A /alu/alu-adder-4-1/adder-4-1/sheet5C34AF27/AorB 0 NPN
-R354 /alu/Vcc /alu/alu-adder-4-1/adder-4-1/sheet5C34B027/A 1K
-R352 /A1in /alu/alu-adder-4-1/adder-4-1/sheet5C34AFF9/AorB 10K
-R353 /alu/alu-adder-4-1/adder-4-1/sheet5C34B00D/A /alu/alu-adder-4-1/adder-4-1/sheet5C34AFF9/AorB 10K
-Q150 /alu/alu-adder-4-1/adder-4-1/sheet5C34B027/A /alu/alu-adder-4-1/adder-4-1/sheet5C34AFF9/AorB 0 NPN
-R357 /alu/Vcc /alu/alu-adder-4-1/adder-4-1/sheet5C34B027/B 1K
-R355 /alu/alu-adder-4-1/adder-4-1/sheet5C34B00D/A /alu/alu-adder-4-1/adder-4-1/sheet5C34B00D/AorB 10K
-R356 /alu/AdderB1in /alu/alu-adder-4-1/adder-4-1/sheet5C34B00D/AorB 10K
-Q151 /alu/alu-adder-4-1/adder-4-1/sheet5C34B027/B /alu/alu-adder-4-1/adder-4-1/sheet5C34B00D/AorB 0 NPN
-R360 /alu/Vcc /alu/alu-adder-4-1/adder-4-1/sheet5C34B047/A 1K
-R358 /alu/alu-adder-4-1/adder-4-1/sheet5C34B027/A /alu/alu-adder-4-1/adder-4-1/sheet5C34B027/AorB 10K
-R359 /alu/alu-adder-4-1/adder-4-1/sheet5C34B027/B /alu/alu-adder-4-1/adder-4-1/sheet5C34B027/AorB 10K
-Q152 /alu/alu-adder-4-1/adder-4-1/sheet5C34B047/A /alu/alu-adder-4-1/adder-4-1/sheet5C34B027/AorB 0 NPN
-R363 /alu/Vcc /alu/alu-adder-4-1/adder-4-1/sheet5C34B049/A 1K
-R361 /alu/alu-adder-4-1/adder-4-1/sheet5C34B047/A /alu/alu-adder-4-1/adder-4-1/sheet5C34B047/AorB 10K
-R362 /S3 /alu/alu-adder-4-1/adder-4-1/sheet5C34B047/AorB 10K
-Q153 /alu/alu-adder-4-1/adder-4-1/sheet5C34B049/A /alu/alu-adder-4-1/adder-4-1/sheet5C34B047/AorB 0 NPN
-R366 /alu/Vcc /alu/alu-adder-4-1/adder-4-1/sheet5C34B04A/A 1K
-R364 /alu/alu-adder-4-1/adder-4-1/sheet5C34B047/A /alu/alu-adder-4-1/adder-4-1/sheet5C34B048/AorB 10K
-R365 /alu/alu-adder-4-1/adder-4-1/sheet5C34B049/A /alu/alu-adder-4-1/adder-4-1/sheet5C34B048/AorB 10K
-Q154 /alu/alu-adder-4-1/adder-4-1/sheet5C34B04A/A /alu/alu-adder-4-1/adder-4-1/sheet5C34B048/AorB 0 NPN
-R369 /alu/Vcc /alu/alu-adder-4-1/adder-4-1/sheet5C34B04A/B 1K
-R367 /alu/alu-adder-4-1/adder-4-1/sheet5C34B049/A /alu/alu-adder-4-1/adder-4-1/sheet5C34B049/AorB 10K
-R368 /S3 /alu/alu-adder-4-1/adder-4-1/sheet5C34B049/AorB 10K
-Q155 /alu/alu-adder-4-1/adder-4-1/sheet5C34B04A/B /alu/alu-adder-4-1/adder-4-1/sheet5C34B049/AorB 0 NPN
+R351 /alu/Vcc /alu/alu-adder-4-1/adder-4-1/adder-1-nor-3/A 1K
+R349 /A1in /alu/alu-adder-4-1/adder-4-1/adder-1-nor-1/AorB 10K
+R350 /alu/AdderB1in /alu/alu-adder-4-1/adder-4-1/adder-1-nor-1/AorB 10K
+Q149 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-3/A /alu/alu-adder-4-1/adder-4-1/adder-1-nor-1/AorB 0 NPN
+R354 /alu/Vcc /alu/alu-adder-4-1/adder-4-1/adder-1-nor-4/A 1K
+R352 /A1in /alu/alu-adder-4-1/adder-4-1/adder-1-nor-2/AorB 10K
+R353 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-3/A /alu/alu-adder-4-1/adder-4-1/adder-1-nor-2/AorB 10K
+Q150 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-4/A /alu/alu-adder-4-1/adder-4-1/adder-1-nor-2/AorB 0 NPN
+R357 /alu/Vcc /alu/alu-adder-4-1/adder-4-1/adder-1-nor-4/B 1K
+R355 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-3/A /alu/alu-adder-4-1/adder-4-1/adder-1-nor-3/AorB 10K
+R356 /alu/AdderB1in /alu/alu-adder-4-1/adder-4-1/adder-1-nor-3/AorB 10K
+Q151 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-4/B /alu/alu-adder-4-1/adder-4-1/adder-1-nor-3/AorB 0 NPN
+R360 /alu/Vcc /alu/alu-adder-4-1/adder-4-1/adder-1-nor-5/A 1K
+R358 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-4/A /alu/alu-adder-4-1/adder-4-1/adder-1-nor-4/AorB 10K
+R359 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-4/B /alu/alu-adder-4-1/adder-4-1/adder-1-nor-4/AorB 10K
+Q152 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-5/A /alu/alu-adder-4-1/adder-4-1/adder-1-nor-4/AorB 0 NPN
+R363 /alu/Vcc /alu/alu-adder-4-1/adder-4-1/adder-1-nor-7/A 1K
+R361 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-5/A /alu/alu-adder-4-1/adder-4-1/adder-1-nor-5/AorB 10K
+R362 /S3 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-5/AorB 10K
+Q153 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-7/A /alu/alu-adder-4-1/adder-4-1/adder-1-nor-5/AorB 0 NPN
+R366 /alu/Vcc /alu/alu-adder-4-1/adder-4-1/adder-1-nor-9/A 1K
+R364 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-5/A /alu/alu-adder-4-1/adder-4-1/adder-1-nor-6/AorB 10K
+R365 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-7/A /alu/alu-adder-4-1/adder-4-1/adder-1-nor-6/AorB 10K
+Q154 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-9/A /alu/alu-adder-4-1/adder-4-1/adder-1-nor-6/AorB 0 NPN
+R369 /alu/Vcc /alu/alu-adder-4-1/adder-4-1/adder-1-nor-9/B 1K
+R367 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-7/A /alu/alu-adder-4-1/adder-4-1/adder-1-nor-7/AorB 10K
+R368 /S3 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-7/AorB 10K
+Q155 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-9/B /alu/alu-adder-4-1/adder-4-1/adder-1-nor-7/AorB 0 NPN
 R372 /alu/Vcc /alu/AdderS1 1K
-R370 /alu/alu-adder-4-1/adder-4-1/sheet5C34B04A/A /alu/alu-adder-4-1/adder-4-1/sheet5C34B04A/AorB 10K
-R371 /alu/alu-adder-4-1/adder-4-1/sheet5C34B04A/B /alu/alu-adder-4-1/adder-4-1/sheet5C34B04A/AorB 10K
-Q156 /alu/AdderS1 /alu/alu-adder-4-1/adder-4-1/sheet5C34B04A/AorB 0 NPN
+R370 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-9/A /alu/alu-adder-4-1/adder-4-1/adder-1-nor-9/AorB 10K
+R371 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-9/B /alu/alu-adder-4-1/adder-4-1/adder-1-nor-9/AorB 10K
+Q156 /alu/AdderS1 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-9/AorB 0 NPN
 R375 /alu/Vcc /alu/alu-adder-4-1/adder-4-2/Cin 1K
-R373 /alu/alu-adder-4-1/adder-4-1/sheet5C34B049/A /alu/alu-adder-4-1/adder-4-1/sheet5C34B0CD/AorB 10K
-R374 /alu/alu-adder-4-1/adder-4-1/sheet5C34B00D/A /alu/alu-adder-4-1/adder-4-1/sheet5C34B0CD/AorB 10K
-Q157 /alu/alu-adder-4-1/adder-4-2/Cin /alu/alu-adder-4-1/adder-4-1/sheet5C34B0CD/AorB 0 NPN
-R378 /alu/Vcc /alu/alu-adder-4-1/adder-4-2/sheet5C34B00D/A 1K
-R376 /A2in /alu/alu-adder-4-1/adder-4-2/sheet5C34AF27/AorB 10K
-R377 /alu/AdderB2in /alu/alu-adder-4-1/adder-4-2/sheet5C34AF27/AorB 10K
-Q158 /alu/alu-adder-4-1/adder-4-2/sheet5C34B00D/A /alu/alu-adder-4-1/adder-4-2/sheet5C34AF27/AorB 0 NPN
-R381 /alu/Vcc /alu/alu-adder-4-1/adder-4-2/sheet5C34B027/A 1K
-R379 /A2in /alu/alu-adder-4-1/adder-4-2/sheet5C34AFF9/AorB 10K
-R380 /alu/alu-adder-4-1/adder-4-2/sheet5C34B00D/A /alu/alu-adder-4-1/adder-4-2/sheet5C34AFF9/AorB 10K
-Q159 /alu/alu-adder-4-1/adder-4-2/sheet5C34B027/A /alu/alu-adder-4-1/adder-4-2/sheet5C34AFF9/AorB 0 NPN
-R384 /alu/Vcc /alu/alu-adder-4-1/adder-4-2/sheet5C34B027/B 1K
-R382 /alu/alu-adder-4-1/adder-4-2/sheet5C34B00D/A /alu/alu-adder-4-1/adder-4-2/sheet5C34B00D/AorB 10K
-R383 /alu/AdderB2in /alu/alu-adder-4-1/adder-4-2/sheet5C34B00D/AorB 10K
-Q160 /alu/alu-adder-4-1/adder-4-2/sheet5C34B027/B /alu/alu-adder-4-1/adder-4-2/sheet5C34B00D/AorB 0 NPN
-R387 /alu/Vcc /alu/alu-adder-4-1/adder-4-2/sheet5C34B047/A 1K
-R385 /alu/alu-adder-4-1/adder-4-2/sheet5C34B027/A /alu/alu-adder-4-1/adder-4-2/sheet5C34B027/AorB 10K
-R386 /alu/alu-adder-4-1/adder-4-2/sheet5C34B027/B /alu/alu-adder-4-1/adder-4-2/sheet5C34B027/AorB 10K
-Q161 /alu/alu-adder-4-1/adder-4-2/sheet5C34B047/A /alu/alu-adder-4-1/adder-4-2/sheet5C34B027/AorB 0 NPN
-R390 /alu/Vcc /alu/alu-adder-4-1/adder-4-2/sheet5C34B049/A 1K
-R388 /alu/alu-adder-4-1/adder-4-2/sheet5C34B047/A /alu/alu-adder-4-1/adder-4-2/sheet5C34B047/AorB 10K
-R389 /alu/alu-adder-4-1/adder-4-2/Cin /alu/alu-adder-4-1/adder-4-2/sheet5C34B047/AorB 10K
-Q162 /alu/alu-adder-4-1/adder-4-2/sheet5C34B049/A /alu/alu-adder-4-1/adder-4-2/sheet5C34B047/AorB 0 NPN
-R393 /alu/Vcc /alu/alu-adder-4-1/adder-4-2/sheet5C34B04A/A 1K
-R391 /alu/alu-adder-4-1/adder-4-2/sheet5C34B047/A /alu/alu-adder-4-1/adder-4-2/sheet5C34B048/AorB 10K
-R392 /alu/alu-adder-4-1/adder-4-2/sheet5C34B049/A /alu/alu-adder-4-1/adder-4-2/sheet5C34B048/AorB 10K
-Q163 /alu/alu-adder-4-1/adder-4-2/sheet5C34B04A/A /alu/alu-adder-4-1/adder-4-2/sheet5C34B048/AorB 0 NPN
-R396 /alu/Vcc /alu/alu-adder-4-1/adder-4-2/sheet5C34B04A/B 1K
-R394 /alu/alu-adder-4-1/adder-4-2/sheet5C34B049/A /alu/alu-adder-4-1/adder-4-2/sheet5C34B049/AorB 10K
-R395 /alu/alu-adder-4-1/adder-4-2/Cin /alu/alu-adder-4-1/adder-4-2/sheet5C34B049/AorB 10K
-Q164 /alu/alu-adder-4-1/adder-4-2/sheet5C34B04A/B /alu/alu-adder-4-1/adder-4-2/sheet5C34B049/AorB 0 NPN
+R373 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-7/A /alu/alu-adder-4-1/adder-4-1/adder-1-nor-8/AorB 10K
+R374 /alu/alu-adder-4-1/adder-4-1/adder-1-nor-3/A /alu/alu-adder-4-1/adder-4-1/adder-1-nor-8/AorB 10K
+Q157 /alu/alu-adder-4-1/adder-4-2/Cin /alu/alu-adder-4-1/adder-4-1/adder-1-nor-8/AorB 0 NPN
+R378 /alu/Vcc /alu/alu-adder-4-1/adder-4-2/adder-1-nor-3/A 1K
+R376 /A2in /alu/alu-adder-4-1/adder-4-2/adder-1-nor-1/AorB 10K
+R377 /alu/AdderB2in /alu/alu-adder-4-1/adder-4-2/adder-1-nor-1/AorB 10K
+Q158 /alu/alu-adder-4-1/adder-4-2/adder-1-nor-3/A /alu/alu-adder-4-1/adder-4-2/adder-1-nor-1/AorB 0 NPN
+R381 /alu/Vcc /alu/alu-adder-4-1/adder-4-2/adder-1-nor-4/A 1K
+R379 /A2in /alu/alu-adder-4-1/adder-4-2/adder-1-nor-2/AorB 10K
+R380 /alu/alu-adder-4-1/adder-4-2/adder-1-nor-3/A /alu/alu-adder-4-1/adder-4-2/adder-1-nor-2/AorB 10K
+Q159 /alu/alu-adder-4-1/adder-4-2/adder-1-nor-4/A /alu/alu-adder-4-1/adder-4-2/adder-1-nor-2/AorB 0 NPN
+R384 /alu/Vcc /alu/alu-adder-4-1/adder-4-2/adder-1-nor-4/B 1K
+R382 /alu/alu-adder-4-1/adder-4-2/adder-1-nor-3/A /alu/alu-adder-4-1/adder-4-2/adder-1-nor-3/AorB 10K
+R383 /alu/AdderB2in /alu/alu-adder-4-1/adder-4-2/adder-1-nor-3/AorB 10K
+Q160 /alu/alu-adder-4-1/adder-4-2/adder-1-nor-4/B /alu/alu-adder-4-1/adder-4-2/adder-1-nor-3/AorB 0 NPN
+R387 /alu/Vcc /alu/alu-adder-4-1/adder-4-2/adder-1-nor-5/A 1K
+R385 /alu/alu-adder-4-1/adder-4-2/adder-1-nor-4/A /alu/alu-adder-4-1/adder-4-2/adder-1-nor-4/AorB 10K
+R386 /alu/alu-adder-4-1/adder-4-2/adder-1-nor-4/B /alu/alu-adder-4-1/adder-4-2/adder-1-nor-4/AorB 10K
+Q161 /alu/alu-adder-4-1/adder-4-2/adder-1-nor-5/A /alu/alu-adder-4-1/adder-4-2/adder-1-nor-4/AorB 0 NPN
+R390 /alu/Vcc /alu/alu-adder-4-1/adder-4-2/adder-1-nor-7/A 1K
+R388 /alu/alu-adder-4-1/adder-4-2/adder-1-nor-5/A /alu/alu-adder-4-1/adder-4-2/adder-1-nor-5/AorB 10K
+R389 /alu/alu-adder-4-1/adder-4-2/Cin /alu/alu-adder-4-1/adder-4-2/adder-1-nor-5/AorB 10K
+Q162 /alu/alu-adder-4-1/adder-4-2/adder-1-nor-7/A /alu/alu-adder-4-1/adder-4-2/adder-1-nor-5/AorB 0 NPN
+R393 /alu/Vcc /alu/alu-adder-4-1/adder-4-2/adder-1-nor-9/A 1K
+R391 /alu/alu-adder-4-1/adder-4-2/adder-1-nor-5/A /alu/alu-adder-4-1/adder-4-2/adder-1-nor-6/AorB 10K
+R392 /alu/alu-adder-4-1/adder-4-2/adder-1-nor-7/A /alu/alu-adder-4-1/adder-4-2/adder-1-nor-6/AorB 10K
+Q163 /alu/alu-adder-4-1/adder-4-2/adder-1-nor-9/A /alu/alu-adder-4-1/adder-4-2/adder-1-nor-6/AorB 0 NPN
+R396 /alu/Vcc /alu/alu-adder-4-1/adder-4-2/adder-1-nor-9/B 1K
+R394 /alu/alu-adder-4-1/adder-4-2/adder-1-nor-7/A /alu/alu-adder-4-1/adder-4-2/adder-1-nor-7/AorB 10K
+R395 /alu/alu-adder-4-1/adder-4-2/Cin /alu/alu-adder-4-1/adder-4-2/adder-1-nor-7/AorB 10K
+Q164 /alu/alu-adder-4-1/adder-4-2/adder-1-nor-9/B /alu/alu-adder-4-1/adder-4-2/adder-1-nor-7/AorB 0 NPN
 R399 /alu/Vcc /alu/AdderS1 1K
-R397 /alu/alu-adder-4-1/adder-4-2/sheet5C34B04A/A /alu/alu-adder-4-1/adder-4-2/sheet5C34B04A/AorB 10K
-R398 /alu/alu-adder-4-1/adder-4-2/sheet5C34B04A/B /alu/alu-adder-4-1/adder-4-2/sheet5C34B04A/AorB 10K
-Q165 /alu/AdderS1 /alu/alu-adder-4-1/adder-4-2/sheet5C34B04A/AorB 0 NPN
+* R372 /alu/Vcc /alu/AdderS1 1K <---- how is this getting connected 
+R397 /alu/alu-adder-4-1/adder-4-2/adder-1-nor-9/A /alu/alu-adder-4-1/adder-4-2/adder-1-nor-9/AorB 10K
+R398 /alu/alu-adder-4-1/adder-4-2/adder-1-nor-9/B /alu/alu-adder-4-1/adder-4-2/adder-1-nor-9/AorB 10K
+Q165 /alu/AdderS1 /alu/alu-adder-4-1/adder-4-2/adder-1-nor-9/AorB 0 NPN
 R402 /alu/Vcc /alu/alu-adder-4-1/adder-4-3/Cin 1K
-R400 /alu/alu-adder-4-1/adder-4-2/sheet5C34B049/A /alu/alu-adder-4-1/adder-4-2/sheet5C34B0CD/AorB 10K
-R401 /alu/alu-adder-4-1/adder-4-2/sheet5C34B00D/A /alu/alu-adder-4-1/adder-4-2/sheet5C34B0CD/AorB 10K
-Q166 /alu/alu-adder-4-1/adder-4-3/Cin /alu/alu-adder-4-1/adder-4-2/sheet5C34B0CD/AorB 0 NPN
-R405 /alu/Vcc /alu/alu-adder-4-1/adder-4-3/sheet5C34B00D/A 1K
-R403 /A3in /alu/alu-adder-4-1/adder-4-3/sheet5C34AF27/AorB 10K
-R404 /alu/AdderB3in /alu/alu-adder-4-1/adder-4-3/sheet5C34AF27/AorB 10K
-Q167 /alu/alu-adder-4-1/adder-4-3/sheet5C34B00D/A /alu/alu-adder-4-1/adder-4-3/sheet5C34AF27/AorB 0 NPN
-R408 /alu/Vcc /alu/alu-adder-4-1/adder-4-3/sheet5C34B027/A 1K
-R406 /A3in /alu/alu-adder-4-1/adder-4-3/sheet5C34AFF9/AorB 10K
-R407 /alu/alu-adder-4-1/adder-4-3/sheet5C34B00D/A /alu/alu-adder-4-1/adder-4-3/sheet5C34AFF9/AorB 10K
-Q168 /alu/alu-adder-4-1/adder-4-3/sheet5C34B027/A /alu/alu-adder-4-1/adder-4-3/sheet5C34AFF9/AorB 0 NPN
-R411 /alu/Vcc /alu/alu-adder-4-1/adder-4-3/sheet5C34B027/B 1K
-R409 /alu/alu-adder-4-1/adder-4-3/sheet5C34B00D/A /alu/alu-adder-4-1/adder-4-3/sheet5C34B00D/AorB 10K
-R410 /alu/AdderB3in /alu/alu-adder-4-1/adder-4-3/sheet5C34B00D/AorB 10K
-Q169 /alu/alu-adder-4-1/adder-4-3/sheet5C34B027/B /alu/alu-adder-4-1/adder-4-3/sheet5C34B00D/AorB 0 NPN
-R414 /alu/Vcc /alu/alu-adder-4-1/adder-4-3/sheet5C34B047/A 1K
-R412 /alu/alu-adder-4-1/adder-4-3/sheet5C34B027/A /alu/alu-adder-4-1/adder-4-3/sheet5C34B027/AorB 10K
-R413 /alu/alu-adder-4-1/adder-4-3/sheet5C34B027/B /alu/alu-adder-4-1/adder-4-3/sheet5C34B027/AorB 10K
-Q170 /alu/alu-adder-4-1/adder-4-3/sheet5C34B047/A /alu/alu-adder-4-1/adder-4-3/sheet5C34B027/AorB 0 NPN
-R417 /alu/Vcc /alu/alu-adder-4-1/adder-4-3/sheet5C34B049/A 1K
-R415 /alu/alu-adder-4-1/adder-4-3/sheet5C34B047/A /alu/alu-adder-4-1/adder-4-3/sheet5C34B047/AorB 10K
-R416 /alu/alu-adder-4-1/adder-4-3/Cin /alu/alu-adder-4-1/adder-4-3/sheet5C34B047/AorB 10K
-Q171 /alu/alu-adder-4-1/adder-4-3/sheet5C34B049/A /alu/alu-adder-4-1/adder-4-3/sheet5C34B047/AorB 0 NPN
-R420 /alu/Vcc /alu/alu-adder-4-1/adder-4-3/sheet5C34B04A/A 1K
-R418 /alu/alu-adder-4-1/adder-4-3/sheet5C34B047/A /alu/alu-adder-4-1/adder-4-3/sheet5C34B048/AorB 10K
-R419 /alu/alu-adder-4-1/adder-4-3/sheet5C34B049/A /alu/alu-adder-4-1/adder-4-3/sheet5C34B048/AorB 10K
-Q172 /alu/alu-adder-4-1/adder-4-3/sheet5C34B04A/A /alu/alu-adder-4-1/adder-4-3/sheet5C34B048/AorB 0 NPN
-R423 /alu/Vcc /alu/alu-adder-4-1/adder-4-3/sheet5C34B04A/B 1K
-R421 /alu/alu-adder-4-1/adder-4-3/sheet5C34B049/A /alu/alu-adder-4-1/adder-4-3/sheet5C34B049/AorB 10K
-R422 /alu/alu-adder-4-1/adder-4-3/Cin /alu/alu-adder-4-1/adder-4-3/sheet5C34B049/AorB 10K
-Q173 /alu/alu-adder-4-1/adder-4-3/sheet5C34B04A/B /alu/alu-adder-4-1/adder-4-3/sheet5C34B049/AorB 0 NPN
+R400 /alu/alu-adder-4-1/adder-4-2/adder-1-nor-7/A /alu/alu-adder-4-1/adder-4-2/adder-1-nor-8/AorB 10K
+R401 /alu/alu-adder-4-1/adder-4-2/adder-1-nor-3/A /alu/alu-adder-4-1/adder-4-2/adder-1-nor-8/AorB 10K
+Q166 /alu/alu-adder-4-1/adder-4-3/Cin /alu/alu-adder-4-1/adder-4-2/adder-1-nor-8/AorB 0 NPN
+R405 /alu/Vcc /alu/alu-adder-4-1/adder-4-3/adder-1-nor-3/A 1K
+R403 /A3in /alu/alu-adder-4-1/adder-4-3/adder-1-nor-1/AorB 10K
+R404 /alu/AdderB3in /alu/alu-adder-4-1/adder-4-3/adder-1-nor-1/AorB 10K
+Q167 /alu/alu-adder-4-1/adder-4-3/adder-1-nor-3/A /alu/alu-adder-4-1/adder-4-3/adder-1-nor-1/AorB 0 NPN
+R408 /alu/Vcc /alu/alu-adder-4-1/adder-4-3/adder-1-nor-4/A 1K
+R406 /A3in /alu/alu-adder-4-1/adder-4-3/adder-1-nor-2/AorB 10K
+R407 /alu/alu-adder-4-1/adder-4-3/adder-1-nor-3/A /alu/alu-adder-4-1/adder-4-3/adder-1-nor-2/AorB 10K
+Q168 /alu/alu-adder-4-1/adder-4-3/adder-1-nor-4/A /alu/alu-adder-4-1/adder-4-3/adder-1-nor-2/AorB 0 NPN
+R411 /alu/Vcc /alu/alu-adder-4-1/adder-4-3/adder-1-nor-4/B 1K
+R409 /alu/alu-adder-4-1/adder-4-3/adder-1-nor-3/A /alu/alu-adder-4-1/adder-4-3/adder-1-nor-3/AorB 10K
+R410 /alu/AdderB3in /alu/alu-adder-4-1/adder-4-3/adder-1-nor-3/AorB 10K
+Q169 /alu/alu-adder-4-1/adder-4-3/adder-1-nor-4/B /alu/alu-adder-4-1/adder-4-3/adder-1-nor-3/AorB 0 NPN
+R414 /alu/Vcc /alu/alu-adder-4-1/adder-4-3/adder-1-nor-5/A 1K
+R412 /alu/alu-adder-4-1/adder-4-3/adder-1-nor-4/A /alu/alu-adder-4-1/adder-4-3/adder-1-nor-4/AorB 10K
+R413 /alu/alu-adder-4-1/adder-4-3/adder-1-nor-4/B /alu/alu-adder-4-1/adder-4-3/adder-1-nor-4/AorB 10K
+Q170 /alu/alu-adder-4-1/adder-4-3/adder-1-nor-5/A /alu/alu-adder-4-1/adder-4-3/adder-1-nor-4/AorB 0 NPN
+R417 /alu/Vcc /alu/alu-adder-4-1/adder-4-3/adder-1-nor-7/A 1K
+R415 /alu/alu-adder-4-1/adder-4-3/adder-1-nor-5/A /alu/alu-adder-4-1/adder-4-3/adder-1-nor-5/AorB 10K
+R416 /alu/alu-adder-4-1/adder-4-3/Cin /alu/alu-adder-4-1/adder-4-3/adder-1-nor-5/AorB 10K
+Q171 /alu/alu-adder-4-1/adder-4-3/adder-1-nor-7/A /alu/alu-adder-4-1/adder-4-3/adder-1-nor-5/AorB 0 NPN
+R420 /alu/Vcc /alu/alu-adder-4-1/adder-4-3/adder-1-nor-9/A 1K
+R418 /alu/alu-adder-4-1/adder-4-3/adder-1-nor-5/A /alu/alu-adder-4-1/adder-4-3/adder-1-nor-6/AorB 10K
+R419 /alu/alu-adder-4-1/adder-4-3/adder-1-nor-7/A /alu/alu-adder-4-1/adder-4-3/adder-1-nor-6/AorB 10K
+Q172 /alu/alu-adder-4-1/adder-4-3/adder-1-nor-9/A /alu/alu-adder-4-1/adder-4-3/adder-1-nor-6/AorB 0 NPN
+R423 /alu/Vcc /alu/alu-adder-4-1/adder-4-3/adder-1-nor-9/B 1K
+R421 /alu/alu-adder-4-1/adder-4-3/adder-1-nor-7/A /alu/alu-adder-4-1/adder-4-3/adder-1-nor-7/AorB 10K
+R422 /alu/alu-adder-4-1/adder-4-3/Cin /alu/alu-adder-4-1/adder-4-3/adder-1-nor-7/AorB 10K
+Q173 /alu/alu-adder-4-1/adder-4-3/adder-1-nor-9/B /alu/alu-adder-4-1/adder-4-3/adder-1-nor-7/AorB 0 NPN
 R426 /alu/Vcc /alu/AdderS3 1K
-R424 /alu/alu-adder-4-1/adder-4-3/sheet5C34B04A/A /alu/alu-adder-4-1/adder-4-3/sheet5C34B04A/AorB 10K
-R425 /alu/alu-adder-4-1/adder-4-3/sheet5C34B04A/B /alu/alu-adder-4-1/adder-4-3/sheet5C34B04A/AorB 10K
-Q174 /alu/AdderS3 /alu/alu-adder-4-1/adder-4-3/sheet5C34B04A/AorB 0 NPN
+R424 /alu/alu-adder-4-1/adder-4-3/adder-1-nor-9/A /alu/alu-adder-4-1/adder-4-3/adder-1-nor-9/AorB 10K
+R425 /alu/alu-adder-4-1/adder-4-3/adder-1-nor-9/B /alu/alu-adder-4-1/adder-4-3/adder-1-nor-9/AorB 10K
+Q174 /alu/AdderS3 /alu/alu-adder-4-1/adder-4-3/adder-1-nor-9/AorB 0 NPN
 R429 /alu/Vcc /alu/alu-adder-4-1/adder-4-4/Cin 1K
-R427 /alu/alu-adder-4-1/adder-4-3/sheet5C34B049/A /alu/alu-adder-4-1/adder-4-3/sheet5C34B0CD/AorB 10K
-R428 /alu/alu-adder-4-1/adder-4-3/sheet5C34B00D/A /alu/alu-adder-4-1/adder-4-3/sheet5C34B0CD/AorB 10K
-Q175 /alu/alu-adder-4-1/adder-4-4/Cin /alu/alu-adder-4-1/adder-4-3/sheet5C34B0CD/AorB 0 NPN
-R432 /alu/Vcc /alu/alu-adder-4-1/adder-4-4/sheet5C34B00D/A 1K
-R430 /A4in /alu/alu-adder-4-1/adder-4-4/sheet5C34AF27/AorB 10K
-R431 /alu/AdderB4in /alu/alu-adder-4-1/adder-4-4/sheet5C34AF27/AorB 10K
-Q176 /alu/alu-adder-4-1/adder-4-4/sheet5C34B00D/A /alu/alu-adder-4-1/adder-4-4/sheet5C34AF27/AorB 0 NPN
-R435 /alu/Vcc /alu/alu-adder-4-1/adder-4-4/sheet5C34B027/A 1K
-R433 /A4in /alu/alu-adder-4-1/adder-4-4/sheet5C34AFF9/AorB 10K
-R434 /alu/alu-adder-4-1/adder-4-4/sheet5C34B00D/A /alu/alu-adder-4-1/adder-4-4/sheet5C34AFF9/AorB 10K
-Q177 /alu/alu-adder-4-1/adder-4-4/sheet5C34B027/A /alu/alu-adder-4-1/adder-4-4/sheet5C34AFF9/AorB 0 NPN
-R438 /alu/Vcc /alu/alu-adder-4-1/adder-4-4/sheet5C34B027/B 1K
-R436 /alu/alu-adder-4-1/adder-4-4/sheet5C34B00D/A /alu/alu-adder-4-1/adder-4-4/sheet5C34B00D/AorB 10K
-R437 /alu/AdderB4in /alu/alu-adder-4-1/adder-4-4/sheet5C34B00D/AorB 10K
-Q178 /alu/alu-adder-4-1/adder-4-4/sheet5C34B027/B /alu/alu-adder-4-1/adder-4-4/sheet5C34B00D/AorB 0 NPN
-R441 /alu/Vcc /alu/alu-adder-4-1/adder-4-4/sheet5C34B047/A 1K
-R439 /alu/alu-adder-4-1/adder-4-4/sheet5C34B027/A /alu/alu-adder-4-1/adder-4-4/sheet5C34B027/AorB 10K
-R440 /alu/alu-adder-4-1/adder-4-4/sheet5C34B027/B /alu/alu-adder-4-1/adder-4-4/sheet5C34B027/AorB 10K
-Q179 /alu/alu-adder-4-1/adder-4-4/sheet5C34B047/A /alu/alu-adder-4-1/adder-4-4/sheet5C34B027/AorB 0 NPN
-R444 /alu/Vcc /alu/alu-adder-4-1/adder-4-4/sheet5C34B049/A 1K
-R442 /alu/alu-adder-4-1/adder-4-4/sheet5C34B047/A /alu/alu-adder-4-1/adder-4-4/sheet5C34B047/AorB 10K
-R443 /alu/alu-adder-4-1/adder-4-4/Cin /alu/alu-adder-4-1/adder-4-4/sheet5C34B047/AorB 10K
-Q180 /alu/alu-adder-4-1/adder-4-4/sheet5C34B049/A /alu/alu-adder-4-1/adder-4-4/sheet5C34B047/AorB 0 NPN
-R447 /alu/Vcc /alu/alu-adder-4-1/adder-4-4/sheet5C34B04A/A 1K
-R445 /alu/alu-adder-4-1/adder-4-4/sheet5C34B047/A /alu/alu-adder-4-1/adder-4-4/sheet5C34B048/AorB 10K
-R446 /alu/alu-adder-4-1/adder-4-4/sheet5C34B049/A /alu/alu-adder-4-1/adder-4-4/sheet5C34B048/AorB 10K
-Q181 /alu/alu-adder-4-1/adder-4-4/sheet5C34B04A/A /alu/alu-adder-4-1/adder-4-4/sheet5C34B048/AorB 0 NPN
-R450 /alu/Vcc /alu/alu-adder-4-1/adder-4-4/sheet5C34B04A/B 1K
-R448 /alu/alu-adder-4-1/adder-4-4/sheet5C34B049/A /alu/alu-adder-4-1/adder-4-4/sheet5C34B049/AorB 10K
-R449 /alu/alu-adder-4-1/adder-4-4/Cin /alu/alu-adder-4-1/adder-4-4/sheet5C34B049/AorB 10K
-Q182 /alu/alu-adder-4-1/adder-4-4/sheet5C34B04A/B /alu/alu-adder-4-1/adder-4-4/sheet5C34B049/AorB 0 NPN
+R427 /alu/alu-adder-4-1/adder-4-3/adder-1-nor-7/A /alu/alu-adder-4-1/adder-4-3/adder-1-nor-8/AorB 10K
+R428 /alu/alu-adder-4-1/adder-4-3/adder-1-nor-3/A /alu/alu-adder-4-1/adder-4-3/adder-1-nor-8/AorB 10K
+Q175 /alu/alu-adder-4-1/adder-4-4/Cin /alu/alu-adder-4-1/adder-4-3/adder-1-nor-8/AorB 0 NPN
+R432 /alu/Vcc /alu/alu-adder-4-1/adder-4-4/adder-1-nor-3/A 1K
+R430 /A4in /alu/alu-adder-4-1/adder-4-4/adder-1-nor-1/AorB 10K
+R431 /alu/AdderB4in /alu/alu-adder-4-1/adder-4-4/adder-1-nor-1/AorB 10K
+Q176 /alu/alu-adder-4-1/adder-4-4/adder-1-nor-3/A /alu/alu-adder-4-1/adder-4-4/adder-1-nor-1/AorB 0 NPN
+R435 /alu/Vcc /alu/alu-adder-4-1/adder-4-4/adder-1-nor-4/A 1K
+R433 /A4in /alu/alu-adder-4-1/adder-4-4/adder-1-nor-2/AorB 10K
+R434 /alu/alu-adder-4-1/adder-4-4/adder-1-nor-3/A /alu/alu-adder-4-1/adder-4-4/adder-1-nor-2/AorB 10K
+Q177 /alu/alu-adder-4-1/adder-4-4/adder-1-nor-4/A /alu/alu-adder-4-1/adder-4-4/adder-1-nor-2/AorB 0 NPN
+R438 /alu/Vcc /alu/alu-adder-4-1/adder-4-4/adder-1-nor-4/B 1K
+R436 /alu/alu-adder-4-1/adder-4-4/adder-1-nor-3/A /alu/alu-adder-4-1/adder-4-4/adder-1-nor-3/AorB 10K
+R437 /alu/AdderB4in /alu/alu-adder-4-1/adder-4-4/adder-1-nor-3/AorB 10K
+Q178 /alu/alu-adder-4-1/adder-4-4/adder-1-nor-4/B /alu/alu-adder-4-1/adder-4-4/adder-1-nor-3/AorB 0 NPN
+R441 /alu/Vcc /alu/alu-adder-4-1/adder-4-4/adder-1-nor-5/A 1K
+R439 /alu/alu-adder-4-1/adder-4-4/adder-1-nor-4/A /alu/alu-adder-4-1/adder-4-4/adder-1-nor-4/AorB 10K
+R440 /alu/alu-adder-4-1/adder-4-4/adder-1-nor-4/B /alu/alu-adder-4-1/adder-4-4/adder-1-nor-4/AorB 10K
+Q179 /alu/alu-adder-4-1/adder-4-4/adder-1-nor-5/A /alu/alu-adder-4-1/adder-4-4/adder-1-nor-4/AorB 0 NPN
+R444 /alu/Vcc /alu/alu-adder-4-1/adder-4-4/adder-1-nor-7/A 1K
+R442 /alu/alu-adder-4-1/adder-4-4/adder-1-nor-5/A /alu/alu-adder-4-1/adder-4-4/adder-1-nor-5/AorB 10K
+R443 /alu/alu-adder-4-1/adder-4-4/Cin /alu/alu-adder-4-1/adder-4-4/adder-1-nor-5/AorB 10K
+Q180 /alu/alu-adder-4-1/adder-4-4/adder-1-nor-7/A /alu/alu-adder-4-1/adder-4-4/adder-1-nor-5/AorB 0 NPN
+R447 /alu/Vcc /alu/alu-adder-4-1/adder-4-4/adder-1-nor-9/A 1K
+R445 /alu/alu-adder-4-1/adder-4-4/adder-1-nor-5/A /alu/alu-adder-4-1/adder-4-4/adder-1-nor-6/AorB 10K
+R446 /alu/alu-adder-4-1/adder-4-4/adder-1-nor-7/A /alu/alu-adder-4-1/adder-4-4/adder-1-nor-6/AorB 10K
+Q181 /alu/alu-adder-4-1/adder-4-4/adder-1-nor-9/A /alu/alu-adder-4-1/adder-4-4/adder-1-nor-6/AorB 0 NPN
+R450 /alu/Vcc /alu/alu-adder-4-1/adder-4-4/adder-1-nor-9/B 1K
+R448 /alu/alu-adder-4-1/adder-4-4/adder-1-nor-7/A /alu/alu-adder-4-1/adder-4-4/adder-1-nor-7/AorB 10K
+R449 /alu/alu-adder-4-1/adder-4-4/Cin /alu/alu-adder-4-1/adder-4-4/adder-1-nor-7/AorB 10K
+Q182 /alu/alu-adder-4-1/adder-4-4/adder-1-nor-9/B /alu/alu-adder-4-1/adder-4-4/adder-1-nor-7/AorB 0 NPN
 R453 /alu/Vcc /alu/AdderS4 1K
-R451 /alu/alu-adder-4-1/adder-4-4/sheet5C34B04A/A /alu/alu-adder-4-1/adder-4-4/sheet5C34B04A/AorB 10K
-R452 /alu/alu-adder-4-1/adder-4-4/sheet5C34B04A/B /alu/alu-adder-4-1/adder-4-4/sheet5C34B04A/AorB 10K
-Q183 /alu/AdderS4 /alu/alu-adder-4-1/adder-4-4/sheet5C34B04A/AorB 0 NPN
+R451 /alu/alu-adder-4-1/adder-4-4/adder-1-nor-9/A /alu/alu-adder-4-1/adder-4-4/adder-1-nor-9/AorB 10K
+R452 /alu/alu-adder-4-1/adder-4-4/adder-1-nor-9/B /alu/alu-adder-4-1/adder-4-4/adder-1-nor-9/AorB 10K
+Q183 /alu/AdderS4 /alu/alu-adder-4-1/adder-4-4/adder-1-nor-9/AorB 0 NPN
 R456 /alu/Vcc /alu/Cout 1K
-R454 /alu/alu-adder-4-1/adder-4-4/sheet5C34B049/A /alu/alu-adder-4-1/adder-4-4/sheet5C34B0CD/AorB 10K
-R455 /alu/alu-adder-4-1/adder-4-4/sheet5C34B00D/A /alu/alu-adder-4-1/adder-4-4/sheet5C34B0CD/AorB 10K
-Q184 /alu/Cout /alu/alu-adder-4-1/adder-4-4/sheet5C34B0CD/AorB 0 NPN
+R454 /alu/alu-adder-4-1/adder-4-4/adder-1-nor-7/A /alu/alu-adder-4-1/adder-4-4/adder-1-nor-8/AorB 10K
+R455 /alu/alu-adder-4-1/adder-4-4/adder-1-nor-3/A /alu/alu-adder-4-1/adder-4-4/adder-1-nor-8/AorB 10K
+Q184 /alu/Cout /alu/alu-adder-4-1/adder-4-4/adder-1-nor-8/AorB 0 NPN
 R459 /alu/Vcc /alu/AdderB1in 1K
 R457 /alu/alu-and-4-1/gate-and-4-2-and-1/sheet5C364DB7/A /alu/alu-and-4-1/gate-and-4-2-and-1/sheet5C364DB7/AorB 10K
 R458 /alu/alu-and-4-1/gate-and-4-2-and-1/sheet5C364DB7/B /alu/alu-and-4-1/gate-and-4-2-and-1/sheet5C364DB7/AorB 10K

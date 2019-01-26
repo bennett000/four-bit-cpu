@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:adder-4-test-cache
+LIBS:alu-test-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 223 42
+Sheet 223 280
 Title ""
 Date ""
 Rev ""
@@ -17,7 +17,7 @@ $EndDescr
 $Sheet
 S 1600 2550 500  450 
 U 5C34AF2E
-F0 "sheet5C34AF27" 50
+F0 "adder-1-nor-1" 50
 F1 "gate-nor-2.sch" 50
 F2 "A" I L 1600 2850 50 
 F3 "B" I L 1600 2950 50 
@@ -28,7 +28,7 @@ $EndSheet
 $Sheet
 S 3000 1500 500  450 
 U 5C34B000
-F0 "sheet5C34AFF9" 50
+F0 "adder-1-nor-2" 50
 F1 "gate-nor-2.sch" 50
 F2 "A" I L 3000 1800 50 
 F3 "B" I L 3000 1900 50 
@@ -39,7 +39,7 @@ $EndSheet
 $Sheet
 S 3000 3700 500  450 
 U 5C34B014
-F0 "sheet5C34B00D" 50
+F0 "adder-1-nor-3" 50
 F1 "gate-nor-2.sch" 50
 F2 "A" I L 3000 4000 50 
 F3 "B" I L 3000 4100 50 
@@ -50,7 +50,7 @@ $EndSheet
 $Sheet
 S 4350 2550 500  450 
 U 5C34B02E
-F0 "sheet5C34B027" 50
+F0 "adder-1-nor-4" 50
 F1 "gate-nor-2.sch" 50
 F2 "A" I L 4350 2850 50 
 F3 "B" I L 4350 2950 50 
@@ -61,7 +61,7 @@ $EndSheet
 $Sheet
 S 6050 2550 500  450 
 U 5C34B051
-F0 "sheet5C34B047" 50
+F0 "adder-1-nor-5" 50
 F1 "gate-nor-2.sch" 50
 F2 "A" I L 6050 2850 50 
 F3 "B" I L 6050 2950 50 
@@ -72,7 +72,7 @@ $EndSheet
 $Sheet
 S 7450 1500 500  450 
 U 5C34B058
-F0 "sheet5C34B048" 50
+F0 "adder-1-nor-6" 50
 F1 "gate-nor-2.sch" 50
 F2 "A" I L 7450 1800 50 
 F3 "B" I L 7450 1900 50 
@@ -83,7 +83,7 @@ $EndSheet
 $Sheet
 S 7400 3650 500  450 
 U 5C34B05F
-F0 "sheet5C34B049" 50
+F0 "adder-1-nor-7" 50
 F1 "gate-nor-2.sch" 50
 F2 "A" I L 7400 3950 50 
 F3 "B" I L 7400 4050 50 
@@ -94,7 +94,7 @@ $EndSheet
 $Sheet
 S 8800 2550 500  450 
 U 5C34B066
-F0 "sheet5C34B04A" 50
+F0 "adder-1-nor-9" 50
 F1 "gate-nor-2.sch" 50
 F2 "A" I L 8800 2850 50 
 F3 "B" I L 8800 2950 50 
@@ -105,7 +105,7 @@ $EndSheet
 $Sheet
 S 7400 5100 500  450 
 U 5C34B0D4
-F0 "sheet5C34B0CD" 50
+F0 "adder-1-nor-8" 50
 F1 "gate-nor-2.sch" 50
 F2 "A" I L 7400 5400 50 
 F3 "B" I L 7400 5500 50 
