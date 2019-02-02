@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:alu-test-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 161
+Sheet 3 280
 Title ""
 Date ""
 Rev ""
@@ -39,8 +40,6 @@ Text HLabel 3850 3000 0    50   Input ~ 0
 B1
 Text HLabel 3850 3150 0    50   Input ~ 0
 Sel
-Wire Wire Line
-	3850 2900 4150 2900
 Wire Wire Line
 	3850 3000 4150 3000
 Wire Wire Line
@@ -157,4 +156,6 @@ Text HLabel 7300 4050 2    50   Input ~ 0
 Z4
 Wire Wire Line
 	7300 4050 7000 4050
+Wire Wire Line
+	3850 2900 4150 2900
 $EndSCHEMATC

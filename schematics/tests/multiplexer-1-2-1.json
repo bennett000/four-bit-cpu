@@ -1,0 +1,43 @@
+{
+  "tests": [{
+    "i": { 
+      "/Ain": 0, "/Bin": 0, "/SelIn": 0
+    },
+    "o": { "/multiplexer-1-2-1/Z": 0 } 
+    },{
+    "i": { 
+      "/Ain": 1, "/Bin": 0, "/SelIn": 0
+    },
+    "o": { "/multiplexer-1-2-1/Z": 1 } 
+    },{
+    "i": { 
+      "/Ain": 1, "/Bin": 1, "/SelIn": 0
+    },
+    "o": { "/multiplexer-1-2-1/Z": 1 } 
+    },{
+    "i": { 
+      "/Ain": 0, "/Bin": 1, "/SelIn": 0
+    },
+    "o": { "/multiplexer-1-2-1/Z": 0 } 
+    },{
+    "i": { 
+      "/Ain": 0, "/Bin": 0, "/SelIn": 1
+    },
+    "o": { "/multiplexer-1-2-1/Z": 0 } 
+    },{
+    "i": { 
+      "/Ain": 1, "/Bin": 0, "/SelIn": 1
+    },
+    "o": { "/multiplexer-1-2-1/Z": 0 } 
+    },{
+    "i": { 
+      "/Ain": 1, "/Bin": 1, "/SelIn": 1
+    },
+    "o": { "/multiplexer-1-2-1/Z": 1 } 
+    },{
+    "i": { 
+      "/Ain": 0, "/Bin": 1, "/SelIn": 1
+    },
+    "o": { "/multiplexer-1-2-1/Z": 1 } 
+    }]
+}

@@ -1,0 +1,66 @@
+{
+  "tests": [{
+    "i": { 
+      "/A1in": 0, "/A2in": 0, "/A3in": 0, "/A4in": 0,
+      "/B1in": 0, "/B2in": 0, "/B3in": 0, "/B4in": 0,
+      "/Cin": 0
+    },
+    "o": { "/adder-4/s1": 0, "/adder-4/s2": 0, "/adder-4/s3": 0, "/adder-4/s4": 0, "/adder-4/cout": 0 } 
+    },{
+    "i": { 
+      "/A1in": 1, "/A2in": 0, "/A3in": 0, "/A4in": 0,
+      "/B1in": 0, "/B2in": 0, "/B3in": 0, "/B4in": 0,
+      "/Cin": 0
+    },
+    "o": { "/adder-4/s1": 1, "/adder-4/s2": 0, "/adder-4/s3": 0, "/adder-4/s4": 0, "/adder-4/cout": 0 } 
+    },{
+    "i": { 
+      "/A1in": 1, "/A2in": 1, "/A3in": 0, "/A4in": 0,
+      "/B1in": 0, "/B2in": 0, "/B3in": 0, "/B4in": 0,
+      "/Cin": 0
+    },
+    "o": { "/adder-4/s1": 1, "/adder-4/s2": 1, "/adder-4/s3": 0, "/adder-4/s4": 0, "/adder-4/cout": 0 } 
+    },{
+    "i": { 
+      "/A1in": 1, "/A2in": 1, "/A3in": 1, "/A4in": 1,
+      "/B1in": 0, "/B2in": 0, "/B3in": 0, "/B4in": 0,
+      "/Cin": 0
+    },
+    "o": { "/adder-4/s1": 1, "/adder-4/s2": 1, "/adder-4/s3": 1, "/adder-4/s4": 1, "/adder-4/cout": 0 } 
+    },{
+    "i": { 
+      "/A1in": 1, "/A2in": 0, "/A3in": 0, "/A4in": 0,
+      "/B1in": 1, "/B2in": 0, "/B3in": 0, "/B4in": 0,
+      "/Cin": 0
+    },
+    "o": { "/adder-4/s1": 0, "/adder-4/s2": 1, "/adder-4/s3": 0, "/adder-4/s4": 0, "/adder-4/cout": 0 } 
+    },{
+    "i": { 
+      "/A1in": 1, "/A2in": 1, "/A3in": 0, "/A4in": 0,
+      "/B1in": 1, "/B2in": 1, "/B3in": 0, "/B4in": 0,
+      "/Cin": 0
+    },
+    "o": { "/adder-4/s1": 0, "/adder-4/s2": 1, "/adder-4/s3": 1, "/adder-4/s4": 0, "/adder-4/cout": 0 } 
+    },{
+    "i": { 
+      "/A1in": 1, "/A2in": 1, "/A3in": 1, "/A4in": 1,
+      "/B1in": 1, "/B2in": 1, "/B3in": 1, "/B4in": 1,
+      "/Cin": 0
+    },
+    "o": { "/adder-4/s1": 0, "/adder-4/s2": 1, "/adder-4/s3": 1, "/adder-4/s4": 1, "/adder-4/cout": 1 } 
+    },{
+    "i": { 
+      "/A1in": 0, "/A2in": 1, "/A3in": 0, "/A4in": 0,
+      "/B1in": 0, "/B2in": 1, "/B3in": 0, "/B4in": 0,
+      "/Cin": 0
+    },
+    "o": { "/adder-4/s1": 0, "/adder-4/s2": 0, "/adder-4/s3": 1, "/adder-4/s4": 0, "/adder-4/cout": 0 } 
+    },{
+    "i": { 
+      "/A1in": 1, "/A2in": 1, "/A3in": 0, "/A4in": 0,
+      "/B1in": 0, "/B2in": 1, "/B3in": 0, "/B4in": 0,
+      "/Cin": 0
+    },
+    "o": { "/adder-4/s1": 1, "/adder-4/s2": 0, "/adder-4/s3": 1, "/adder-4/s4": 0, "/adder-4/cout": 0 } 
+    }]
+}

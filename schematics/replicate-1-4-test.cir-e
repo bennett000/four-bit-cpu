@@ -1,0 +1,28 @@
+.title KiCad schematic
+V1 replicate-1-4Vcc 0 dc 5
+V2 Ain 0 dc 5
+R2 replicate-1-4Vcc replicate-1-4replicate-1-4-buffer-1buffer-not-1NQ 1K
+R1 Ain replicate-1-4replicate-1-4-buffer-1buffer-not-1Qr 10K
+Q1 replicate-1-4replicate-1-4-buffer-1buffer-not-1NQ replicate-1-4replicate-1-4-buffer-1buffer-not-1Qr 0 NPN
+R4 replicate-1-4Vcc replicate-1-4Z1 1K
+R3 replicate-1-4replicate-1-4-buffer-1buffer-not-1NQ replicate-1-4replicate-1-4-buffer-1buffer-not-2Qr 10K
+Q2 replicate-1-4Z1 replicate-1-4replicate-1-4-buffer-1buffer-not-2Qr 0 NPN
+R6 replicate-1-4Vcc replicate-1-4replicate-1-4-buffer-2buffer-not-1NQ 1K
+R5 Ain replicate-1-4replicate-1-4-buffer-2buffer-not-1Qr 10K
+Q3 replicate-1-4replicate-1-4-buffer-2buffer-not-1NQ replicate-1-4replicate-1-4-buffer-2buffer-not-1Qr 0 NPN
+R8 replicate-1-4Vcc replicate-1-4Z2 1K
+R7 replicate-1-4replicate-1-4-buffer-2buffer-not-1NQ replicate-1-4replicate-1-4-buffer-2buffer-not-2Qr 10K
+Q4 replicate-1-4Z2 replicate-1-4replicate-1-4-buffer-2buffer-not-2Qr 0 NPN
+R10 replicate-1-4Vcc replicate-1-4replicate-1-4-buffer-3buffer-not-1NQ 1K
+R9 Ain replicate-1-4replicate-1-4-buffer-3buffer-not-1Qr 10K
+Q5 replicate-1-4replicate-1-4-buffer-3buffer-not-1NQ replicate-1-4replicate-1-4-buffer-3buffer-not-1Qr 0 NPN
+R12 replicate-1-4Vcc replicate-1-4Z3 1K
+R11 replicate-1-4replicate-1-4-buffer-3buffer-not-1NQ replicate-1-4replicate-1-4-buffer-3buffer-not-2Qr 10K
+Q6 replicate-1-4Z3 replicate-1-4replicate-1-4-buffer-3buffer-not-2Qr 0 NPN
+R14 replicate-1-4Vcc replicate-1-4replicate-1-4-buffer-4buffer-not-1NQ 1K
+R13 Ain replicate-1-4replicate-1-4-buffer-4buffer-not-1Qr 10K
+Q7 replicate-1-4replicate-1-4-buffer-4buffer-not-1NQ replicate-1-4replicate-1-4-buffer-4buffer-not-1Qr 0 NPN
+R16 replicate-1-4Vcc replicate-1-4Z4 1K
+R15 replicate-1-4replicate-1-4-buffer-4buffer-not-1NQ replicate-1-4replicate-1-4-buffer-4buffer-not-2Qr 10K
+Q8 replicate-1-4Z4 replicate-1-4replicate-1-4-buffer-4buffer-not-2Qr 0 NPN
+.end

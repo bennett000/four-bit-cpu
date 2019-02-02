@@ -1,0 +1,699 @@
+.title KiCad schematic
+V14 aluVcc 0 dc 5
+V1 B1in 0 dc 5
+V2 B2in 0 dc 5
+V3 B3in 0 dc 5
+V5 B4in 0 dc 5
+V10 A1in 0 dc 5
+V11 A2in 0 dc 5
+V12 A3in 0 dc 5
+V13 A4in 0 dc 5
+V4 S1 0 dc 5
+V6 S2 0 dc 5
+V7 S3 0 dc 5
+V8 S4 0 dc 5
+V9 S5 0 dc 5
+R2 aluVcc alualu-replicate-1-4-1replicate-1-4-buffer-1buffer-not-1NQ 1K
+R1 alualu-replicate-1-4-1A alualu-replicate-1-4-1replicate-1-4-buffer-1buffer-not-1Qr 10K
+Q1 alualu-replicate-1-4-1replicate-1-4-buffer-1buffer-not-1NQ alualu-replicate-1-4-1replicate-1-4-buffer-1buffer-not-1Qr 0 NPN
+R4 aluVcc alualu-and-4-1A1 1K
+R3 alualu-replicate-1-4-1replicate-1-4-buffer-1buffer-not-1NQ alualu-replicate-1-4-1replicate-1-4-buffer-1buffer-not-2Qr 10K
+Q2 alualu-and-4-1A1 alualu-replicate-1-4-1replicate-1-4-buffer-1buffer-not-2Qr 0 NPN
+R6 aluVcc alualu-replicate-1-4-1replicate-1-4-buffer-2buffer-not-1NQ 1K
+R5 alualu-replicate-1-4-1A alualu-replicate-1-4-1replicate-1-4-buffer-2buffer-not-1Qr 10K
+Q3 alualu-replicate-1-4-1replicate-1-4-buffer-2buffer-not-1NQ alualu-replicate-1-4-1replicate-1-4-buffer-2buffer-not-1Qr 0 NPN
+R8 aluVcc alualu-and-4-1A2 1K
+R7 alualu-replicate-1-4-1replicate-1-4-buffer-2buffer-not-1NQ alualu-replicate-1-4-1replicate-1-4-buffer-2buffer-not-2Qr 10K
+Q4 alualu-and-4-1A2 alualu-replicate-1-4-1replicate-1-4-buffer-2buffer-not-2Qr 0 NPN
+R10 aluVcc alualu-replicate-1-4-1replicate-1-4-buffer-3buffer-not-1NQ 1K
+R9 alualu-replicate-1-4-1A alualu-replicate-1-4-1replicate-1-4-buffer-3buffer-not-1Qr 10K
+Q5 alualu-replicate-1-4-1replicate-1-4-buffer-3buffer-not-1NQ alualu-replicate-1-4-1replicate-1-4-buffer-3buffer-not-1Qr 0 NPN
+R12 aluVcc alualu-and-4-1A3 1K
+R11 alualu-replicate-1-4-1replicate-1-4-buffer-3buffer-not-1NQ alualu-replicate-1-4-1replicate-1-4-buffer-3buffer-not-2Qr 10K
+Q6 alualu-and-4-1A3 alualu-replicate-1-4-1replicate-1-4-buffer-3buffer-not-2Qr 0 NPN
+R14 aluVcc alualu-replicate-1-4-1replicate-1-4-buffer-4buffer-not-1NQ 1K
+R13 alualu-replicate-1-4-1A alualu-replicate-1-4-1replicate-1-4-buffer-4buffer-not-1Qr 10K
+Q7 alualu-replicate-1-4-1replicate-1-4-buffer-4buffer-not-1NQ alualu-replicate-1-4-1replicate-1-4-buffer-4buffer-not-1Qr 0 NPN
+R16 aluVcc alualu-and-4-1A4 1K
+R15 alualu-replicate-1-4-1replicate-1-4-buffer-4buffer-not-1NQ alualu-replicate-1-4-1replicate-1-4-buffer-4buffer-not-2Qr 10K
+Q8 alualu-and-4-1A4 alualu-replicate-1-4-1replicate-1-4-buffer-4buffer-not-2Qr 0 NPN
+R19 aluVcc alualu-mux-4-4-1-1B1 1K
+R17 alualu-and-4-2gate-and-4-2-and-1sheet5C364DB7A alualu-and-4-2gate-and-4-2-and-1sheet5C364DB7AorB 10K
+R18 alualu-and-4-2gate-and-4-2-and-1sheet5C364DB7B alualu-and-4-2gate-and-4-2-and-1sheet5C364DB7AorB 10K
+Q9 alualu-mux-4-4-1-1B1 alualu-and-4-2gate-and-4-2-and-1sheet5C364DB7AorB 0 NPN
+R21 aluVcc alualu-and-4-2gate-and-4-2-and-1sheet5C364DB7A 1K
+R20 A1in alualu-and-4-2gate-and-4-2-and-1Sheet5C3654CCQr 10K
+Q10 alualu-and-4-2gate-and-4-2-and-1sheet5C364DB7A alualu-and-4-2gate-and-4-2-and-1Sheet5C3654CCQr 0 NPN
+R23 aluVcc alualu-and-4-2gate-and-4-2-and-1sheet5C364DB7B 1K
+R22 B1in alualu-and-4-2gate-and-4-2-and-1sheet5C366192Qr 10K
+Q11 alualu-and-4-2gate-and-4-2-and-1sheet5C364DB7B alualu-and-4-2gate-and-4-2-and-1sheet5C366192Qr 0 NPN
+R26 aluVcc alualu-mux-4-4-1-1B2 1K
+R24 alualu-and-4-2gate-and-4-2-and-2sheet5C364DB7A alualu-and-4-2gate-and-4-2-and-2sheet5C364DB7AorB 10K
+R25 alualu-and-4-2gate-and-4-2-and-2sheet5C364DB7B alualu-and-4-2gate-and-4-2-and-2sheet5C364DB7AorB 10K
+Q12 alualu-mux-4-4-1-1B2 alualu-and-4-2gate-and-4-2-and-2sheet5C364DB7AorB 0 NPN
+R28 aluVcc alualu-and-4-2gate-and-4-2-and-2sheet5C364DB7A 1K
+R27 A2in alualu-and-4-2gate-and-4-2-and-2Sheet5C3654CCQr 10K
+Q13 alualu-and-4-2gate-and-4-2-and-2sheet5C364DB7A alualu-and-4-2gate-and-4-2-and-2Sheet5C3654CCQr 0 NPN
+R30 aluVcc alualu-and-4-2gate-and-4-2-and-2sheet5C364DB7B 1K
+R29 B2in alualu-and-4-2gate-and-4-2-and-2sheet5C366192Qr 10K
+Q14 alualu-and-4-2gate-and-4-2-and-2sheet5C364DB7B alualu-and-4-2gate-and-4-2-and-2sheet5C366192Qr 0 NPN
+R33 aluVcc alualu-mux-4-4-1-1B3 1K
+R31 alualu-and-4-2gate-and-4-2-and-3sheet5C364DB7A alualu-and-4-2gate-and-4-2-and-3sheet5C364DB7AorB 10K
+R32 alualu-and-4-2gate-and-4-2-and-3sheet5C364DB7B alualu-and-4-2gate-and-4-2-and-3sheet5C364DB7AorB 10K
+Q15 alualu-mux-4-4-1-1B3 alualu-and-4-2gate-and-4-2-and-3sheet5C364DB7AorB 0 NPN
+R35 aluVcc alualu-and-4-2gate-and-4-2-and-3sheet5C364DB7A 1K
+R34 A3in alualu-and-4-2gate-and-4-2-and-3Sheet5C3654CCQr 10K
+Q16 alualu-and-4-2gate-and-4-2-and-3sheet5C364DB7A alualu-and-4-2gate-and-4-2-and-3Sheet5C3654CCQr 0 NPN
+R37 aluVcc alualu-and-4-2gate-and-4-2-and-3sheet5C364DB7B 1K
+R36 B3in alualu-and-4-2gate-and-4-2-and-3sheet5C366192Qr 10K
+Q17 alualu-and-4-2gate-and-4-2-and-3sheet5C364DB7B alualu-and-4-2gate-and-4-2-and-3sheet5C366192Qr 0 NPN
+R40 aluVcc alualu-mux-4-4-1-1B4 1K
+R38 alualu-and-4-2gate-and-4-2-and-4sheet5C364DB7A alualu-and-4-2gate-and-4-2-and-4sheet5C364DB7AorB 10K
+R39 alualu-and-4-2gate-and-4-2-and-4sheet5C364DB7B alualu-and-4-2gate-and-4-2-and-4sheet5C364DB7AorB 10K
+Q18 alualu-mux-4-4-1-1B4 alualu-and-4-2gate-and-4-2-and-4sheet5C364DB7AorB 0 NPN
+R42 aluVcc alualu-and-4-2gate-and-4-2-and-4sheet5C364DB7A 1K
+R41 A4in alualu-and-4-2gate-and-4-2-and-4Sheet5C3654CCQr 10K
+Q19 alualu-and-4-2gate-and-4-2-and-4sheet5C364DB7A alualu-and-4-2gate-and-4-2-and-4Sheet5C3654CCQr 0 NPN
+R44 aluVcc alualu-and-4-2gate-and-4-2-and-4sheet5C364DB7B 1K
+R43 B4in alualu-and-4-2gate-and-4-2-and-4sheet5C366192Qr 10K
+Q20 alualu-and-4-2gate-and-4-2-and-4sheet5C364DB7B alualu-and-4-2gate-and-4-2-and-4sheet5C366192Qr 0 NPN
+R47 aluVcc alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-nor-2B 1K
+R45 S4 alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-nor-1AorB 10K
+R46 B1in alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-nor-1AorB 10K
+Q21 alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-nor-2B alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-nor-1AorB 0 NPN
+R50 aluVcc alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-nor-2A 1K
+R48 alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-and-1sheet5C364DB7A alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-and-1sheet5C364DB7AorB 10K
+R49 alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-and-1sheet5C364DB7B alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-and-1sheet5C364DB7AorB 10K
+Q22 alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-nor-2A alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-and-1sheet5C364DB7AorB 0 NPN
+R52 aluVcc alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-and-1sheet5C364DB7A 1K
+R51 S4 alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-and-1Sheet5C3654CCQr 10K
+Q23 alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-and-1sheet5C364DB7A alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-and-1Sheet5C3654CCQr 0 NPN
+R54 aluVcc alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-and-1sheet5C364DB7B 1K
+R53 B1in alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-and-1sheet5C366192Qr 10K
+Q24 alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-and-1sheet5C364DB7B alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-and-1sheet5C366192Qr 0 NPN
+R57 aluVcc alualu-and-4-1B1 1K
+R55 alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-nor-2A alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-nor-2AorB 10K
+R56 alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-nor-2B alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-nor-2AorB 10K
+Q25 alualu-and-4-1B1 alualu-bitwise-inv-1bitwise-inv-xor-2-1xor-2-nor-2AorB 0 NPN
+R60 aluVcc alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-nor-2B 1K
+R58 S4 alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-nor-1AorB 10K
+R59 B2in alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-nor-1AorB 10K
+Q26 alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-nor-2B alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-nor-1AorB 0 NPN
+R63 aluVcc alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-nor-2A 1K
+R61 alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-and-1sheet5C364DB7A alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-and-1sheet5C364DB7AorB 10K
+R62 alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-and-1sheet5C364DB7B alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-and-1sheet5C364DB7AorB 10K
+Q27 alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-nor-2A alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-and-1sheet5C364DB7AorB 0 NPN
+R65 aluVcc alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-and-1sheet5C364DB7A 1K
+R64 S4 alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-and-1Sheet5C3654CCQr 10K
+Q28 alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-and-1sheet5C364DB7A alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-and-1Sheet5C3654CCQr 0 NPN
+R67 aluVcc alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-and-1sheet5C364DB7B 1K
+R66 B2in alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-and-1sheet5C366192Qr 10K
+Q29 alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-and-1sheet5C364DB7B alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-and-1sheet5C366192Qr 0 NPN
+R70 aluVcc alualu-and-4-1B2 1K
+R68 alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-nor-2A alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-nor-2AorB 10K
+R69 alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-nor-2B alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-nor-2AorB 10K
+Q30 alualu-and-4-1B2 alualu-bitwise-inv-1bitwise-inv-xor-2-2xor-2-nor-2AorB 0 NPN
+R73 aluVcc alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-nor-2B 1K
+R71 S4 alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-nor-1AorB 10K
+R72 B3in alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-nor-1AorB 10K
+Q31 alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-nor-2B alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-nor-1AorB 0 NPN
+R76 aluVcc alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-nor-2A 1K
+R74 alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-and-1sheet5C364DB7A alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-and-1sheet5C364DB7AorB 10K
+R75 alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-and-1sheet5C364DB7B alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-and-1sheet5C364DB7AorB 10K
+Q32 alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-nor-2A alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-and-1sheet5C364DB7AorB 0 NPN
+R78 aluVcc alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-and-1sheet5C364DB7A 1K
+R77 S4 alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-and-1Sheet5C3654CCQr 10K
+Q33 alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-and-1sheet5C364DB7A alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-and-1Sheet5C3654CCQr 0 NPN
+R80 aluVcc alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-and-1sheet5C364DB7B 1K
+R79 B3in alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-and-1sheet5C366192Qr 10K
+Q34 alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-and-1sheet5C364DB7B alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-and-1sheet5C366192Qr 0 NPN
+R83 aluVcc alualu-and-4-1B3 1K
+R81 alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-nor-2A alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-nor-2AorB 10K
+R82 alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-nor-2B alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-nor-2AorB 10K
+Q35 alualu-and-4-1B3 alualu-bitwise-inv-1bitwise-inv-xor-2-3xor-2-nor-2AorB 0 NPN
+R86 aluVcc alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-nor-2B 1K
+R84 S4 alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-nor-1AorB 10K
+R85 B4in alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-nor-1AorB 10K
+Q36 alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-nor-2B alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-nor-1AorB 0 NPN
+R89 aluVcc alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-nor-2A 1K
+R87 alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-and-1sheet5C364DB7A alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-and-1sheet5C364DB7AorB 10K
+R88 alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-and-1sheet5C364DB7B alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-and-1sheet5C364DB7AorB 10K
+Q37 alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-nor-2A alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-and-1sheet5C364DB7AorB 0 NPN
+R91 aluVcc alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-and-1sheet5C364DB7A 1K
+R90 S4 alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-and-1Sheet5C3654CCQr 10K
+Q38 alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-and-1sheet5C364DB7A alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-and-1Sheet5C3654CCQr 0 NPN
+R93 aluVcc alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-and-1sheet5C364DB7B 1K
+R92 B4in alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-and-1sheet5C366192Qr 10K
+Q39 alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-and-1sheet5C364DB7B alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-and-1sheet5C366192Qr 0 NPN
+R96 aluVcc alualu-and-4-1B4 1K
+R94 alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-nor-2A alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-nor-2AorB 10K
+R95 alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-nor-2B alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-nor-2AorB 10K
+Q40 alualu-and-4-1B4 alualu-bitwise-inv-1bitwise-inv-xor-2-4xor-2-nor-2AorB 0 NPN
+R98 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3A1 1K
+R97 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-not-1Qr 10K
+Q41 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3A1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-not-1Qr 0 NPN
+R101 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-nor-1Q 1K
+R99 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-nor-1AorB 10K
+R100 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-nor-1AorB 10K
+Q42 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-nor-1AorB 0 NPN
+R104 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1A 1K
+R102 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7AorB 10K
+R103 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7AorB 10K
+Q43 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7AorB 0 NPN
+R106 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7A 1K
+R105 aluAdderS1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1Sheet5C3654CCQr 10K
+Q44 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1Sheet5C3654CCQr 0 NPN
+R108 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7B 1K
+R107 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C366192Qr 10K
+Q45 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C366192Qr 0 NPN
+R111 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1B 1K
+R109 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7AorB 10K
+R110 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7AorB 10K
+Q46 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7AorB 0 NPN
+R113 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7A 1K
+R112 S1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2Sheet5C3654CCQr 10K
+Q47 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2Sheet5C3654CCQr 0 NPN
+R115 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7B 1K
+R114 alualu-mux-4-4-1-1B1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C366192Qr 10K
+Q48 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C366192Qr 0 NPN
+R117 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1B 1K
+R116 S1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-not-1Qr 10K
+Q49 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-1mux-2-1-not-1Qr 0 NPN
+R119 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3A2 1K
+R118 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-not-1Qr 10K
+Q50 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3A2 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-not-1Qr 0 NPN
+R122 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-nor-1Q 1K
+R120 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-nor-1AorB 10K
+R121 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-nor-1AorB 10K
+Q51 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-nor-1AorB 0 NPN
+R125 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1A 1K
+R123 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7AorB 10K
+R124 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7AorB 10K
+Q52 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7AorB 0 NPN
+R127 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7A 1K
+R126 aluAdderS1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1Sheet5C3654CCQr 10K
+Q53 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1Sheet5C3654CCQr 0 NPN
+R129 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7B 1K
+R128 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C366192Qr 10K
+Q54 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C366192Qr 0 NPN
+R132 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1B 1K
+R130 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7AorB 10K
+R131 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7AorB 10K
+Q55 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7AorB 0 NPN
+R134 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7A 1K
+R133 S1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2Sheet5C3654CCQr 10K
+Q56 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2Sheet5C3654CCQr 0 NPN
+R136 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7B 1K
+R135 alualu-mux-4-4-1-1B2 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C366192Qr 10K
+Q57 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C366192Qr 0 NPN
+R138 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1B 1K
+R137 S1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-not-1Qr 10K
+Q58 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-2mux-2-1-not-1Qr 0 NPN
+R140 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3A3 1K
+R139 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-not-1Qr 10K
+Q59 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3A3 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-not-1Qr 0 NPN
+R143 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-nor-1Q 1K
+R141 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-nor-1AorB 10K
+R142 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-nor-1AorB 10K
+Q60 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-nor-1AorB 0 NPN
+R146 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1A 1K
+R144 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7AorB 10K
+R145 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7AorB 10K
+Q61 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7AorB 0 NPN
+R148 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7A 1K
+R147 aluAdderS3 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1Sheet5C3654CCQr 10K
+Q62 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1Sheet5C3654CCQr 0 NPN
+R150 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7B 1K
+R149 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C366192Qr 10K
+Q63 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C366192Qr 0 NPN
+R153 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1B 1K
+R151 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7AorB 10K
+R152 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7AorB 10K
+Q64 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7AorB 0 NPN
+R155 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7A 1K
+R154 S1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2Sheet5C3654CCQr 10K
+Q65 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2Sheet5C3654CCQr 0 NPN
+R157 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7B 1K
+R156 alualu-mux-4-4-1-1B3 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C366192Qr 10K
+Q66 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C366192Qr 0 NPN
+R159 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1B 1K
+R158 S1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-not-1Qr 10K
+Q67 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-3mux-2-1-not-1Qr 0 NPN
+R161 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3A4 1K
+R160 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-not-1Qr 10K
+Q68 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3A4 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-not-1Qr 0 NPN
+R164 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-nor-1Q 1K
+R162 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-nor-1AorB 10K
+R163 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-nor-1AorB 10K
+Q69 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-nor-1AorB 0 NPN
+R167 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1A 1K
+R165 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7AorB 10K
+R166 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7AorB 10K
+Q70 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7AorB 0 NPN
+R169 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7A 1K
+R168 aluAdderS4 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1Sheet5C3654CCQr 10K
+Q71 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1Sheet5C3654CCQr 0 NPN
+R171 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7B 1K
+R170 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C366192Qr 10K
+Q72 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C366192Qr 0 NPN
+R174 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1B 1K
+R172 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7AorB 10K
+R173 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7AorB 10K
+Q73 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7AorB 0 NPN
+R176 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7A 1K
+R175 S1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2Sheet5C3654CCQr 10K
+Q74 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2Sheet5C3654CCQr 0 NPN
+R178 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7B 1K
+R177 alualu-mux-4-4-1-1B4 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C366192Qr 10K
+Q75 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C366192Qr 0 NPN
+R180 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1B 1K
+R179 S1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-not-1Qr 10K
+Q76 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-1multiplexer-4-2-1-mux-1-2-1-4mux-2-1-not-1Qr 0 NPN
+R182 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3B1 1K
+R181 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-not-1Qr 10K
+Q77 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3B1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-not-1Qr 0 NPN
+R185 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-nor-1Q 1K
+R183 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-nor-1AorB 10K
+R184 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-nor-1AorB 10K
+Q78 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-nor-1AorB 0 NPN
+R188 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1A 1K
+R186 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7AorB 10K
+R187 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7AorB 10K
+Q79 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7AorB 0 NPN
+R190 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7A 1K
+R189 A1in alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1Sheet5C3654CCQr 10K
+Q80 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1Sheet5C3654CCQr 0 NPN
+R192 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7B 1K
+R191 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C366192Qr 10K
+Q81 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C366192Qr 0 NPN
+R195 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1B 1K
+R193 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7AorB 10K
+R194 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7AorB 10K
+Q82 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7AorB 0 NPN
+R197 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7A 1K
+R196 S1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2Sheet5C3654CCQr 10K
+Q83 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2Sheet5C3654CCQr 0 NPN
+R199 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7B 1K
+R198 B1in alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C366192Qr 10K
+Q84 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C366192Qr 0 NPN
+R201 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1B 1K
+R200 S1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-not-1Qr 10K
+Q85 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-1mux-2-1-not-1Qr 0 NPN
+R203 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3B2 1K
+R202 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-not-1Qr 10K
+Q86 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3B2 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-not-1Qr 0 NPN
+R206 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-nor-1Q 1K
+R204 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-nor-1AorB 10K
+R205 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-nor-1AorB 10K
+Q87 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-nor-1AorB 0 NPN
+R209 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1A 1K
+R207 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7AorB 10K
+R208 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7AorB 10K
+Q88 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7AorB 0 NPN
+R211 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7A 1K
+R210 A2in alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1Sheet5C3654CCQr 10K
+Q89 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1Sheet5C3654CCQr 0 NPN
+R213 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7B 1K
+R212 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C366192Qr 10K
+Q90 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C366192Qr 0 NPN
+R216 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1B 1K
+R214 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7AorB 10K
+R215 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7AorB 10K
+Q91 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7AorB 0 NPN
+R218 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7A 1K
+R217 S1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2Sheet5C3654CCQr 10K
+Q92 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2Sheet5C3654CCQr 0 NPN
+R220 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7B 1K
+R219 B2in alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C366192Qr 10K
+Q93 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C366192Qr 0 NPN
+R222 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1B 1K
+R221 S1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-not-1Qr 10K
+Q94 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-2mux-2-1-not-1Qr 0 NPN
+R224 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3B3 1K
+R223 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-not-1Qr 10K
+Q95 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3B3 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-not-1Qr 0 NPN
+R227 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-nor-1Q 1K
+R225 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-nor-1AorB 10K
+R226 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-nor-1AorB 10K
+Q96 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-nor-1AorB 0 NPN
+R230 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1A 1K
+R228 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7AorB 10K
+R229 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7AorB 10K
+Q97 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7AorB 0 NPN
+R232 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7A 1K
+R231 A3in alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1Sheet5C3654CCQr 10K
+Q98 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1Sheet5C3654CCQr 0 NPN
+R234 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7B 1K
+R233 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C366192Qr 10K
+Q99 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C366192Qr 0 NPN
+R237 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1B 1K
+R235 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7AorB 10K
+R236 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7AorB 10K
+Q100 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7AorB 0 NPN
+R239 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7A 1K
+R238 S1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2Sheet5C3654CCQr 10K
+Q101 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2Sheet5C3654CCQr 0 NPN
+R241 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7B 1K
+R240 B3in alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C366192Qr 10K
+Q102 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C366192Qr 0 NPN
+R243 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1B 1K
+R242 S1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-not-1Qr 10K
+Q103 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-3mux-2-1-not-1Qr 0 NPN
+R245 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3B4 1K
+R244 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-not-1Qr 10K
+Q104 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3B4 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-not-1Qr 0 NPN
+R248 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-nor-1Q 1K
+R246 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-nor-1AorB 10K
+R247 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-nor-1AorB 10K
+Q105 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-nor-1AorB 0 NPN
+R251 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1A 1K
+R249 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7AorB 10K
+R250 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7AorB 10K
+Q106 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7AorB 0 NPN
+R253 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7A 1K
+R252 A4in alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1Sheet5C3654CCQr 10K
+Q107 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1Sheet5C3654CCQr 0 NPN
+R255 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7B 1K
+R254 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C366192Qr 10K
+Q108 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C366192Qr 0 NPN
+R258 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1B 1K
+R256 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7AorB 10K
+R257 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7AorB 10K
+Q109 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7AorB 0 NPN
+R260 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7A 1K
+R259 S1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2Sheet5C3654CCQr 10K
+Q110 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2Sheet5C3654CCQr 0 NPN
+R262 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7B 1K
+R261 B4in alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C366192Qr 10K
+Q111 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C366192Qr 0 NPN
+R264 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1B 1K
+R263 S1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-not-1Qr 10K
+Q112 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-2multiplexer-4-2-1-mux-1-2-1-4mux-2-1-not-1Qr 0 NPN
+R266 aluVcc aluZ1 1K
+R265 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-not-1Qr 10K
+Q113 aluZ1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-not-1Qr 0 NPN
+R269 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-nor-1Q 1K
+R267 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-nor-1AorB 10K
+R268 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-nor-1AorB 10K
+Q114 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1or-nor-1AorB 0 NPN
+R272 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1A 1K
+R270 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7AorB 10K
+R271 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7AorB 10K
+Q115 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7AorB 0 NPN
+R274 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7A 1K
+R273 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3A1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1Sheet5C3654CCQr 10K
+Q116 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1Sheet5C3654CCQr 0 NPN
+R276 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7B 1K
+R275 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C366192Qr 10K
+Q117 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1sheet5C366192Qr 0 NPN
+R279 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1B 1K
+R277 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7AorB 10K
+R278 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7AorB 10K
+Q118 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7AorB 0 NPN
+R281 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7A 1K
+R280 S2 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2Sheet5C3654CCQr 10K
+Q119 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2Sheet5C3654CCQr 0 NPN
+R283 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7B 1K
+R282 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3B1 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C366192Qr 10K
+Q120 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-2sheet5C366192Qr 0 NPN
+R285 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1B 1K
+R284 S2 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-not-1Qr 10K
+Q121 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-1mux-2-1-not-1Qr 0 NPN
+R287 aluVcc aluZ2 1K
+R286 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-not-1Qr 10K
+Q122 aluZ2 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-not-1Qr 0 NPN
+R290 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-nor-1Q 1K
+R288 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-nor-1AorB 10K
+R289 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-nor-1AorB 10K
+Q123 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1or-nor-1AorB 0 NPN
+R293 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1A 1K
+R291 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7AorB 10K
+R292 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7AorB 10K
+Q124 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7AorB 0 NPN
+R295 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7A 1K
+R294 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3A2 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1Sheet5C3654CCQr 10K
+Q125 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1Sheet5C3654CCQr 0 NPN
+R297 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7B 1K
+R296 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C366192Qr 10K
+Q126 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1sheet5C366192Qr 0 NPN
+R300 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1B 1K
+R298 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7AorB 10K
+R299 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7AorB 10K
+Q127 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7AorB 0 NPN
+R302 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7A 1K
+R301 S2 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2Sheet5C3654CCQr 10K
+Q128 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2Sheet5C3654CCQr 0 NPN
+R304 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7B 1K
+R303 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3B2 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C366192Qr 10K
+Q129 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-2sheet5C366192Qr 0 NPN
+R306 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1B 1K
+R305 S2 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-not-1Qr 10K
+Q130 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-2mux-2-1-not-1Qr 0 NPN
+R308 aluVcc aluZ3 1K
+R307 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-not-1Qr 10K
+Q131 aluZ3 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-not-1Qr 0 NPN
+R311 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-nor-1Q 1K
+R309 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-nor-1AorB 10K
+R310 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-nor-1AorB 10K
+Q132 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1or-nor-1AorB 0 NPN
+R314 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1A 1K
+R312 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7AorB 10K
+R313 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7AorB 10K
+Q133 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7AorB 0 NPN
+R316 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7A 1K
+R315 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3A3 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1Sheet5C3654CCQr 10K
+Q134 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1Sheet5C3654CCQr 0 NPN
+R318 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7B 1K
+R317 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C366192Qr 10K
+Q135 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1sheet5C366192Qr 0 NPN
+R321 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1B 1K
+R319 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7AorB 10K
+R320 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7AorB 10K
+Q136 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7AorB 0 NPN
+R323 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7A 1K
+R322 S2 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2Sheet5C3654CCQr 10K
+Q137 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2Sheet5C3654CCQr 0 NPN
+R325 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7B 1K
+R324 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3B3 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C366192Qr 10K
+Q138 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-2sheet5C366192Qr 0 NPN
+R327 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1B 1K
+R326 S2 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-not-1Qr 10K
+Q139 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-3mux-2-1-not-1Qr 0 NPN
+R329 aluVcc aluZ4 1K
+R328 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-not-1Qr 10K
+Q140 aluZ4 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-not-1Qr 0 NPN
+R332 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-nor-1Q 1K
+R330 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-nor-1AorB 10K
+R331 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-nor-1AorB 10K
+Q141 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-nor-1Q alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1or-nor-1AorB 0 NPN
+R335 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1A 1K
+R333 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7AorB 10K
+R334 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7AorB 10K
+Q142 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7AorB 0 NPN
+R337 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7A 1K
+R336 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3A4 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1Sheet5C3654CCQr 10K
+Q143 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1Sheet5C3654CCQr 0 NPN
+R339 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7B 1K
+R338 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C366192Qr 10K
+Q144 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1sheet5C366192Qr 0 NPN
+R342 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1B 1K
+R340 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7AorB 10K
+R341 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7AorB 10K
+Q145 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-or-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7AorB 0 NPN
+R344 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7A 1K
+R343 S2 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2Sheet5C3654CCQr 10K
+Q146 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7A alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2Sheet5C3654CCQr 0 NPN
+R346 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7B 1K
+R345 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3B4 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C366192Qr 10K
+Q147 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C364DB7B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-2sheet5C366192Qr 0 NPN
+R348 aluVcc alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1B 1K
+R347 S2 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-not-1Qr 10K
+Q148 alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-and-1B alualu-mux-4-4-1-1multiplexer-4-4-1-mux-4-2-1-3multiplexer-4-2-1-mux-1-2-1-4mux-2-1-not-1Qr 0 NPN
+R351 aluVcc alualu-adder-4-1adder-4-1sheet5C34B00DA 1K
+R349 A1in alualu-adder-4-1adder-4-1sheet5C34AF27AorB 10K
+R350 aluAdderB1in alualu-adder-4-1adder-4-1sheet5C34AF27AorB 10K
+Q149 alualu-adder-4-1adder-4-1sheet5C34B00DA alualu-adder-4-1adder-4-1sheet5C34AF27AorB 0 NPN
+R354 aluVcc alualu-adder-4-1adder-4-1sheet5C34B027A 1K
+R352 A1in alualu-adder-4-1adder-4-1sheet5C34AFF9AorB 10K
+R353 alualu-adder-4-1adder-4-1sheet5C34B00DA alualu-adder-4-1adder-4-1sheet5C34AFF9AorB 10K
+Q150 alualu-adder-4-1adder-4-1sheet5C34B027A alualu-adder-4-1adder-4-1sheet5C34AFF9AorB 0 NPN
+R357 aluVcc alualu-adder-4-1adder-4-1sheet5C34B027B 1K
+R355 alualu-adder-4-1adder-4-1sheet5C34B00DA alualu-adder-4-1adder-4-1sheet5C34B00DAorB 10K
+R356 aluAdderB1in alualu-adder-4-1adder-4-1sheet5C34B00DAorB 10K
+Q151 alualu-adder-4-1adder-4-1sheet5C34B027B alualu-adder-4-1adder-4-1sheet5C34B00DAorB 0 NPN
+R360 aluVcc alualu-adder-4-1adder-4-1sheet5C34B047A 1K
+R358 alualu-adder-4-1adder-4-1sheet5C34B027A alualu-adder-4-1adder-4-1sheet5C34B027AorB 10K
+R359 alualu-adder-4-1adder-4-1sheet5C34B027B alualu-adder-4-1adder-4-1sheet5C34B027AorB 10K
+Q152 alualu-adder-4-1adder-4-1sheet5C34B047A alualu-adder-4-1adder-4-1sheet5C34B027AorB 0 NPN
+R363 aluVcc alualu-adder-4-1adder-4-1sheet5C34B049A 1K
+R361 alualu-adder-4-1adder-4-1sheet5C34B047A alualu-adder-4-1adder-4-1sheet5C34B047AorB 10K
+R362 S3 alualu-adder-4-1adder-4-1sheet5C34B047AorB 10K
+Q153 alualu-adder-4-1adder-4-1sheet5C34B049A alualu-adder-4-1adder-4-1sheet5C34B047AorB 0 NPN
+R366 aluVcc alualu-adder-4-1adder-4-1sheet5C34B04AA 1K
+R364 alualu-adder-4-1adder-4-1sheet5C34B047A alualu-adder-4-1adder-4-1sheet5C34B048AorB 10K
+R365 alualu-adder-4-1adder-4-1sheet5C34B049A alualu-adder-4-1adder-4-1sheet5C34B048AorB 10K
+Q154 alualu-adder-4-1adder-4-1sheet5C34B04AA alualu-adder-4-1adder-4-1sheet5C34B048AorB 0 NPN
+R369 aluVcc alualu-adder-4-1adder-4-1sheet5C34B04AB 1K
+R367 alualu-adder-4-1adder-4-1sheet5C34B049A alualu-adder-4-1adder-4-1sheet5C34B049AorB 10K
+R368 S3 alualu-adder-4-1adder-4-1sheet5C34B049AorB 10K
+Q155 alualu-adder-4-1adder-4-1sheet5C34B04AB alualu-adder-4-1adder-4-1sheet5C34B049AorB 0 NPN
+R372 aluVcc aluAdderS1 1K
+R370 alualu-adder-4-1adder-4-1sheet5C34B04AA alualu-adder-4-1adder-4-1sheet5C34B04AAorB 10K
+R371 alualu-adder-4-1adder-4-1sheet5C34B04AB alualu-adder-4-1adder-4-1sheet5C34B04AAorB 10K
+Q156 aluAdderS1 alualu-adder-4-1adder-4-1sheet5C34B04AAorB 0 NPN
+R375 aluVcc alualu-adder-4-1adder-4-2Cin 1K
+R373 alualu-adder-4-1adder-4-1sheet5C34B049A alualu-adder-4-1adder-4-1sheet5C34B0CDAorB 10K
+R374 alualu-adder-4-1adder-4-1sheet5C34B00DA alualu-adder-4-1adder-4-1sheet5C34B0CDAorB 10K
+Q157 alualu-adder-4-1adder-4-2Cin alualu-adder-4-1adder-4-1sheet5C34B0CDAorB 0 NPN
+R378 aluVcc alualu-adder-4-1adder-4-2sheet5C34B00DA 1K
+R376 A2in alualu-adder-4-1adder-4-2sheet5C34AF27AorB 10K
+R377 aluAdderB2in alualu-adder-4-1adder-4-2sheet5C34AF27AorB 10K
+Q158 alualu-adder-4-1adder-4-2sheet5C34B00DA alualu-adder-4-1adder-4-2sheet5C34AF27AorB 0 NPN
+R381 aluVcc alualu-adder-4-1adder-4-2sheet5C34B027A 1K
+R379 A2in alualu-adder-4-1adder-4-2sheet5C34AFF9AorB 10K
+R380 alualu-adder-4-1adder-4-2sheet5C34B00DA alualu-adder-4-1adder-4-2sheet5C34AFF9AorB 10K
+Q159 alualu-adder-4-1adder-4-2sheet5C34B027A alualu-adder-4-1adder-4-2sheet5C34AFF9AorB 0 NPN
+R384 aluVcc alualu-adder-4-1adder-4-2sheet5C34B027B 1K
+R382 alualu-adder-4-1adder-4-2sheet5C34B00DA alualu-adder-4-1adder-4-2sheet5C34B00DAorB 10K
+R383 aluAdderB2in alualu-adder-4-1adder-4-2sheet5C34B00DAorB 10K
+Q160 alualu-adder-4-1adder-4-2sheet5C34B027B alualu-adder-4-1adder-4-2sheet5C34B00DAorB 0 NPN
+R387 aluVcc alualu-adder-4-1adder-4-2sheet5C34B047A 1K
+R385 alualu-adder-4-1adder-4-2sheet5C34B027A alualu-adder-4-1adder-4-2sheet5C34B027AorB 10K
+R386 alualu-adder-4-1adder-4-2sheet5C34B027B alualu-adder-4-1adder-4-2sheet5C34B027AorB 10K
+Q161 alualu-adder-4-1adder-4-2sheet5C34B047A alualu-adder-4-1adder-4-2sheet5C34B027AorB 0 NPN
+R390 aluVcc alualu-adder-4-1adder-4-2sheet5C34B049A 1K
+R388 alualu-adder-4-1adder-4-2sheet5C34B047A alualu-adder-4-1adder-4-2sheet5C34B047AorB 10K
+R389 alualu-adder-4-1adder-4-2Cin alualu-adder-4-1adder-4-2sheet5C34B047AorB 10K
+Q162 alualu-adder-4-1adder-4-2sheet5C34B049A alualu-adder-4-1adder-4-2sheet5C34B047AorB 0 NPN
+R393 aluVcc alualu-adder-4-1adder-4-2sheet5C34B04AA 1K
+R391 alualu-adder-4-1adder-4-2sheet5C34B047A alualu-adder-4-1adder-4-2sheet5C34B048AorB 10K
+R392 alualu-adder-4-1adder-4-2sheet5C34B049A alualu-adder-4-1adder-4-2sheet5C34B048AorB 10K
+Q163 alualu-adder-4-1adder-4-2sheet5C34B04AA alualu-adder-4-1adder-4-2sheet5C34B048AorB 0 NPN
+R396 aluVcc alualu-adder-4-1adder-4-2sheet5C34B04AB 1K
+R394 alualu-adder-4-1adder-4-2sheet5C34B049A alualu-adder-4-1adder-4-2sheet5C34B049AorB 10K
+R395 alualu-adder-4-1adder-4-2Cin alualu-adder-4-1adder-4-2sheet5C34B049AorB 10K
+Q164 alualu-adder-4-1adder-4-2sheet5C34B04AB alualu-adder-4-1adder-4-2sheet5C34B049AorB 0 NPN
+R399 aluVcc aluAdderS1 1K
+R397 alualu-adder-4-1adder-4-2sheet5C34B04AA alualu-adder-4-1adder-4-2sheet5C34B04AAorB 10K
+R398 alualu-adder-4-1adder-4-2sheet5C34B04AB alualu-adder-4-1adder-4-2sheet5C34B04AAorB 10K
+Q165 aluAdderS1 alualu-adder-4-1adder-4-2sheet5C34B04AAorB 0 NPN
+R402 aluVcc alualu-adder-4-1adder-4-3Cin 1K
+R400 alualu-adder-4-1adder-4-2sheet5C34B049A alualu-adder-4-1adder-4-2sheet5C34B0CDAorB 10K
+R401 alualu-adder-4-1adder-4-2sheet5C34B00DA alualu-adder-4-1adder-4-2sheet5C34B0CDAorB 10K
+Q166 alualu-adder-4-1adder-4-3Cin alualu-adder-4-1adder-4-2sheet5C34B0CDAorB 0 NPN
+R405 aluVcc alualu-adder-4-1adder-4-3sheet5C34B00DA 1K
+R403 A3in alualu-adder-4-1adder-4-3sheet5C34AF27AorB 10K
+R404 aluAdderB3in alualu-adder-4-1adder-4-3sheet5C34AF27AorB 10K
+Q167 alualu-adder-4-1adder-4-3sheet5C34B00DA alualu-adder-4-1adder-4-3sheet5C34AF27AorB 0 NPN
+R408 aluVcc alualu-adder-4-1adder-4-3sheet5C34B027A 1K
+R406 A3in alualu-adder-4-1adder-4-3sheet5C34AFF9AorB 10K
+R407 alualu-adder-4-1adder-4-3sheet5C34B00DA alualu-adder-4-1adder-4-3sheet5C34AFF9AorB 10K
+Q168 alualu-adder-4-1adder-4-3sheet5C34B027A alualu-adder-4-1adder-4-3sheet5C34AFF9AorB 0 NPN
+R411 aluVcc alualu-adder-4-1adder-4-3sheet5C34B027B 1K
+R409 alualu-adder-4-1adder-4-3sheet5C34B00DA alualu-adder-4-1adder-4-3sheet5C34B00DAorB 10K
+R410 aluAdderB3in alualu-adder-4-1adder-4-3sheet5C34B00DAorB 10K
+Q169 alualu-adder-4-1adder-4-3sheet5C34B027B alualu-adder-4-1adder-4-3sheet5C34B00DAorB 0 NPN
+R414 aluVcc alualu-adder-4-1adder-4-3sheet5C34B047A 1K
+R412 alualu-adder-4-1adder-4-3sheet5C34B027A alualu-adder-4-1adder-4-3sheet5C34B027AorB 10K
+R413 alualu-adder-4-1adder-4-3sheet5C34B027B alualu-adder-4-1adder-4-3sheet5C34B027AorB 10K
+Q170 alualu-adder-4-1adder-4-3sheet5C34B047A alualu-adder-4-1adder-4-3sheet5C34B027AorB 0 NPN
+R417 aluVcc alualu-adder-4-1adder-4-3sheet5C34B049A 1K
+R415 alualu-adder-4-1adder-4-3sheet5C34B047A alualu-adder-4-1adder-4-3sheet5C34B047AorB 10K
+R416 alualu-adder-4-1adder-4-3Cin alualu-adder-4-1adder-4-3sheet5C34B047AorB 10K
+Q171 alualu-adder-4-1adder-4-3sheet5C34B049A alualu-adder-4-1adder-4-3sheet5C34B047AorB 0 NPN
+R420 aluVcc alualu-adder-4-1adder-4-3sheet5C34B04AA 1K
+R418 alualu-adder-4-1adder-4-3sheet5C34B047A alualu-adder-4-1adder-4-3sheet5C34B048AorB 10K
+R419 alualu-adder-4-1adder-4-3sheet5C34B049A alualu-adder-4-1adder-4-3sheet5C34B048AorB 10K
+Q172 alualu-adder-4-1adder-4-3sheet5C34B04AA alualu-adder-4-1adder-4-3sheet5C34B048AorB 0 NPN
+R423 aluVcc alualu-adder-4-1adder-4-3sheet5C34B04AB 1K
+R421 alualu-adder-4-1adder-4-3sheet5C34B049A alualu-adder-4-1adder-4-3sheet5C34B049AorB 10K
+R422 alualu-adder-4-1adder-4-3Cin alualu-adder-4-1adder-4-3sheet5C34B049AorB 10K
+Q173 alualu-adder-4-1adder-4-3sheet5C34B04AB alualu-adder-4-1adder-4-3sheet5C34B049AorB 0 NPN
+R426 aluVcc aluAdderS3 1K
+R424 alualu-adder-4-1adder-4-3sheet5C34B04AA alualu-adder-4-1adder-4-3sheet5C34B04AAorB 10K
+R425 alualu-adder-4-1adder-4-3sheet5C34B04AB alualu-adder-4-1adder-4-3sheet5C34B04AAorB 10K
+Q174 aluAdderS3 alualu-adder-4-1adder-4-3sheet5C34B04AAorB 0 NPN
+R429 aluVcc alualu-adder-4-1adder-4-4Cin 1K
+R427 alualu-adder-4-1adder-4-3sheet5C34B049A alualu-adder-4-1adder-4-3sheet5C34B0CDAorB 10K
+R428 alualu-adder-4-1adder-4-3sheet5C34B00DA alualu-adder-4-1adder-4-3sheet5C34B0CDAorB 10K
+Q175 alualu-adder-4-1adder-4-4Cin alualu-adder-4-1adder-4-3sheet5C34B0CDAorB 0 NPN
+R432 aluVcc alualu-adder-4-1adder-4-4sheet5C34B00DA 1K
+R430 A4in alualu-adder-4-1adder-4-4sheet5C34AF27AorB 10K
+R431 aluAdderB4in alualu-adder-4-1adder-4-4sheet5C34AF27AorB 10K
+Q176 alualu-adder-4-1adder-4-4sheet5C34B00DA alualu-adder-4-1adder-4-4sheet5C34AF27AorB 0 NPN
+R435 aluVcc alualu-adder-4-1adder-4-4sheet5C34B027A 1K
+R433 A4in alualu-adder-4-1adder-4-4sheet5C34AFF9AorB 10K
+R434 alualu-adder-4-1adder-4-4sheet5C34B00DA alualu-adder-4-1adder-4-4sheet5C34AFF9AorB 10K
+Q177 alualu-adder-4-1adder-4-4sheet5C34B027A alualu-adder-4-1adder-4-4sheet5C34AFF9AorB 0 NPN
+R438 aluVcc alualu-adder-4-1adder-4-4sheet5C34B027B 1K
+R436 alualu-adder-4-1adder-4-4sheet5C34B00DA alualu-adder-4-1adder-4-4sheet5C34B00DAorB 10K
+R437 aluAdderB4in alualu-adder-4-1adder-4-4sheet5C34B00DAorB 10K
+Q178 alualu-adder-4-1adder-4-4sheet5C34B027B alualu-adder-4-1adder-4-4sheet5C34B00DAorB 0 NPN
+R441 aluVcc alualu-adder-4-1adder-4-4sheet5C34B047A 1K
+R439 alualu-adder-4-1adder-4-4sheet5C34B027A alualu-adder-4-1adder-4-4sheet5C34B027AorB 10K
+R440 alualu-adder-4-1adder-4-4sheet5C34B027B alualu-adder-4-1adder-4-4sheet5C34B027AorB 10K
+Q179 alualu-adder-4-1adder-4-4sheet5C34B047A alualu-adder-4-1adder-4-4sheet5C34B027AorB 0 NPN
+R444 aluVcc alualu-adder-4-1adder-4-4sheet5C34B049A 1K
+R442 alualu-adder-4-1adder-4-4sheet5C34B047A alualu-adder-4-1adder-4-4sheet5C34B047AorB 10K
+R443 alualu-adder-4-1adder-4-4Cin alualu-adder-4-1adder-4-4sheet5C34B047AorB 10K
+Q180 alualu-adder-4-1adder-4-4sheet5C34B049A alualu-adder-4-1adder-4-4sheet5C34B047AorB 0 NPN
+R447 aluVcc alualu-adder-4-1adder-4-4sheet5C34B04AA 1K
+R445 alualu-adder-4-1adder-4-4sheet5C34B047A alualu-adder-4-1adder-4-4sheet5C34B048AorB 10K
+R446 alualu-adder-4-1adder-4-4sheet5C34B049A alualu-adder-4-1adder-4-4sheet5C34B048AorB 10K
+Q181 alualu-adder-4-1adder-4-4sheet5C34B04AA alualu-adder-4-1adder-4-4sheet5C34B048AorB 0 NPN
+R450 aluVcc alualu-adder-4-1adder-4-4sheet5C34B04AB 1K
+R448 alualu-adder-4-1adder-4-4sheet5C34B049A alualu-adder-4-1adder-4-4sheet5C34B049AorB 10K
+R449 alualu-adder-4-1adder-4-4Cin alualu-adder-4-1adder-4-4sheet5C34B049AorB 10K
+Q182 alualu-adder-4-1adder-4-4sheet5C34B04AB alualu-adder-4-1adder-4-4sheet5C34B049AorB 0 NPN
+R453 aluVcc aluAdderS4 1K
+R451 alualu-adder-4-1adder-4-4sheet5C34B04AA alualu-adder-4-1adder-4-4sheet5C34B04AAorB 10K
+R452 alualu-adder-4-1adder-4-4sheet5C34B04AB alualu-adder-4-1adder-4-4sheet5C34B04AAorB 10K
+Q183 aluAdderS4 alualu-adder-4-1adder-4-4sheet5C34B04AAorB 0 NPN
+R456 aluVcc aluCout 1K
+R454 alualu-adder-4-1adder-4-4sheet5C34B049A alualu-adder-4-1adder-4-4sheet5C34B0CDAorB 10K
+R455 alualu-adder-4-1adder-4-4sheet5C34B00DA alualu-adder-4-1adder-4-4sheet5C34B0CDAorB 10K
+Q184 aluCout alualu-adder-4-1adder-4-4sheet5C34B0CDAorB 0 NPN
+R459 aluVcc aluAdderB1in 1K
+R457 alualu-and-4-1gate-and-4-2-and-1sheet5C364DB7A alualu-and-4-1gate-and-4-2-and-1sheet5C364DB7AorB 10K
+R458 alualu-and-4-1gate-and-4-2-and-1sheet5C364DB7B alualu-and-4-1gate-and-4-2-and-1sheet5C364DB7AorB 10K
+Q185 aluAdderB1in alualu-and-4-1gate-and-4-2-and-1sheet5C364DB7AorB 0 NPN
+R461 aluVcc alualu-and-4-1gate-and-4-2-and-1sheet5C364DB7A 1K
+R460 alualu-and-4-1A1 alualu-and-4-1gate-and-4-2-and-1Sheet5C3654CCQr 10K
+Q186 alualu-and-4-1gate-and-4-2-and-1sheet5C364DB7A alualu-and-4-1gate-and-4-2-and-1Sheet5C3654CCQr 0 NPN
+R463 aluVcc alualu-and-4-1gate-and-4-2-and-1sheet5C364DB7B 1K
+R462 alualu-and-4-1B1 alualu-and-4-1gate-and-4-2-and-1sheet5C366192Qr 10K
+Q187 alualu-and-4-1gate-and-4-2-and-1sheet5C364DB7B alualu-and-4-1gate-and-4-2-and-1sheet5C366192Qr 0 NPN
+R466 aluVcc aluAdderB2in 1K
+R464 alualu-and-4-1gate-and-4-2-and-2sheet5C364DB7A alualu-and-4-1gate-and-4-2-and-2sheet5C364DB7AorB 10K
+R465 alualu-and-4-1gate-and-4-2-and-2sheet5C364DB7B alualu-and-4-1gate-and-4-2-and-2sheet5C364DB7AorB 10K
+Q188 aluAdderB2in alualu-and-4-1gate-and-4-2-and-2sheet5C364DB7AorB 0 NPN
+R468 aluVcc alualu-and-4-1gate-and-4-2-and-2sheet5C364DB7A 1K
+R467 alualu-and-4-1A2 alualu-and-4-1gate-and-4-2-and-2Sheet5C3654CCQr 10K
+Q189 alualu-and-4-1gate-and-4-2-and-2sheet5C364DB7A alualu-and-4-1gate-and-4-2-and-2Sheet5C3654CCQr 0 NPN
+R470 aluVcc alualu-and-4-1gate-and-4-2-and-2sheet5C364DB7B 1K
+R469 alualu-and-4-1B2 alualu-and-4-1gate-and-4-2-and-2sheet5C366192Qr 10K
+Q190 alualu-and-4-1gate-and-4-2-and-2sheet5C364DB7B alualu-and-4-1gate-and-4-2-and-2sheet5C366192Qr 0 NPN
+R473 aluVcc aluAdderB3in 1K
+R471 alualu-and-4-1gate-and-4-2-and-3sheet5C364DB7A alualu-and-4-1gate-and-4-2-and-3sheet5C364DB7AorB 10K
+R472 alualu-and-4-1gate-and-4-2-and-3sheet5C364DB7B alualu-and-4-1gate-and-4-2-and-3sheet5C364DB7AorB 10K
+Q191 aluAdderB3in alualu-and-4-1gate-and-4-2-and-3sheet5C364DB7AorB 0 NPN
+R475 aluVcc alualu-and-4-1gate-and-4-2-and-3sheet5C364DB7A 1K
+R474 alualu-and-4-1A3 alualu-and-4-1gate-and-4-2-and-3Sheet5C3654CCQr 10K
+Q192 alualu-and-4-1gate-and-4-2-and-3sheet5C364DB7A alualu-and-4-1gate-and-4-2-and-3Sheet5C3654CCQr 0 NPN
+R477 aluVcc alualu-and-4-1gate-and-4-2-and-3sheet5C364DB7B 1K
+R476 alualu-and-4-1B3 alualu-and-4-1gate-and-4-2-and-3sheet5C366192Qr 10K
+Q193 alualu-and-4-1gate-and-4-2-and-3sheet5C364DB7B alualu-and-4-1gate-and-4-2-and-3sheet5C366192Qr 0 NPN
+R480 aluVcc aluAdderB4in 1K
+R478 alualu-and-4-1gate-and-4-2-and-4sheet5C364DB7A alualu-and-4-1gate-and-4-2-and-4sheet5C364DB7AorB 10K
+R479 alualu-and-4-1gate-and-4-2-and-4sheet5C364DB7B alualu-and-4-1gate-and-4-2-and-4sheet5C364DB7AorB 10K
+Q194 aluAdderB4in alualu-and-4-1gate-and-4-2-and-4sheet5C364DB7AorB 0 NPN
+R482 aluVcc alualu-and-4-1gate-and-4-2-and-4sheet5C364DB7A 1K
+R481 alualu-and-4-1A4 alualu-and-4-1gate-and-4-2-and-4Sheet5C3654CCQr 10K
+Q195 alualu-and-4-1gate-and-4-2-and-4sheet5C364DB7A alualu-and-4-1gate-and-4-2-and-4Sheet5C3654CCQr 0 NPN
+R484 aluVcc alualu-and-4-1gate-and-4-2-and-4sheet5C364DB7B 1K
+R483 alualu-and-4-1B4 alualu-and-4-1gate-and-4-2-and-4sheet5C366192Qr 10K
+Q196 alualu-and-4-1gate-and-4-2-and-4sheet5C364DB7B alualu-and-4-1gate-and-4-2-and-4sheet5C366192Qr 0 NPN
+R486 aluVcc alualu-replicate-1-4-1A 1K
+R485 S5 alualu-not-1Qr 10K
+Q197 alualu-replicate-1-4-1A alualu-not-1Qr 0 NPN
+.end

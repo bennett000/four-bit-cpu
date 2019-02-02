@@ -1,158 +1,156 @@
 .title KiCad schematic
-.op
-.model NPN npn (is=6.7e-15 bf=416.4 nf=1 vaf=74.03 ikf=0.06678 ise=6.7e-15 ne=1.259 br=0.7371 nr=1 rb=10 rc=1)
-V4 adder4Vcc 0 dc 5
-V1 A1in 0 dc 5
-V2 A2in 0 dc 0
-V3 A3in 0 dc 0
-V5 A4in 0 dc 5
-V6 B1in 0 dc 5
-V7 B2in 0 dc 0
-V8 B3in 0 dc 0
-V9 B4in 0 dc 0
-V10 Cinin 0 dc 0
-R3 adder4Vcc adder4adder41sheet5C34B00DA 1K
-R1 A1in adder4adder41sheet5C34AF27AorB 10K
-R2 B1in adder4adder41sheet5C34AF27AorB 10K
-Q1 adder4adder41sheet5C34B00DA adder4adder41sheet5C34AF27AorB 0 NPN
-R6 adder4Vcc adder4adder41sheet5C34B027A 1K
-R4 A1in adder4adder41sheet5C34AFF9AorB 10K
-R5 adder4adder41sheet5C34B00DA adder4adder41sheet5C34AFF9AorB 10K
-Q2 adder4adder41sheet5C34B027A adder4adder41sheet5C34AFF9AorB 0 NPN
-R9 adder4Vcc adder4adder41sheet5C34B027B 1K
-R7 adder4adder41sheet5C34B00DA adder4adder41sheet5C34B00DAorB 10K
-R8 B1in adder4adder41sheet5C34B00DAorB 10K
-Q3 adder4adder41sheet5C34B027B adder4adder41sheet5C34B00DAorB 0 NPN
-R12 adder4Vcc adder4adder41sheet5C34B047A 1K
-R10 adder4adder41sheet5C34B027A adder4adder41sheet5C34B027AorB 10K
-R11 adder4adder41sheet5C34B027B adder4adder41sheet5C34B027AorB 10K
-Q4 adder4adder41sheet5C34B047A adder4adder41sheet5C34B027AorB 0 NPN
-R15 adder4Vcc adder4adder41sheet5C34B049A 1K
-R13 adder4adder41sheet5C34B047A adder4adder41sheet5C34B047AorB 10K
-R14 Cinin adder4adder41sheet5C34B047AorB 10K
-Q5 adder4adder41sheet5C34B049A adder4adder41sheet5C34B047AorB 0 NPN
-R18 adder4Vcc adder4adder41sheet5C34B04AA 1K
-R16 adder4adder41sheet5C34B047A adder4adder41sheet5C34B048AorB 10K
-R17 adder4adder41sheet5C34B049A adder4adder41sheet5C34B048AorB 10K
-Q6 adder4adder41sheet5C34B04AA adder4adder41sheet5C34B048AorB 0 NPN
-R21 adder4Vcc adder4adder41sheet5C34B04AB 1K
-R19 adder4adder41sheet5C34B049A adder4adder41sheet5C34B049AorB 10K
-R20 Cinin adder4adder41sheet5C34B049AorB 10K
-Q7 adder4adder41sheet5C34B04AB adder4adder41sheet5C34B049AorB 0 NPN
-R24 adder4Vcc adder4S1 1K
-R22 adder4adder41sheet5C34B04AA adder4adder41sheet5C34B04AAorB 10K
-R23 adder4adder41sheet5C34B04AB adder4adder41sheet5C34B04AAorB 10K
-Q8 adder4S1 adder4adder41sheet5C34B04AAorB 0 NPN
-R27 adder4Vcc adder4adder42Cin 1K
-R25 adder4adder41sheet5C34B049A adder4adder41sheet5C34B0CDAorB 10K
-R26 adder4adder41sheet5C34B00DA adder4adder41sheet5C34B0CDAorB 10K
-Q9 adder4adder42Cin adder4adder41sheet5C34B0CDAorB 0 NPN
-R30 adder4Vcc adder4adder42sheet5C34B00DA 1K
-R28 A2in adder4adder42sheet5C34AF27AorB 10K
-R29 B2in adder4adder42sheet5C34AF27AorB 10K
-Q10 adder4adder42sheet5C34B00DA adder4adder42sheet5C34AF27AorB 0 NPN
-R33 adder4Vcc adder4adder42sheet5C34B027A 1K
-R31 A2in adder4adder42sheet5C34AFF9AorB 10K
-R32 adder4adder42sheet5C34B00DA adder4adder42sheet5C34AFF9AorB 10K
-Q11 adder4adder42sheet5C34B027A adder4adder42sheet5C34AFF9AorB 0 NPN
-R36 adder4Vcc adder4adder42sheet5C34B027B 1K
-R34 adder4adder42sheet5C34B00DA adder4adder42sheet5C34B00DAorB 10K
-R35 B2in adder4adder42sheet5C34B00DAorB 10K
-Q12 adder4adder42sheet5C34B027B adder4adder42sheet5C34B00DAorB 0 NPN
-R39 adder4Vcc adder4adder42sheet5C34B047A 1K
-R37 adder4adder42sheet5C34B027A adder4adder42sheet5C34B027AorB 10K
-R38 adder4adder42sheet5C34B027B adder4adder42sheet5C34B027AorB 10K
-Q13 adder4adder42sheet5C34B047A adder4adder42sheet5C34B027AorB 0 NPN
-R42 adder4Vcc adder4adder42sheet5C34B049A 1K
-R40 adder4adder42sheet5C34B047A adder4adder42sheet5C34B047AorB 10K
-R41 adder4adder42Cin adder4adder42sheet5C34B047AorB 10K
-Q14 adder4adder42sheet5C34B049A adder4adder42sheet5C34B047AorB 0 NPN
-R45 adder4Vcc adder4adder42sheet5C34B04AA 1K
-R43 adder4adder42sheet5C34B047A adder4adder42sheet5C34B048AorB 10K
-R44 adder4adder42sheet5C34B049A adder4adder42sheet5C34B048AorB 10K
-Q15 adder4adder42sheet5C34B04AA adder4adder42sheet5C34B048AorB 0 NPN
-R48 adder4Vcc adder4adder42sheet5C34B04AB 1K
-R46 adder4adder42sheet5C34B049A adder4adder42sheet5C34B049AorB 10K
-R47 adder4adder42Cin adder4adder42sheet5C34B049AorB 10K
-Q16 adder4adder42sheet5C34B04AB adder4adder42sheet5C34B049AorB 0 NPN
-R51 adder4Vcc adder4S2 1K
-R49 adder4adder42sheet5C34B04AA adder4adder42sheet5C34B04AAorB 10K
-R50 adder4adder42sheet5C34B04AB adder4adder42sheet5C34B04AAorB 10K
-Q17 adder4S2 adder4adder42sheet5C34B04AAorB 0 NPN
-R54 adder4Vcc adder4adder43Cin 1K
-R52 adder4adder42sheet5C34B049A adder4adder42sheet5C34B0CDAorB 10K
-R53 adder4adder42sheet5C34B00DA adder4adder42sheet5C34B0CDAorB 10K
-Q18 adder4adder43Cin adder4adder42sheet5C34B0CDAorB 0 NPN
-R57 adder4Vcc adder4adder43sheet5C34B00DA 1K
-R55 A3in adder4adder43sheet5C34AF27AorB 10K
-R56 B3in adder4adder43sheet5C34AF27AorB 10K
-Q19 adder4adder43sheet5C34B00DA adder4adder43sheet5C34AF27AorB 0 NPN
-R60 adder4Vcc adder4adder43sheet5C34B027A 1K
-R58 A3in adder4adder43sheet5C34AFF9AorB 10K
-R59 adder4adder43sheet5C34B00DA adder4adder43sheet5C34AFF9AorB 10K
-Q20 adder4adder43sheet5C34B027A adder4adder43sheet5C34AFF9AorB 0 NPN
-R63 adder4Vcc adder4adder43sheet5C34B027B 1K
-R61 adder4adder43sheet5C34B00DA adder4adder43sheet5C34B00DAorB 10K
-R62 B3in adder4adder43sheet5C34B00DAorB 10K
-Q21 adder4adder43sheet5C34B027B adder4adder43sheet5C34B00DAorB 0 NPN
-R66 adder4Vcc adder4adder43sheet5C34B047A 1K
-R64 adder4adder43sheet5C34B027A adder4adder43sheet5C34B027AorB 10K
-R65 adder4adder43sheet5C34B027B adder4adder43sheet5C34B027AorB 10K
-Q22 adder4adder43sheet5C34B047A adder4adder43sheet5C34B027AorB 0 NPN
-R69 adder4Vcc adder4adder43sheet5C34B049A 1K
-R67 adder4adder43sheet5C34B047A adder4adder43sheet5C34B047AorB 10K
-R68 adder4adder43Cin adder4adder43sheet5C34B047AorB 10K
-Q23 adder4adder43sheet5C34B049A adder4adder43sheet5C34B047AorB 0 NPN
-R72 adder4Vcc adder4adder43sheet5C34B04AA 1K
-R70 adder4adder43sheet5C34B047A adder4adder43sheet5C34B048AorB 10K
-R71 adder4adder43sheet5C34B049A adder4adder43sheet5C34B048AorB 10K
-Q24 adder4adder43sheet5C34B04AA adder4adder43sheet5C34B048AorB 0 NPN
-R75 adder4Vcc adder4adder43sheet5C34B04AB 1K
-R73 adder4adder43sheet5C34B049A adder4adder43sheet5C34B049AorB 10K
-R74 adder4adder43Cin adder4adder43sheet5C34B049AorB 10K
-Q25 adder4adder43sheet5C34B04AB adder4adder43sheet5C34B049AorB 0 NPN
-R78 adder4Vcc adder4S3 1K
-R76 adder4adder43sheet5C34B04AA adder4adder43sheet5C34B04AAorB 10K
-R77 adder4adder43sheet5C34B04AB adder4adder43sheet5C34B04AAorB 10K
-Q26 adder4S3 adder4adder43sheet5C34B04AAorB 0 NPN
-R81 adder4Vcc adder4adder44Cin 1K
-R79 adder4adder43sheet5C34B049A adder4adder43sheet5C34B0CDAorB 10K
-R80 adder4adder43sheet5C34B00DA adder4adder43sheet5C34B0CDAorB 10K
-Q27 adder4adder44Cin adder4adder43sheet5C34B0CDAorB 0 NPN
-R84 adder4Vcc adder4adder44sheet5C34B00DA 1K
-R82 A4in adder4adder44sheet5C34AF27AorB 10K
-R83 B4in adder4adder44sheet5C34AF27AorB 10K
-Q28 adder4adder44sheet5C34B00DA adder4adder44sheet5C34AF27AorB 0 NPN
-R87 adder4Vcc adder4adder44sheet5C34B027A 1K
-R85 A4in adder4adder44sheet5C34AFF9AorB 10K
-R86 adder4adder44sheet5C34B00DA adder4adder44sheet5C34AFF9AorB 10K
-Q29 adder4adder44sheet5C34B027A adder4adder44sheet5C34AFF9AorB 0 NPN
-R90 adder4Vcc adder4adder44sheet5C34B027B 1K
-R88 adder4adder44sheet5C34B00DA adder4adder44sheet5C34B00DAorB 10K
-R89 B4in adder4adder44sheet5C34B00DAorB 10K
-Q30 adder4adder44sheet5C34B027B adder4adder44sheet5C34B00DAorB 0 NPN
-R93 adder4Vcc adder4adder44sheet5C34B047A 1K
-R91 adder4adder44sheet5C34B027A adder4adder44sheet5C34B027AorB 10K
-R92 adder4adder44sheet5C34B027B adder4adder44sheet5C34B027AorB 10K
-Q31 adder4adder44sheet5C34B047A adder4adder44sheet5C34B027AorB 0 NPN
-R96 adder4Vcc adder4adder44sheet5C34B049A 1K
-R94 adder4adder44sheet5C34B047A adder4adder44sheet5C34B047AorB 10K
-R95 adder4adder44Cin adder4adder44sheet5C34B047AorB 10K
-Q32 adder4adder44sheet5C34B049A adder4adder44sheet5C34B047AorB 0 NPN
-R99 adder4Vcc adder4adder44sheet5C34B04AA 1K
-R97 adder4adder44sheet5C34B047A adder4adder44sheet5C34B048AorB 10K
-R98 adder4adder44sheet5C34B049A adder4adder44sheet5C34B048AorB 10K
-Q33 adder4adder44sheet5C34B04AA adder4adder44sheet5C34B048AorB 0 NPN
-R102 adder4Vcc adder4adder44sheet5C34B04AB 1K
-R100 adder4adder44sheet5C34B049A adder4adder44sheet5C34B049AorB 10K
-R101 adder4adder44Cin adder4adder44sheet5C34B049AorB 10K
-Q34 adder4adder44sheet5C34B04AB adder4adder44sheet5C34B049AorB 0 NPN
-R105 adder4Vcc adder4S4 1K
-R103 adder4adder44sheet5C34B04AA adder4adder44sheet5C34B04AAorB 10K
-R104 adder4adder44sheet5C34B04AB adder4adder44sheet5C34B04AAorB 10K
-Q35 adder4S4 adder4adder44sheet5C34B04AAorB 0 NPN
-R108 adder4Vcc adder4Cout 1K
-R106 adder4adder44sheet5C34B049A adder4adder44sheet5C34B0CDAorB 10K
-R107 adder4adder44sheet5C34B00DA adder4adder44sheet5C34B0CDAorB 10K
-Q36 adder4Cout adder4adder44sheet5C34B0CDAorB 0 NPN
+V4 /adder-4/Vcc 0 dc 5
+V1 /A1in 0 dc 0
+V2 /A2in 0 dc 5
+V3 /A3in 0 dc 0
+V5 /A4in 0 dc 0
+V6 /B1in 0 dc 5
+V7 /B2in 0 dc 0
+V8 /B3in 0 dc 0
+V9 /B4in 0 dc 0
+V10 /Cinin 0 dc 0
+R3 /adder-4/Vcc /adder-4/adder-4-1/sheet5C34B00D/A 1K
+R1 /A1in /adder-4/adder-4-1/sheet5C34AF27/AorB 10K
+R2 /B1in /adder-4/adder-4-1/sheet5C34AF27/AorB 10K
+Q1 /adder-4/adder-4-1/sheet5C34B00D/A /adder-4/adder-4-1/sheet5C34AF27/AorB 0 NPN
+R6 /adder-4/Vcc /adder-4/adder-4-1/sheet5C34B027/A 1K
+R4 /A1in /adder-4/adder-4-1/sheet5C34AFF9/AorB 10K
+R5 /adder-4/adder-4-1/sheet5C34B00D/A /adder-4/adder-4-1/sheet5C34AFF9/AorB 10K
+Q2 /adder-4/adder-4-1/sheet5C34B027/A /adder-4/adder-4-1/sheet5C34AFF9/AorB 0 NPN
+R9 /adder-4/Vcc /adder-4/adder-4-1/sheet5C34B027/B 1K
+R7 /adder-4/adder-4-1/sheet5C34B00D/A /adder-4/adder-4-1/sheet5C34B00D/AorB 10K
+R8 /B1in /adder-4/adder-4-1/sheet5C34B00D/AorB 10K
+Q3 /adder-4/adder-4-1/sheet5C34B027/B /adder-4/adder-4-1/sheet5C34B00D/AorB 0 NPN
+R12 /adder-4/Vcc /adder-4/adder-4-1/sheet5C34B047/A 1K
+R10 /adder-4/adder-4-1/sheet5C34B027/A /adder-4/adder-4-1/sheet5C34B027/AorB 10K
+R11 /adder-4/adder-4-1/sheet5C34B027/B /adder-4/adder-4-1/sheet5C34B027/AorB 10K
+Q4 /adder-4/adder-4-1/sheet5C34B047/A /adder-4/adder-4-1/sheet5C34B027/AorB 0 NPN
+R15 /adder-4/Vcc /adder-4/adder-4-1/sheet5C34B049/A 1K
+R13 /adder-4/adder-4-1/sheet5C34B047/A /adder-4/adder-4-1/sheet5C34B047/AorB 10K
+R14 /Cinin /adder-4/adder-4-1/sheet5C34B047/AorB 10K
+Q5 /adder-4/adder-4-1/sheet5C34B049/A /adder-4/adder-4-1/sheet5C34B047/AorB 0 NPN
+R18 /adder-4/Vcc /adder-4/adder-4-1/sheet5C34B04A/A 1K
+R16 /adder-4/adder-4-1/sheet5C34B047/A /adder-4/adder-4-1/sheet5C34B048/AorB 10K
+R17 /adder-4/adder-4-1/sheet5C34B049/A /adder-4/adder-4-1/sheet5C34B048/AorB 10K
+Q6 /adder-4/adder-4-1/sheet5C34B04A/A /adder-4/adder-4-1/sheet5C34B048/AorB 0 NPN
+R21 /adder-4/Vcc /adder-4/adder-4-1/sheet5C34B04A/B 1K
+R19 /adder-4/adder-4-1/sheet5C34B049/A /adder-4/adder-4-1/sheet5C34B049/AorB 10K
+R20 /Cinin /adder-4/adder-4-1/sheet5C34B049/AorB 10K
+Q7 /adder-4/adder-4-1/sheet5C34B04A/B /adder-4/adder-4-1/sheet5C34B049/AorB 0 NPN
+R24 /adder-4/Vcc /adder-4/S1 1K
+R22 /adder-4/adder-4-1/sheet5C34B04A/A /adder-4/adder-4-1/sheet5C34B04A/AorB 10K
+R23 /adder-4/adder-4-1/sheet5C34B04A/B /adder-4/adder-4-1/sheet5C34B04A/AorB 10K
+Q8 /adder-4/S1 /adder-4/adder-4-1/sheet5C34B04A/AorB 0 NPN
+R27 /adder-4/Vcc /adder-4/adder-4-2/Cin 1K
+R25 /adder-4/adder-4-1/sheet5C34B049/A /adder-4/adder-4-1/sheet5C34B0CD/AorB 10K
+R26 /adder-4/adder-4-1/sheet5C34B00D/A /adder-4/adder-4-1/sheet5C34B0CD/AorB 10K
+Q9 /adder-4/adder-4-2/Cin /adder-4/adder-4-1/sheet5C34B0CD/AorB 0 NPN
+R30 /adder-4/Vcc /adder-4/adder-4-2/sheet5C34B00D/A 1K
+R28 /A2in /adder-4/adder-4-2/sheet5C34AF27/AorB 10K
+R29 /B2in /adder-4/adder-4-2/sheet5C34AF27/AorB 10K
+Q10 /adder-4/adder-4-2/sheet5C34B00D/A /adder-4/adder-4-2/sheet5C34AF27/AorB 0 NPN
+R33 /adder-4/Vcc /adder-4/adder-4-2/sheet5C34B027/A 1K
+R31 /A2in /adder-4/adder-4-2/sheet5C34AFF9/AorB 10K
+R32 /adder-4/adder-4-2/sheet5C34B00D/A /adder-4/adder-4-2/sheet5C34AFF9/AorB 10K
+Q11 /adder-4/adder-4-2/sheet5C34B027/A /adder-4/adder-4-2/sheet5C34AFF9/AorB 0 NPN
+R36 /adder-4/Vcc /adder-4/adder-4-2/sheet5C34B027/B 1K
+R34 /adder-4/adder-4-2/sheet5C34B00D/A /adder-4/adder-4-2/sheet5C34B00D/AorB 10K
+R35 /B2in /adder-4/adder-4-2/sheet5C34B00D/AorB 10K
+Q12 /adder-4/adder-4-2/sheet5C34B027/B /adder-4/adder-4-2/sheet5C34B00D/AorB 0 NPN
+R39 /adder-4/Vcc /adder-4/adder-4-2/sheet5C34B047/A 1K
+R37 /adder-4/adder-4-2/sheet5C34B027/A /adder-4/adder-4-2/sheet5C34B027/AorB 10K
+R38 /adder-4/adder-4-2/sheet5C34B027/B /adder-4/adder-4-2/sheet5C34B027/AorB 10K
+Q13 /adder-4/adder-4-2/sheet5C34B047/A /adder-4/adder-4-2/sheet5C34B027/AorB 0 NPN
+R42 /adder-4/Vcc /adder-4/adder-4-2/sheet5C34B049/A 1K
+R40 /adder-4/adder-4-2/sheet5C34B047/A /adder-4/adder-4-2/sheet5C34B047/AorB 10K
+R41 /adder-4/adder-4-2/Cin /adder-4/adder-4-2/sheet5C34B047/AorB 10K
+Q14 /adder-4/adder-4-2/sheet5C34B049/A /adder-4/adder-4-2/sheet5C34B047/AorB 0 NPN
+R45 /adder-4/Vcc /adder-4/adder-4-2/sheet5C34B04A/A 1K
+R43 /adder-4/adder-4-2/sheet5C34B047/A /adder-4/adder-4-2/sheet5C34B048/AorB 10K
+R44 /adder-4/adder-4-2/sheet5C34B049/A /adder-4/adder-4-2/sheet5C34B048/AorB 10K
+Q15 /adder-4/adder-4-2/sheet5C34B04A/A /adder-4/adder-4-2/sheet5C34B048/AorB 0 NPN
+R48 /adder-4/Vcc /adder-4/adder-4-2/sheet5C34B04A/B 1K
+R46 /adder-4/adder-4-2/sheet5C34B049/A /adder-4/adder-4-2/sheet5C34B049/AorB 10K
+R47 /adder-4/adder-4-2/Cin /adder-4/adder-4-2/sheet5C34B049/AorB 10K
+Q16 /adder-4/adder-4-2/sheet5C34B04A/B /adder-4/adder-4-2/sheet5C34B049/AorB 0 NPN
+R51 /adder-4/Vcc /adder-4/S2 1K
+R49 /adder-4/adder-4-2/sheet5C34B04A/A /adder-4/adder-4-2/sheet5C34B04A/AorB 10K
+R50 /adder-4/adder-4-2/sheet5C34B04A/B /adder-4/adder-4-2/sheet5C34B04A/AorB 10K
+Q17 /adder-4/S2 /adder-4/adder-4-2/sheet5C34B04A/AorB 0 NPN
+R54 /adder-4/Vcc /adder-4/adder-4-3/Cin 1K
+R52 /adder-4/adder-4-2/sheet5C34B049/A /adder-4/adder-4-2/sheet5C34B0CD/AorB 10K
+R53 /adder-4/adder-4-2/sheet5C34B00D/A /adder-4/adder-4-2/sheet5C34B0CD/AorB 10K
+Q18 /adder-4/adder-4-3/Cin /adder-4/adder-4-2/sheet5C34B0CD/AorB 0 NPN
+R57 /adder-4/Vcc /adder-4/adder-4-3/sheet5C34B00D/A 1K
+R55 /A3in /adder-4/adder-4-3/sheet5C34AF27/AorB 10K
+R56 /B3in /adder-4/adder-4-3/sheet5C34AF27/AorB 10K
+Q19 /adder-4/adder-4-3/sheet5C34B00D/A /adder-4/adder-4-3/sheet5C34AF27/AorB 0 NPN
+R60 /adder-4/Vcc /adder-4/adder-4-3/sheet5C34B027/A 1K
+R58 /A3in /adder-4/adder-4-3/sheet5C34AFF9/AorB 10K
+R59 /adder-4/adder-4-3/sheet5C34B00D/A /adder-4/adder-4-3/sheet5C34AFF9/AorB 10K
+Q20 /adder-4/adder-4-3/sheet5C34B027/A /adder-4/adder-4-3/sheet5C34AFF9/AorB 0 NPN
+R63 /adder-4/Vcc /adder-4/adder-4-3/sheet5C34B027/B 1K
+R61 /adder-4/adder-4-3/sheet5C34B00D/A /adder-4/adder-4-3/sheet5C34B00D/AorB 10K
+R62 /B3in /adder-4/adder-4-3/sheet5C34B00D/AorB 10K
+Q21 /adder-4/adder-4-3/sheet5C34B027/B /adder-4/adder-4-3/sheet5C34B00D/AorB 0 NPN
+R66 /adder-4/Vcc /adder-4/adder-4-3/sheet5C34B047/A 1K
+R64 /adder-4/adder-4-3/sheet5C34B027/A /adder-4/adder-4-3/sheet5C34B027/AorB 10K
+R65 /adder-4/adder-4-3/sheet5C34B027/B /adder-4/adder-4-3/sheet5C34B027/AorB 10K
+Q22 /adder-4/adder-4-3/sheet5C34B047/A /adder-4/adder-4-3/sheet5C34B027/AorB 0 NPN
+R69 /adder-4/Vcc /adder-4/adder-4-3/sheet5C34B049/A 1K
+R67 /adder-4/adder-4-3/sheet5C34B047/A /adder-4/adder-4-3/sheet5C34B047/AorB 10K
+R68 /adder-4/adder-4-3/Cin /adder-4/adder-4-3/sheet5C34B047/AorB 10K
+Q23 /adder-4/adder-4-3/sheet5C34B049/A /adder-4/adder-4-3/sheet5C34B047/AorB 0 NPN
+R72 /adder-4/Vcc /adder-4/adder-4-3/sheet5C34B04A/A 1K
+R70 /adder-4/adder-4-3/sheet5C34B047/A /adder-4/adder-4-3/sheet5C34B048/AorB 10K
+R71 /adder-4/adder-4-3/sheet5C34B049/A /adder-4/adder-4-3/sheet5C34B048/AorB 10K
+Q24 /adder-4/adder-4-3/sheet5C34B04A/A /adder-4/adder-4-3/sheet5C34B048/AorB 0 NPN
+R75 /adder-4/Vcc /adder-4/adder-4-3/sheet5C34B04A/B 1K
+R73 /adder-4/adder-4-3/sheet5C34B049/A /adder-4/adder-4-3/sheet5C34B049/AorB 10K
+R74 /adder-4/adder-4-3/Cin /adder-4/adder-4-3/sheet5C34B049/AorB 10K
+Q25 /adder-4/adder-4-3/sheet5C34B04A/B /adder-4/adder-4-3/sheet5C34B049/AorB 0 NPN
+R78 /adder-4/Vcc /adder-4/S3 1K
+R76 /adder-4/adder-4-3/sheet5C34B04A/A /adder-4/adder-4-3/sheet5C34B04A/AorB 10K
+R77 /adder-4/adder-4-3/sheet5C34B04A/B /adder-4/adder-4-3/sheet5C34B04A/AorB 10K
+Q26 /adder-4/S3 /adder-4/adder-4-3/sheet5C34B04A/AorB 0 NPN
+R81 /adder-4/Vcc /adder-4/adder-4-4/Cin 1K
+R79 /adder-4/adder-4-3/sheet5C34B049/A /adder-4/adder-4-3/sheet5C34B0CD/AorB 10K
+R80 /adder-4/adder-4-3/sheet5C34B00D/A /adder-4/adder-4-3/sheet5C34B0CD/AorB 10K
+Q27 /adder-4/adder-4-4/Cin /adder-4/adder-4-3/sheet5C34B0CD/AorB 0 NPN
+R84 /adder-4/Vcc /adder-4/adder-4-4/sheet5C34B00D/A 1K
+R82 /A4in /adder-4/adder-4-4/sheet5C34AF27/AorB 10K
+R83 /B4in /adder-4/adder-4-4/sheet5C34AF27/AorB 10K
+Q28 /adder-4/adder-4-4/sheet5C34B00D/A /adder-4/adder-4-4/sheet5C34AF27/AorB 0 NPN
+R87 /adder-4/Vcc /adder-4/adder-4-4/sheet5C34B027/A 1K
+R85 /A4in /adder-4/adder-4-4/sheet5C34AFF9/AorB 10K
+R86 /adder-4/adder-4-4/sheet5C34B00D/A /adder-4/adder-4-4/sheet5C34AFF9/AorB 10K
+Q29 /adder-4/adder-4-4/sheet5C34B027/A /adder-4/adder-4-4/sheet5C34AFF9/AorB 0 NPN
+R90 /adder-4/Vcc /adder-4/adder-4-4/sheet5C34B027/B 1K
+R88 /adder-4/adder-4-4/sheet5C34B00D/A /adder-4/adder-4-4/sheet5C34B00D/AorB 10K
+R89 /B4in /adder-4/adder-4-4/sheet5C34B00D/AorB 10K
+Q30 /adder-4/adder-4-4/sheet5C34B027/B /adder-4/adder-4-4/sheet5C34B00D/AorB 0 NPN
+R93 /adder-4/Vcc /adder-4/adder-4-4/sheet5C34B047/A 1K
+R91 /adder-4/adder-4-4/sheet5C34B027/A /adder-4/adder-4-4/sheet5C34B027/AorB 10K
+R92 /adder-4/adder-4-4/sheet5C34B027/B /adder-4/adder-4-4/sheet5C34B027/AorB 10K
+Q31 /adder-4/adder-4-4/sheet5C34B047/A /adder-4/adder-4-4/sheet5C34B027/AorB 0 NPN
+R96 /adder-4/Vcc /adder-4/adder-4-4/sheet5C34B049/A 1K
+R94 /adder-4/adder-4-4/sheet5C34B047/A /adder-4/adder-4-4/sheet5C34B047/AorB 10K
+R95 /adder-4/adder-4-4/Cin /adder-4/adder-4-4/sheet5C34B047/AorB 10K
+Q32 /adder-4/adder-4-4/sheet5C34B049/A /adder-4/adder-4-4/sheet5C34B047/AorB 0 NPN
+R99 /adder-4/Vcc /adder-4/adder-4-4/sheet5C34B04A/A 1K
+R97 /adder-4/adder-4-4/sheet5C34B047/A /adder-4/adder-4-4/sheet5C34B048/AorB 10K
+R98 /adder-4/adder-4-4/sheet5C34B049/A /adder-4/adder-4-4/sheet5C34B048/AorB 10K
+Q33 /adder-4/adder-4-4/sheet5C34B04A/A /adder-4/adder-4-4/sheet5C34B048/AorB 0 NPN
+R102 /adder-4/Vcc /adder-4/adder-4-4/sheet5C34B04A/B 1K
+R100 /adder-4/adder-4-4/sheet5C34B049/A /adder-4/adder-4-4/sheet5C34B049/AorB 10K
+R101 /adder-4/adder-4-4/Cin /adder-4/adder-4-4/sheet5C34B049/AorB 10K
+Q34 /adder-4/adder-4-4/sheet5C34B04A/B /adder-4/adder-4-4/sheet5C34B049/AorB 0 NPN
+R105 /adder-4/Vcc /adder-4/S4 1K
+R103 /adder-4/adder-4-4/sheet5C34B04A/A /adder-4/adder-4-4/sheet5C34B04A/AorB 10K
+R104 /adder-4/adder-4-4/sheet5C34B04A/B /adder-4/adder-4-4/sheet5C34B04A/AorB 10K
+Q35 /adder-4/S4 /adder-4/adder-4-4/sheet5C34B04A/AorB 0 NPN
+R108 /adder-4/Vcc /adder-4/Cout 1K
+R106 /adder-4/adder-4-4/sheet5C34B049/A /adder-4/adder-4-4/sheet5C34B0CD/AorB 10K
+R107 /adder-4/adder-4-4/sheet5C34B00D/A /adder-4/adder-4-4/sheet5C34B0CD/AorB 10K
+Q36 /adder-4/Cout /adder-4/adder-4-4/sheet5C34B0CD/AorB 0 NPN
 .end

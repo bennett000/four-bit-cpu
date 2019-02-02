@@ -1,2 +1,14 @@
 *.bak
+# Mac.
+.DS_STORE
+
+# Vim / Emacs
+*~
+*.swp
+*.swo
+*~
+*#
+
+# Outputs
+output
 

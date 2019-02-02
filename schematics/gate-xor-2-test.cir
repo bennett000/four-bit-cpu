@@ -1,0 +1,23 @@
+.title KiCad schematic
+V1 /xor-2/Vcc 0 dc 5
+V2 /Ain 0 dc 5
+V3 /Bin 0 dc 5
+R3 /xor-2/Vcc /xor-2/xor-2-nor-2/B 1K
+R1 /Ain /xor-2/xor-2-nor-1/AorB 10K
+R2 /Bin /xor-2/xor-2-nor-1/AorB 10K
+Q1 /xor-2/xor-2-nor-2/B /xor-2/xor-2-nor-1/AorB 0 NPN
+R6 /xor-2/Vcc /xor-2/xor-2-nor-2/A 1K
+R4 /xor-2/xor-2-and-1/sheet5C364DB7/A /xor-2/xor-2-and-1/sheet5C364DB7/AorB 10K
+R5 /xor-2/xor-2-and-1/sheet5C364DB7/B /xor-2/xor-2-and-1/sheet5C364DB7/AorB 10K
+Q2 /xor-2/xor-2-nor-2/A /xor-2/xor-2-and-1/sheet5C364DB7/AorB 0 NPN
+R8 /xor-2/Vcc /xor-2/xor-2-and-1/sheet5C364DB7/A 1K
+R7 /Ain /xor-2/xor-2-and-1/Sheet5C3654CC/Qr 10K
+Q3 /xor-2/xor-2-and-1/sheet5C364DB7/A /xor-2/xor-2-and-1/Sheet5C3654CC/Qr 0 NPN
+R10 /xor-2/Vcc /xor-2/xor-2-and-1/sheet5C364DB7/B 1K
+R9 /Bin /xor-2/xor-2-and-1/sheet5C366192/Qr 10K
+Q4 /xor-2/xor-2-and-1/sheet5C364DB7/B /xor-2/xor-2-and-1/sheet5C366192/Qr 0 NPN
+R13 /xor-2/Vcc /Q 1K
+R11 /xor-2/xor-2-nor-2/A /xor-2/xor-2-nor-2/AorB 10K
+R12 /xor-2/xor-2-nor-2/B /xor-2/xor-2-nor-2/AorB 10K
+Q5 /Q /xor-2/xor-2-nor-2/AorB 0 NPN
+.end

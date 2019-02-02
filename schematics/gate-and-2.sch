@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:alu-test-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 161
+Sheet 8 280
 Title ""
 Date ""
 Rev ""
@@ -15,7 +16,7 @@ Comment4 ""
 $EndDescr
 $Sheet
 S 4300 3250 500  450 
-U 5C364DBE
+U 5C561AAA
 F0 "sheet5C364DB7" 50
 F1 "gate-nor-2.sch" 50
 F2 "A" I L 4300 3550 50 
@@ -26,7 +27,7 @@ F6 "Gnd" I L 4300 3400 50
 $EndSheet
 $Sheet
 S 2800 3000 500  400 
-U 5C3654CD
+U 5C561AAC
 F0 "Sheet5C3654CC" 50
 F1 "gate-not.sch" 50
 F2 "Q" I L 2800 3300 50 
@@ -36,7 +37,7 @@ F5 "Gnd" I L 2800 3150 50
 $EndSheet
 $Sheet
 S 2800 3750 500  400 
-U 5C366198
+U 5C561AB4
 F0 "sheet5C366192" 50
 F1 "gate-not.sch" 50
 F2 "Q" I L 2800 4050 50 

@@ -1,0 +1,268 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 30
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L pspice:0 #GND?
+U 1 1 5C4DFD37
+P 5300 1950
+AR Path="/5C4DE38B/5C4DFD37" Ref="#GND?"  Part="1" 
+AR Path="/5C4DFD37" Ref="#GND02"  Part="1" 
+AR Path="/5C4DFA09/5C4DFD37" Ref="#GND?"  Part="1" 
+F 0 "#GND02" H 5300 1850 50  0001 C CNN
+F 1 "0" H 5300 2037 50  0000 C CNN
+F 2 "" H 5300 1950 50  0001 C CNN
+F 3 "~" H 5300 1950 50  0001 C CNN
+	1    5300 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:VSOURCE V?
+U 1 1 5C4DFD3D
+P 5750 1950
+AR Path="/5C4DE38B/5C4DFD3D" Ref="V?"  Part="1" 
+AR Path="/5C4DFD3D" Ref="V2"  Part="1" 
+AR Path="/5C4DFA09/5C4DFD3D" Ref="V?"  Part="1" 
+F 0 "V2" H 5978 1996 50  0000 L CNN
+F 1 "dc 5" H 5978 1905 50  0000 L CNN
+F 2 "" H 5750 1950 50  0001 C CNN
+F 3 "~" H 5750 1950 50  0001 C CNN
+	1    5750 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 1950 5300 1950
+$Sheet
+S 7200 2550 550  850 
+U 5C4DFEFD
+F0 "bitwise-inv-4-4" 50
+F1 "bitwise-inv-4-4.sch" 50
+F2 "Vcc" I L 7200 2600 50 
+F3 "Gnd" I L 7200 2700 50 
+F4 "En" I L 7200 2850 50 
+F5 "Z1" I R 7750 3000 50 
+F6 "A1" I L 7200 3000 50 
+F7 "Z2" I R 7750 3100 50 
+F8 "A2" I L 7200 3100 50 
+F9 "Z3" I R 7750 3200 50 
+F10 "A3" I L 7200 3200 50 
+F11 "Z4" I R 7750 3300 50 
+F12 "A4" I L 7200 3300 50 
+$EndSheet
+$Comp
+L pspice:0 #GND?
+U 1 1 5C4E1A04
+P 4750 2500
+AR Path="/5C4DE38B/5C4E1A04" Ref="#GND?"  Part="1" 
+AR Path="/5C4E1A04" Ref="#GND01"  Part="1" 
+AR Path="/5C4DFA09/5C4E1A04" Ref="#GND?"  Part="1" 
+F 0 "#GND01" H 4750 2400 50  0001 C CNN
+F 1 "0" H 4750 2587 50  0000 C CNN
+F 2 "" H 4750 2500 50  0001 C CNN
+F 3 "~" H 4750 2500 50  0001 C CNN
+	1    4750 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:VSOURCE V?
+U 1 1 5C4E1A0A
+P 5200 2500
+AR Path="/5C4DE38B/5C4E1A0A" Ref="V?"  Part="1" 
+AR Path="/5C4E1A0A" Ref="V1"  Part="1" 
+AR Path="/5C4DFA09/5C4E1A0A" Ref="V?"  Part="1" 
+F 0 "V1" H 5428 2546 50  0000 L CNN
+F 1 "dc 5" H 5428 2455 50  0000 L CNN
+F 2 "" H 5200 2500 50  0001 C CNN
+F 3 "~" H 5200 2500 50  0001 C CNN
+	1    5200 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 2500 4750 2500
+$Comp
+L pspice:0 #GND?
+U 1 1 5C4E1A9F
+P 5300 3050
+AR Path="/5C4DE38B/5C4E1A9F" Ref="#GND?"  Part="1" 
+AR Path="/5C4E1A9F" Ref="#GND03"  Part="1" 
+AR Path="/5C4DFA09/5C4E1A9F" Ref="#GND?"  Part="1" 
+F 0 "#GND03" H 5300 2950 50  0001 C CNN
+F 1 "0" H 5300 3137 50  0000 C CNN
+F 2 "" H 5300 3050 50  0001 C CNN
+F 3 "~" H 5300 3050 50  0001 C CNN
+	1    5300 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:VSOURCE V?
+U 1 1 5C4E1AA5
+P 5750 3050
+AR Path="/5C4DE38B/5C4E1AA5" Ref="V?"  Part="1" 
+AR Path="/5C4E1AA5" Ref="V3"  Part="1" 
+AR Path="/5C4DFA09/5C4E1AA5" Ref="V?"  Part="1" 
+F 0 "V3" H 5978 3096 50  0000 L CNN
+F 1 "dc 5" H 5978 3005 50  0000 L CNN
+F 2 "" H 5750 3050 50  0001 C CNN
+F 3 "~" H 5750 3050 50  0001 C CNN
+	1    5750 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 3050 5300 3050
+$Comp
+L pspice:0 #GND?
+U 1 1 5C4E1BC5
+P 5300 3900
+AR Path="/5C4DE38B/5C4E1BC5" Ref="#GND?"  Part="1" 
+AR Path="/5C4E1BC5" Ref="#GND04"  Part="1" 
+AR Path="/5C4DFA09/5C4E1BC5" Ref="#GND?"  Part="1" 
+F 0 "#GND04" H 5300 3800 50  0001 C CNN
+F 1 "0" H 5300 3987 50  0000 C CNN
+F 2 "" H 5300 3900 50  0001 C CNN
+F 3 "~" H 5300 3900 50  0001 C CNN
+	1    5300 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:VSOURCE V?
+U 1 1 5C4E1BCB
+P 5750 3900
+AR Path="/5C4DE38B/5C4E1BCB" Ref="V?"  Part="1" 
+AR Path="/5C4E1BCB" Ref="V4"  Part="1" 
+AR Path="/5C4DFA09/5C4E1BCB" Ref="V?"  Part="1" 
+F 0 "V4" H 5978 3946 50  0000 L CNN
+F 1 "dc 5" H 5978 3855 50  0000 L CNN
+F 2 "" H 5750 3900 50  0001 C CNN
+F 3 "~" H 5750 3900 50  0001 C CNN
+	1    5750 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 3900 5300 3900
+$Comp
+L pspice:0 #GND?
+U 1 1 5C4E1C6A
+P 5300 4750
+AR Path="/5C4DE38B/5C4E1C6A" Ref="#GND?"  Part="1" 
+AR Path="/5C4E1C6A" Ref="#GND05"  Part="1" 
+AR Path="/5C4DFA09/5C4E1C6A" Ref="#GND?"  Part="1" 
+F 0 "#GND05" H 5300 4650 50  0001 C CNN
+F 1 "0" H 5300 4837 50  0000 C CNN
+F 2 "" H 5300 4750 50  0001 C CNN
+F 3 "~" H 5300 4750 50  0001 C CNN
+	1    5300 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:VSOURCE V?
+U 1 1 5C4E1C70
+P 5750 4750
+AR Path="/5C4DE38B/5C4E1C70" Ref="V?"  Part="1" 
+AR Path="/5C4E1C70" Ref="V5"  Part="1" 
+AR Path="/5C4DFA09/5C4E1C70" Ref="V?"  Part="1" 
+F 0 "V5" H 5978 4796 50  0000 L CNN
+F 1 "dc 5" H 5978 4705 50  0000 L CNN
+F 2 "" H 5750 4750 50  0001 C CNN
+F 3 "~" H 5750 4750 50  0001 C CNN
+	1    5750 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 4750 5300 4750
+$Comp
+L pspice:0 #GND?
+U 1 1 5C4E1D16
+P 5300 5550
+AR Path="/5C4DE38B/5C4E1D16" Ref="#GND?"  Part="1" 
+AR Path="/5C4E1D16" Ref="#GND06"  Part="1" 
+AR Path="/5C4DFA09/5C4E1D16" Ref="#GND?"  Part="1" 
+F 0 "#GND06" H 5300 5450 50  0001 C CNN
+F 1 "0" H 5300 5637 50  0000 C CNN
+F 2 "" H 5300 5550 50  0001 C CNN
+F 3 "~" H 5300 5550 50  0001 C CNN
+	1    5300 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:VSOURCE V?
+U 1 1 5C4E1D1C
+P 5750 5550
+AR Path="/5C4DE38B/5C4E1D1C" Ref="V?"  Part="1" 
+AR Path="/5C4E1D1C" Ref="V6"  Part="1" 
+AR Path="/5C4DFA09/5C4E1D1C" Ref="V?"  Part="1" 
+F 0 "V6" H 5978 5596 50  0000 L CNN
+F 1 "dc 5" H 5978 5505 50  0000 L CNN
+F 2 "" H 5750 5550 50  0001 C CNN
+F 3 "~" H 5750 5550 50  0001 C CNN
+	1    5750 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 5550 5300 5550
+Wire Wire Line
+	5500 2500 6300 2500
+Wire Wire Line
+	6300 2500 6300 2850
+Wire Wire Line
+	6300 2850 7200 2850
+Wire Wire Line
+	6050 3050 6300 3050
+Wire Wire Line
+	6300 3050 6300 3000
+Wire Wire Line
+	6300 3000 7200 3000
+Wire Wire Line
+	7200 3100 6300 3100
+Wire Wire Line
+	6300 3100 6300 3900
+Wire Wire Line
+	6300 3900 6050 3900
+Wire Wire Line
+	7200 3200 6400 3200
+Wire Wire Line
+	6400 3200 6400 4750
+Wire Wire Line
+	6400 4750 6050 4750
+Wire Wire Line
+	7200 3300 6500 3300
+Wire Wire Line
+	6500 3300 6500 5550
+Wire Wire Line
+	6500 5550 6050 5550
+Wire Wire Line
+	6050 1950 7000 1950
+Wire Wire Line
+	7000 1950 7000 2600
+Wire Wire Line
+	7000 2600 7200 2600
+Wire Wire Line
+	7200 2700 6900 2700
+Wire Wire Line
+	6900 2700 6900 2200
+Wire Wire Line
+	6900 2200 5450 2200
+Wire Wire Line
+	5450 2200 5450 1950
+Connection ~ 5450 1950
+Text Label 6550 3000 0    50   ~ 0
+A1
+Text Label 6550 2850 0    50   ~ 0
+En
+Text Label 6550 3100 0    50   ~ 0
+A2
+Text Label 6550 3200 0    50   ~ 0
+A3
+Text Label 6550 3300 0    50   ~ 0
+A4
+$EndSCHEMATC
