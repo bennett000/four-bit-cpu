@@ -460,26 +460,8 @@ Wire Wire Line
 	8550 2150 8550 2250
 Wire Wire Line
 	8550 2250 7900 2250
-Wire Wire Line
-	8450 2150 8450 2050
-Wire Wire Line
-	8450 2050 9550 2050
-Wire Wire Line
-	9550 2050 9550 1950
-Wire Wire Line
-	7900 2150 8450 2150
-Wire Wire Line
-	9550 1950 8350 1950
-Wire Wire Line
-	8350 1950 8350 2050
-Wire Wire Line
-	8350 2050 7900 2050
 Text Label 7950 2500 0    50   ~ 0
 Cout
-Text Label 8850 1950 0    50   ~ 0
-AdderS1
-Text Label 8850 2050 0    50   ~ 0
-AdderS2
 Text Label 8850 2150 0    50   ~ 0
 AdderS3
 Text Label 8850 2250 0    50   ~ 0
@@ -492,4 +474,20 @@ Text Label 6550 2250 0    50   ~ 0
 AdderB3in
 Text Label 6650 2350 0    50   ~ 0
 AdderB4in
+Wire Wire Line
+	8450 2150 8450 2050
+Wire Wire Line
+	8450 2050 9550 2050
+Wire Wire Line
+	7900 2150 8450 2150
+Text Label 8850 2050 0    50   ~ 0
+AdderS2
+Text Label 8850 1950 0    50   ~ 0
+AdderS1
+Wire Wire Line
+	7900 2050 8350 2050
+Wire Wire Line
+	8350 2050 8350 1950
+Wire Wire Line
+	8350 1950 9550 1950
 $EndSCHEMATC
