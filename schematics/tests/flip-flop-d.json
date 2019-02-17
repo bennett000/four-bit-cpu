@@ -1,0 +1,26 @@
+{
+  "clock": "/ClkIn",
+  "clockRise": 2,
+  "clockFall": 2,
+  "clockWidth": 50,
+  "clockPeriod": 100,
+  "testsPerTick": 2,
+  "tests": [[{
+    "i": { "/Din": 0 },
+    "o": { "/flip-flop-d/sr-latch-d/Q": 0, "/flip-flop-d/sr-latch-d/NQ": 1 } 
+    },{
+    "i": { "/Din": 1 },
+    "o": { "/flip-flop-d/sr-latch-d/Q": 0, "/flip-flop-d/sr-latch-d/NQ": 1 } 
+    },{
+    "i": { "/Din": 0 },
+    "o": { "/flip-flop-d/sr-latch-d/Q": 1, "/flip-flop-d/sr-latch-d/NQ": 0 } 
+    },{
+    "i": { "/Din": 0 },
+    "o": { "/flip-flop-d/sr-latch-d/Q": 1, "/flip-flop-d/sr-latch-d/NQ": 0 } 
+    },{
+    "i": { "/Din": 0 },
+    "o": { "/flip-flop-d/sr-latch-d/Q": 0, "/flip-flop-d/sr-latch-d/NQ": 1 } 
+    }]]
+}
+
+

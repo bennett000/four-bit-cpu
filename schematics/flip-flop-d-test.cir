@@ -1,33 +1,30 @@
 .title KiCad schematic
-.tran 1ns 6000ns
-.print tran v(flipflopdCLK) v(flipflopdD) v(flipflopdsrlatchdQ) 
-.model NPN npn (is=6.7e-15 bf=416.4 nf=1 vaf=74.03 ikf=0.06678 ise=6.7e-15 ne=1.259 br=0.7371 nr=1 rb=10 rc=1)
-V1 flipflopdVcc 0 dc 5
-V2 flipflopdD 0 PULSE(5 0 2NS 2NS 2NS 180NS 360NS)
-V3 flipflopdCLK 0 PULSE(0 5 2NS 2NS 2NS 50NS 100NS)
-R3 flipflopdVcc flipflopdsrlatchdQ 1K
-R1 flipflopdflipflopdnor3A flipflopdsrlatchdlatchsrnor1AorB 10K
-R2 flipflopdsrlatchdNQ flipflopdsrlatchdlatchsrnor1AorB 10K
-Q1 flipflopdsrlatchdQ flipflopdsrlatchdlatchsrnor1AorB 0 NPN
-R6 flipflopdVcc flipflopdsrlatchdNQ 1K
-R4 flipflopdsrlatchdQ flipflopdsrlatchdlatchsrnor2AorB 10K
-R5 flipflopdflipflopdnor4A flipflopdsrlatchdlatchsrnor2AorB 10K
-Q2 flipflopdsrlatchdNQ flipflopdsrlatchdlatchsrnor2AorB 0 NPN
-R9 flipflopdVcc flipflopdflipflopdnor2A 1K
-R7 flipflopdflipflopdnor1A flipflopdflipflopdnor1AorB 10K
-R8 flipflopdflipflopdnor3A flipflopdflipflopdnor1AorB 10K
-Q3 flipflopdflipflopdnor2A flipflopdflipflopdnor1AorB 0 NPN
-R12 flipflopdVcc flipflopdflipflopdnor3A 1K
-R10 flipflopdflipflopdnor2A flipflopdflipflopdnor2AorB 10K
-R11 flipflopdCLK flipflopdflipflopdnor2AorB 10K
-Q4 flipflopdflipflopdnor3A flipflopdflipflopdnor2AorB 0 NPN
-R16 flipflopdVcc flipflopdflipflopdnor4A 1K
-R13 flipflopdflipflopdnor3A flipflopdflipflopdnor3AorBorC 10K
-R14 flipflopdCLK flipflopdflipflopdnor3AorBorC 10K
-Q5 flipflopdflipflopdnor4A flipflopdflipflopdnor3AorBorC 0 NPN
-R15 flipflopdflipflopdnor1A flipflopdflipflopdnor3AorBorC 10K
-R19 flipflopdVcc flipflopdflipflopdnor1A 1K
-R17 flipflopdflipflopdnor4A flipflopdflipflopdnor4AorB 10K
-R18 flipflopdD flipflopdflipflopdnor4AorB 10K
-Q6 flipflopdflipflopdnor1A flipflopdflipflopdnor4AorB 0 NPN
+V1 /flip-flop-d/Vcc 0 dc 5
+V2 /Din 0 dc 5
+V3 /ClkIn 0 dc 5
+R3 /flip-flop-d/Vcc /flip-flop-d/sr-latch-d/Q 1K
+R1 /flip-flop-d/flip-flop-d-nor-3/A /flip-flop-d/sr-latch-d/latch-sr-nor-1/AorB 10K
+R2 /flip-flop-d/sr-latch-d/NQ /flip-flop-d/sr-latch-d/latch-sr-nor-1/AorB 10K
+Q1 /flip-flop-d/sr-latch-d/Q /flip-flop-d/sr-latch-d/latch-sr-nor-1/AorB 0 NPN
+R6 /flip-flop-d/Vcc /flip-flop-d/sr-latch-d/NQ 1K
+R4 /flip-flop-d/sr-latch-d/Q /flip-flop-d/sr-latch-d/latch-sr-nor-2/AorB 10K
+R5 /flip-flop-d/flip-flop-d-nor-4/A /flip-flop-d/sr-latch-d/latch-sr-nor-2/AorB 10K
+Q2 /flip-flop-d/sr-latch-d/NQ /flip-flop-d/sr-latch-d/latch-sr-nor-2/AorB 0 NPN
+R9 /flip-flop-d/Vcc /flip-flop-d/flip-flop-d-nor-2/A 1K
+R7 /flip-flop-d/flip-flop-d-nor-1/A /flip-flop-d/flip-flop-d-nor-1/AorB 10K
+R8 /flip-flop-d/flip-flop-d-nor-3/A /flip-flop-d/flip-flop-d-nor-1/AorB 10K
+Q3 /flip-flop-d/flip-flop-d-nor-2/A /flip-flop-d/flip-flop-d-nor-1/AorB 0 NPN
+R12 /flip-flop-d/Vcc /flip-flop-d/flip-flop-d-nor-3/A 1K
+R10 /flip-flop-d/flip-flop-d-nor-2/A /flip-flop-d/flip-flop-d-nor-2/AorB 10K
+R11 /ClkIn /flip-flop-d/flip-flop-d-nor-2/AorB 10K
+Q4 /flip-flop-d/flip-flop-d-nor-3/A /flip-flop-d/flip-flop-d-nor-2/AorB 0 NPN
+R16 /flip-flop-d/Vcc /flip-flop-d/flip-flop-d-nor-4/A 1K
+R13 /flip-flop-d/flip-flop-d-nor-3/A /flip-flop-d/flip-flop-d-nor-3/AorBorC 10K
+R14 /ClkIn /flip-flop-d/flip-flop-d-nor-3/AorBorC 10K
+Q5 /flip-flop-d/flip-flop-d-nor-4/A /flip-flop-d/flip-flop-d-nor-3/AorBorC 0 NPN
+R15 /flip-flop-d/flip-flop-d-nor-1/A /flip-flop-d/flip-flop-d-nor-3/AorBorC 10K
+R19 /flip-flop-d/Vcc /flip-flop-d/flip-flop-d-nor-1/A 1K
+R17 /flip-flop-d/flip-flop-d-nor-4/A /flip-flop-d/flip-flop-d-nor-4/AorB 10K
+R18 /Din /flip-flop-d/flip-flop-d-nor-4/AorB 10K
+Q6 /flip-flop-d/flip-flop-d-nor-1/A /flip-flop-d/flip-flop-d-nor-4/AorB 0 NPN
 .end

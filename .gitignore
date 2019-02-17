@@ -12,3 +12,7 @@
 # Outputs
 output
 
+# JavaScript Ecosystem
+node_modules
+npm-debug.log
+coverage/

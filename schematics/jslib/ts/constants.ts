@@ -1,0 +1,12 @@
+export const COMMAND = '/Applications/ngspice/bin/ngspice';
+export const DEFAULT_CLOCK_RISE = 2;
+export const DEFAULT_CLOCK_FALL = 2;
+export const DEFAULT_CLOCK_WIDTH = 50;
+export const DEFAULT_CLOCK_PERIOD = 100;
+export const DEFAULT_SPICE_STEP = 1;
+export const DEFAULT_TESTS_PER_TICK = 4;
+export const HIGH = 5;
+export const HIGH_MIN = 4;
+export const LOW = 0;
+export const LOW_MAX = 0.8;
+export const NS = 'NS';
